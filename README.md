@@ -1,4 +1,4 @@
-## The Sombor deletion correction term: extremal structure, exact coincidence classification, and the information content of edge decks
+## The Sombor deletion correction term: extremal structure, exact coincidence classification, and the information content of edge decks, with applications to chemistry
 
 This package contains the complete source code, formal proofs, and result data
 accompanying Paper B. Every number in the paper can be verified from the files here.
