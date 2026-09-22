@@ -1,0 +1,4 @@
+# Byte-preserving repository: the SHA-256 manifest (MANIFEST.sha256) is computed
+# over the exact file bytes, and JSON/CSV result files mix LF and CRLF endings.
+# Disable all end-of-line conversion so a fresh clone is byte-identical.
+* -text

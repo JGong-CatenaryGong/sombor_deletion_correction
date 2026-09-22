@@ -1,0 +1,43 @@
+{
+ "graphs_checked": 109,
+ "violations": [],
+ "min_residual_per_claim": {
+  "T1_star": {
+   "value": -0.0,
+   "at": "G(n=10,p=0.03)(n=10,m=2)"
+  },
+  "T1_M1": {
+   "value": -0.0,
+   "at": "G(n=10,p=0.03)(n=10,m=2)"
+  },
+  "T2_degseq": {
+   "value": 0.0,
+   "at": "G(n=10,p=0.03)(n=10,m=2)"
+  },
+  "T3_lo": {
+   "value": 0.44370883025338936,
+   "at": "G(n=10,p=0.03)(n=10,m=2)"
+  },
+  "T4_lo": {
+   "value": 0.7865659731105322,
+   "at": "G(n=10,p=0.03)(n=10,m=2)"
+  },
+  "T4_hi": {
+   "value": 1.184718294492801,
+   "at": "G(n=10,p=0.03)(n=10,m=2)"
+  },
+  "T3_hi": {
+   "value": 0.05334744459432472,
+   "at": "G(n=10,p=0.03)(n=10,m=2)"
+  },
+  "T5_C_identity": {
+   "value": -4.0046870708465576e-08,
+   "at": "star+1edges(n=200)(n=200,m=200)"
+  },
+  "T6_so_identity": {
+   "value": -3.818422555923462e-08,
+   "at": "star+0edges(n=200)(n=200,m=199)"
+  }
+ },
+ "tree_wiener_identity_max_error": 0.0
+}

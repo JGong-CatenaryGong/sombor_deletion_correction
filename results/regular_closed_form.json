@@ -1,0 +1,90 @@
+{
+ "symbolic": {
+  "sqrt2_times_m_r_equals_n_r2_sqrt2_over_2": true,
+  "identity_minus_edge_type_count": "Integer(0)",
+  "identity_equals_edge_type_count": true,
+  "closed_form": "Mul(Rational(1, 4), Symbol('n', positive=True), Symbol('r', positive=True), Add(Mul(Pow(Integer(2), Rational(1, 2)), Symbol('r', positive=True), Add(Mul(Symbol('n', positive=True), Symbol('r', positive=True)), Mul(Integer(-1), Integer(4), Symbol('r', positive=True)), Integer(2))), Mul(Integer(4), Add(Symbol('r', positive=True), Integer(-1)), Pow(Add(Pow(Symbol('r', positive=True), Integer(2)), Pow(Add(Symbol('r', positive=True), Integer(-1)), Integer(2))), Rational(1, 2)))))",
+  "nordhaus_gaddum_sympy": true
+ },
+ "n_regular_graphs_checked": 64,
+ "max_abs_err_closed_form_vs_direct_edge_deletion": 5.4569682106375694e-12,
+ "max_abs_err_identity_sum_so_ge": 3.637978807091713e-12,
+ "max_abs_err_published_Thm8": 2.842170943040401e-14,
+ "max_abs_err_Nordhaus_Gaddum_Thm9": 5.684341886080802e-14,
+ "max_abs_err_identity_residual_sum_delta": 1.1368683772161603e-13,
+ "closed_form": "sum_e SO(G-e) = m[(m-2r+1) r sqrt2 + 2(r-1) sqrt(2r^2-2r+1)]",
+ "sample": [
+  {
+   "g6": "Bw",
+   "n": 3,
+   "r": 2,
+   "m": 3,
+   "so": 8.485281374238571,
+   "C": 3.554154883478403,
+   "sum_delta": 12.039436257716975,
+   "sum_so_ge": 13.416407864998739,
+   "closed": 13.416407864998739,
+   "identity": 13.416407864998739
+  },
+  {
+   "g6": "CQ",
+   "n": 4,
+   "r": 1,
+   "m": 2,
+   "so": 2.8284271247461903,
+   "C": 0.0,
+   "sum_delta": 2.8284271247461903,
+   "sum_so_ge": 2.8284271247461903,
+   "closed": 2.8284271247461903,
+   "identity": 2.8284271247461903
+  },
+  {
+   "g6": "C]",
+   "n": 4,
+   "r": 2,
+   "m": 4,
+   "so": 11.313708498984761,
+   "C": 4.738873177971204,
+   "sum_delta": 16.052581676955967,
+   "sum_so_ge": 29.202252318983078,
+   "closed": 29.202252318983078,
+   "identity": 29.20225231898308
+  },
+  {
+   "g6": "C~",
+   "n": 4,
+   "r": 3,
+   "m": 6,
+   "so": 25.45584412271571,
+   "C": 15.290145879727095,
+   "sum_delta": 40.7459900024428,
+   "sum_so_ge": 111.98907473385145,
+   "closed": 111.98907473385145,
+   "identity": 111.98907473385147
+  },
+  {
+   "g6": "DUW",
+   "n": 5,
+   "r": 2,
+   "m": 5,
+   "so": 14.142135623730951,
+   "C": 5.923591472464005,
+   "sum_delta": 20.06572709619496,
+   "sum_so_ge": 50.64495102245979,
+   "closed": 50.64495102245979,
+   "identity": 50.6449510224598
+  },
+  {
+   "g6": "D~{",
+   "n": 5,
+   "r": 4,
+   "m": 10,
+   "so": 56.568542494923804,
+   "C": 39.41125496954284,
+   "sum_delta": 95.97979746446666,
+   "sum_so_ge": 469.7056274847715,
+   "closed": 469.7056274847714,
+   "identity": 469.7056274847714
+  }
+ ]
+}

@@ -1,0 +1,56 @@
+{
+ "all_n8": {
+  "n_graphs": 13598,
+  "classes": 13581,
+  "collisions": 28,
+  "resolved": false
+ },
+ "conn_n8": {
+  "n_graphs": 12113,
+  "classes": 12113,
+  "collisions": 0,
+  "resolved": true
+ },
+ "chem_n8": {
+  "n_graphs": 2391,
+  "classes": 2391,
+  "collisions": 0,
+  "resolved": true
+ },
+ "chemp_n8": {
+  "n_graphs": 2088,
+  "classes": 2088,
+  "collisions": 0,
+  "resolved": true
+ },
+ "conn_n9": {
+  "n_graphs": 273193,
+  "classes": 273193,
+  "collisions": 0,
+  "resolved": true
+ },
+ "chem_n9": {
+  "n_graphs": 14598,
+  "classes": 14598,
+  "collisions": 0,
+  "resolved": true
+ },
+ "chemp_n9": {
+  "n_graphs": 11704,
+  "classes": 11704,
+  "collisions": 0,
+  "resolved": true
+ },
+ "chem_m4_n9": {
+  "n_graphs": 14592,
+  "classes": 14592,
+  "collisions": 0,
+  "resolved": true
+ },
+ "conn_m4_n9": {
+  "n_graphs": 273187,
+  "classes": 273187,
+  "collisions": 0,
+  "resolved": true
+ }
+}

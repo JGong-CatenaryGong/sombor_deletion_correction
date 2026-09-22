@@ -1,0 +1,198 @@
+{
+ "question": "sum_e SO(G-e) = (m-1) SO(G)  (the 'linear scaling' guess)",
+ "provenance": "natural guess made in this project's task statement; NOT a claim of Symmetry 16(2):170 (2024) or of any other source we could find (see refs/symmetry-2024-mapping.md)",
+ "prediction": "holds iff C(G)=0 iff every degree <= 1 (G is a matching)",
+ "test_set": "all graphs n <= 9 with m >= 2",
+ "n_graphs": 288249,
+ "n_graphs_where_naive_holds": 12,
+ "holds_but_not_matching": 0,
+ "matching_but_does_not_hold": 0,
+ "connected_graphs": 273191,
+ "connected_graphs_where_naive_fails": 273191,
+ "witnesses": [
+  {
+   "g6": "CQ",
+   "n": 4,
+   "m": 2,
+   "deg_seq": [
+    1,
+    1,
+    1,
+    1
+   ]
+  },
+  {
+   "g6": "DCO",
+   "n": 5,
+   "m": 2,
+   "deg_seq": [
+    1,
+    1,
+    1,
+    1,
+    0
+   ]
+  },
+  {
+   "g6": "E?`?",
+   "n": 6,
+   "m": 2,
+   "deg_seq": [
+    1,
+    1,
+    1,
+    1,
+    0,
+    0
+   ]
+  },
+  {
+   "g6": "ECO_",
+   "n": 6,
+   "m": 3,
+   "deg_seq": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+   ]
+  },
+  {
+   "g6": "F?AA?",
+   "n": 7,
+   "m": 2,
+   "deg_seq": [
+    1,
+    1,
+    1,
+    1,
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "g6": "F?`@?",
+   "n": 7,
+   "m": 3,
+   "deg_seq": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    0
+   ]
+  },
+  {
+   "g6": "G??CA?",
+   "n": 8,
+   "m": 2,
+   "deg_seq": [
+    1,
+    1,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "g6": "G?AA@?",
+   "n": 8,
+   "m": 3,
+   "deg_seq": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    0,
+    0
+   ]
+  },
+  {
+   "g6": "G?`@?_",
+   "n": 8,
+   "m": 4,
+   "deg_seq": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+   ]
+  },
+  {
+   "g6": "H???C@?",
+   "n": 9,
+   "m": 2,
+   "deg_seq": [
+    1,
+    1,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "g6": "H??CA?_",
+   "n": 9,
+   "m": 3,
+   "deg_seq": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "g6": "H?AA@?O",
+   "n": 9,
+   "m": 4,
+   "deg_seq": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    0
+   ]
+  }
+ ],
+ "max_relative_gap": 0.36754446796632423,
+ "naive_failures": 288237,
+ "naive_failures_by_n": {
+  "3": 2,
+  "4": 8,
+  "5": 31,
+  "6": 152,
+  "7": 1040,
+  "8": 12341,
+  "9": 274663
+ },
+ "independent_cross_checks": 72,
+ "independent_cross_check_mismatches": 0,
+ "prediction_confirmed": true
+}

@@ -1,0 +1,115 @@
+{
+ "set": "chem_n8",
+ "n": 2391,
+ "pools": {
+  "DECK": {
+   "n_signatures": 48,
+   "resolving_singles": [
+    "deck:adj_charpoly",
+    "deck:adj_spec",
+    "deck:lap_charpoly",
+    "deck:lap_spec",
+    "deck:q_spec"
+   ],
+   "resolving_pairs_count": null,
+   "resolving_triples_count": 0,
+   "resolving_triples_examples": [],
+   "resolving_triples_pairs_skipped": 0,
+   "greedy": [
+    "deck:lap_spec"
+   ],
+   "greedy_ambiguous_left": 0,
+   "backward_minimal": [
+    "deck:lap_charpoly"
+   ],
+   "backward_minimal_size": 1
+  },
+  "GRAPH": {
+   "n_signatures": 48,
+   "resolving_singles": [],
+   "resolving_pairs_count": 11,
+   "resolving_pairs_examples": [
+    [
+     "graph:adj_charpoly",
+     "graph:lap_charpoly"
+    ],
+    [
+     "graph:adj_charpoly",
+     "graph:lap_spec"
+    ],
+    [
+     "graph:adj_charpoly",
+     "graph:q_spec"
+    ],
+    [
+     "graph:adj_spec",
+     "graph:lap_charpoly"
+    ],
+    [
+     "graph:adj_spec",
+     "graph:lap_spec"
+    ],
+    [
+     "graph:adj_spec",
+     "graph:q_spec"
+    ],
+    [
+     "graph:energy",
+     "graph:lap_charpoly"
+    ],
+    [
+     "graph:energy",
+     "graph:lap_spec"
+    ],
+    [
+     "graph:energy",
+     "graph:q_spec"
+    ],
+    [
+     "graph:lap_charpoly",
+     "graph:spectral_radius"
+    ],
+    [
+     "graph:lap_spec",
+     "graph:spectral_radius"
+    ]
+   ],
+   "resolving_triples_count": 0,
+   "resolving_triples_examples": [],
+   "resolving_triples_pairs_skipped": 0,
+   "greedy": [
+    "graph:adj_spec",
+    "graph:q_spec"
+   ],
+   "greedy_ambiguous_left": 0,
+   "backward_minimal": [
+    "graph:lap_charpoly",
+    "graph:spectral_radius"
+   ],
+   "backward_minimal_size": 2
+  },
+  "MIXED": {
+   "n_signatures": 96,
+   "resolving_singles": [
+    "deck:adj_charpoly",
+    "deck:adj_spec",
+    "deck:lap_charpoly",
+    "deck:lap_spec",
+    "deck:q_spec"
+   ],
+   "resolving_pairs_count": null,
+   "resolving_triples_count": 0,
+   "resolving_triples_examples": [],
+   "resolving_triples_pairs_skipped": 0,
+   "greedy": [
+    "deck:q_spec"
+   ],
+   "greedy_ambiguous_left": 0,
+   "backward_minimal": [
+    "graph:lap_charpoly",
+    "graph:spectral_radius"
+   ],
+   "backward_minimal_size": 2
+  }
+ }
+}

@@ -1,0 +1,662 @@
+{
+ "script": "explorations/c_chemistry_real.py",
+ "n_molecules": 18,
+ "part1_discriminating_power": {
+  "C": {
+   "n_distinct": 16,
+   "n_colliding_values": 2,
+   "examples": [
+    "3-methylheptane",
+    "4-methylheptane",
+    "3,4-dimethylhexane",
+    "3-ethyl-2-methylpentane"
+   ]
+  },
+  "SO": {
+   "n_distinct": 16,
+   "n_colliding_values": 2,
+   "examples": [
+    "3-methylheptane",
+    "4-methylheptane",
+    "3,4-dimethylhexane",
+    "3-ethyl-2-methylpentane"
+   ]
+  },
+  "ABC": {
+   "n_distinct": 15,
+   "n_colliding_values": 3,
+   "examples": [
+    "n-octane",
+    "3-methylheptane",
+    "4-methylheptane",
+    "3-ethylhexane",
+    "3,4-dimethylhexane",
+    "3-ethyl-2-methylpentane"
+   ]
+  },
+  "M1": {
+   "n_distinct": 6,
+   "n_colliding_values": 4,
+   "examples": [
+    "2-methylheptane",
+    "3-methylheptane",
+    "4-methylheptane",
+    "3-ethylhexane",
+    "2,2-dimethylhexane",
+    "2,3-dimethylhexane"
+   ]
+  },
+  "M2": {
+   "n_distinct": 13,
+   "n_colliding_values": 5,
+   "examples": [
+    "3-methylheptane",
+    "4-methylheptane",
+    "3-ethylhexane",
+    "2,2-dimethylhexane",
+    "2,3-dimethylhexane",
+    "2,5-dimethylhexane"
+   ]
+  },
+  "Randic": {
+   "n_distinct": 16,
+   "n_colliding_values": 2,
+   "examples": [
+    "3-methylheptane",
+    "4-methylheptane",
+    "3,4-dimethylhexane",
+    "3-ethyl-2-methylpentane"
+   ]
+  },
+  "Wiener": {
+   "n_distinct": 16,
+   "n_colliding_values": 2,
+   "examples": [
+    "2,2-dimethylhexane",
+    "2,4-dimethylhexane",
+    "3,3-dimethylhexane",
+    "3-ethyl-2-methylpentane"
+   ]
+  },
+  "edge_types": {
+   "n_distinct": 16,
+   "n_colliding_values": 2
+  },
+  "degree_sequence": {
+   "n_distinct": 7,
+   "n_colliding_values": 4
+  }
+ },
+ "part2_boiling_point": {
+  "pearson": {
+   "C": -0.7598743476009866,
+   "SO": -0.7479078850306842,
+   "ABC": -0.8619432099974004,
+   "M1": -0.7183558442850764,
+   "M2": -0.49795177344029756,
+   "Randic": 0.8191859554981354,
+   "Wiener": 0.5370782612817888
+  },
+  "spearman": {
+   "C": -0.8371251292657704,
+   "SO": -0.8371251292657704,
+   "ABC": -0.9275738437305591,
+   "M1": -0.738554089148258,
+   "M2": -0.5012952709573182,
+   "Randic": 0.8774560496380558,
+   "Wiener": 0.4875904860392968
+  },
+  "ols_r2": {
+   "SO": 0.5593662044910709,
+   "M1": 0.5160351190185248,
+   "C": 0.5774090241420249,
+   "SO+C": 0.8136890963968397,
+   "SO+M1+C+W": 0.9586787608552857
+  },
+  "loo_rmse": {
+   "SO": 4.576095162769001,
+   "C": 4.48275913041077,
+   "SO+C": 3.0138676665083635
+  },
+  "data_status": "standard tabulated values (moleculardescriptors.eu QSPR benchmark; boiling points cross-checked against NIST WebBook)"
+ },
+ "part3_five_properties": {
+  "properties": [
+   "BP",
+   "S",
+   "AcenFac",
+   "HVAP",
+   "DHVAP"
+  ],
+  "values": {
+   "S": {
+    "n-octane": 111.67,
+    "2-methylheptane": 109.84,
+    "3-methylheptane": 111.26,
+    "4-methylheptane": 109.32,
+    "3-ethylhexane": 109.43,
+    "2,2-dimethylhexane": 103.42,
+    "2,3-dimethylhexane": 108.02,
+    "2,4-dimethylhexane": 106.98,
+    "2,5-dimethylhexane": 105.72,
+    "3,3-dimethylhexane": 104.74,
+    "3,4-dimethylhexane": 106.59,
+    "2,2,3-trimethylpentane": 101.31,
+    "2,2,4-trimethylpentane": 104.09,
+    "2,3,3-trimethylpentane": 102.06,
+    "2,3,4-trimethylpentane": 102.39,
+    "3-ethyl-2-methylpentane": 106.06,
+    "3-ethyl-3-methylpentane": 101.48,
+    "2,2,3,3-tetramethylbutane": 93.06
+   },
+   "AcenFac": {
+    "n-octane": 0.3979,
+    "2-methylheptane": 0.3779,
+    "3-methylheptane": 0.371,
+    "4-methylheptane": 0.3715,
+    "3-ethylhexane": 0.3625,
+    "2,2-dimethylhexane": 0.3394,
+    "2,3-dimethylhexane": 0.3482,
+    "2,4-dimethylhexane": 0.3442,
+    "2,5-dimethylhexane": 0.3568,
+    "3,3-dimethylhexane": 0.3226,
+    "3,4-dimethylhexane": 0.3403,
+    "2,2,3-trimethylpentane": 0.3008,
+    "2,2,4-trimethylpentane": 0.3054,
+    "2,3,3-trimethylpentane": 0.2932,
+    "2,3,4-trimethylpentane": 0.3174,
+    "3-ethyl-2-methylpentane": 0.3324,
+    "3-ethyl-3-methylpentane": 0.3069,
+    "2,2,3,3-tetramethylbutane": 0.2553
+   },
+   "HVAP": {
+    "n-octane": 73.19,
+    "2-methylheptane": 70.3,
+    "3-methylheptane": 71.3,
+    "4-methylheptane": 70.91,
+    "3-ethylhexane": 71.7,
+    "2,2-dimethylhexane": 67.7,
+    "2,3-dimethylhexane": 70.2,
+    "2,4-dimethylhexane": 68.5,
+    "2,5-dimethylhexane": 68.6,
+    "3,3-dimethylhexane": 68.5,
+    "3,4-dimethylhexane": 70.2,
+    "2,2,3-trimethylpentane": 67.3,
+    "2,2,4-trimethylpentane": 64.87,
+    "2,3,3-trimethylpentane": 68.1,
+    "2,3,4-trimethylpentane": 68.37,
+    "3-ethyl-2-methylpentane": 69.7,
+    "3-ethyl-3-methylpentane": 69.3,
+    "2,2,3,3-tetramethylbutane": 66.2
+   },
+   "DHVAP": {
+    "n-octane": 9.915,
+    "2-methylheptane": 9.484,
+    "3-methylheptane": 9.521,
+    "4-methylheptane": 9.483,
+    "3-ethylhexane": 9.476,
+    "2,2-dimethylhexane": 8.915,
+    "2,3-dimethylhexane": 9.272,
+    "2,4-dimethylhexane": 9.029,
+    "2,5-dimethylhexane": 9.051,
+    "3,3-dimethylhexane": 8.973,
+    "3,4-dimethylhexane": 9.316,
+    "2,2,3-trimethylpentane": 8.826,
+    "2,2,4-trimethylpentane": 8.402,
+    "2,3,3-trimethylpentane": 8.897,
+    "2,3,4-trimethylpentane": 9.014,
+    "3-ethyl-2-methylpentane": 9.209,
+    "3-ethyl-3-methylpentane": 9.081,
+    "2,2,3,3-tetramethylbutane": 8.41
+   }
+  },
+  "stats": {
+   "BP": {
+    "abs_r": {
+     "C": 0.7598743476009866,
+     "SO": 0.7479078850306842,
+     "ABC": 0.8619432099974004,
+     "M1": 0.7183558442850764,
+     "M2": 0.49795177344029756,
+     "Randic": 0.8191859554981354,
+     "Wiener": 0.5370782612817888
+    },
+    "best_single": "ABC",
+    "best_abs_r": 0.8619432099974004,
+    "r2_SO_plus_C": 0.8136890963968397,
+    "r2_best_single": 0.7429460972606226,
+    "adj_r2_SO_plus_C": 0.788847642583085,
+    "adj_r2_best_single": 0.7268802283394115,
+    "improves_at_equal_parameter_count": true
+   },
+   "S": {
+    "abs_r": {
+     "C": 0.9432276325789355,
+     "SO": 0.9465096698188554,
+     "ABC": 0.8201836016065597,
+     "M1": 0.9542935147672746,
+     "M2": 0.9416863375122204,
+     "Randic": 0.9058340315422259,
+     "Wiener": 0.8777822802200927
+    },
+    "best_single": "M1",
+    "best_abs_r": 0.9542935147672746,
+    "r2_SO_plus_C": 0.9113560712073547,
+    "r2_best_single": 0.9106761123268791,
+    "adj_r2_SO_plus_C": 0.8995368807016687,
+    "adj_r2_best_single": 0.905093369347309,
+    "improves_at_equal_parameter_count": false
+   },
+   "AcenFac": {
+    "abs_r": {
+     "C": 0.9573170144886547,
+     "SO": 0.9594246456070405,
+     "ABC": 0.7929720598959801,
+     "M1": 0.9730697663399301,
+     "M2": 0.9864527110872859,
+     "Randic": 0.9042411096670723,
+     "Wiener": 0.9656265904781144
+    },
+    "best_single": "M2",
+    "best_abs_r": 0.9864527110872859,
+    "r2_SO_plus_C": 0.9262168006091438,
+    "r2_best_single": 0.9730889512114564,
+    "adj_r2_SO_plus_C": 0.9163790406903629,
+    "adj_r2_best_single": 0.9714070106621725,
+    "improves_at_equal_parameter_count": false
+   },
+   "HVAP": {
+    "abs_r": {
+     "C": 0.9118459292738228,
+     "SO": 0.9031665437915569,
+     "ABC": 0.9298141472425888,
+     "M1": 0.8860157175945178,
+     "M2": 0.7281477805140917,
+     "Randic": 0.9361091823402425,
+     "Wiener": 0.7380712362076268
+    },
+    "best_single": "Randic",
+    "best_abs_r": 0.9361091823402425,
+    "r2_SO_plus_C": 0.9527095798863954,
+    "r2_best_single": 0.8763004012617166,
+    "adj_r2_SO_plus_C": 0.9464041905379148,
+    "adj_r2_best_single": 0.8685691763405738,
+    "improves_at_equal_parameter_count": true
+   },
+   "DHVAP": {
+    "abs_r": {
+     "C": 0.9532602504688465,
+     "SO": 0.94696367611087,
+     "ABC": 0.9252994329862401,
+     "M1": 0.9361399749574657,
+     "M2": 0.8118238163827279,
+     "Randic": 0.9581880915486242,
+     "Wiener": 0.8201537204480757
+    },
+    "best_single": "Randic",
+    "best_abs_r": 0.9581880915486242,
+    "r2_SO_plus_C": 0.9707482761499424,
+    "r2_best_single": 0.9181244187855941,
+    "adj_r2_SO_plus_C": 0.966848046303268,
+    "adj_r2_best_single": 0.9130071949596937,
+    "improves_at_equal_parameter_count": true
+   }
+  },
+  "tie_pairs_structural": {
+   "3-methylheptane / 4-methylheptane": {
+    "same_C": true,
+    "same_SO": true,
+    "same_edge_type_multiset": true
+   },
+   "3,4-dimethylhexane / 3-ethyl-2-methylpentane": {
+    "same_C": true,
+    "same_SO": true,
+    "same_edge_type_multiset": true
+   }
+  }
+ },
+ "table": [
+  {
+   "name": "n-octane",
+   "ds": [
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    1,
+    1
+   ],
+   "C": 7.567300302717395,
+   "SO": 18.61427157873053,
+   "ABC": 4.949747468305834,
+   "M1": 26,
+   "Wiener": 84,
+   "BP": 125.7
+  },
+  {
+   "name": "2-methylheptane",
+   "ds": [
+    3,
+    2,
+    2,
+    2,
+    2,
+    1,
+    1,
+    1
+   ],
+   "C": 10.078369946010664,
+   "SO": 20.65145594753911,
+   "ABC": 5.16852706778819,
+   "M1": 28,
+   "Wiener": 79,
+   "BP": 117.6
+  },
+  {
+   "name": "3-methylheptane",
+   "ds": [
+    3,
+    2,
+    2,
+    2,
+    2,
+    1,
+    1,
+    1
+   ],
+   "C": 9.860608618038585,
+   "SO": 20.50237041558832,
+   "ABC": 5.059137268047012,
+   "M1": 28,
+   "Wiener": 76,
+   "BP": 118.9
+  },
+  {
+   "name": "4-methylheptane",
+   "ds": [
+    3,
+    2,
+    2,
+    2,
+    2,
+    1,
+    1,
+    1
+   ],
+   "C": 9.860608618038585,
+   "SO": 20.50237041558832,
+   "ABC": 5.059137268047012,
+   "M1": 28,
+   "Wiener": 75,
+   "BP": 117.7
+  },
+  {
+   "name": "3-ethylhexane",
+   "ds": [
+    3,
+    2,
+    2,
+    2,
+    2,
+    1,
+    1,
+    1
+   ],
+   "C": 9.642847290066506,
+   "SO": 20.353284883637528,
+   "ABC": 4.949747468305834,
+   "M1": 28,
+   "Wiener": 72,
+   "BP": 118.5
+  },
+  {
+   "name": "2,2-dimethylhexane",
+   "ds": [
+    4,
+    2,
+    2,
+    2,
+    1,
+    1,
+    1,
+    1
+   ],
+   "C": 14.787527061144516,
+   "SO": 24.734375058844737,
+   "ABC": 5.426503336099507,
+   "M1": 32,
+   "Wiener": 71,
+   "BP": 106.8
+  },
+  {
+   "name": "2,3-dimethylhexane",
+   "ds": [
+    3,
+    3,
+    2,
+    2,
+    1,
+    1,
+    1,
+    1
+   ],
+   "C": 12.109710368983421,
+   "SO": 22.399520045334395,
+   "ABC": 5.237476753009488,
+   "M1": 30,
+   "Wiener": 70,
+   "BP": 115.6
+  },
+  {
+   "name": "2,4-dimethylhexane",
+   "ds": [
+    3,
+    3,
+    2,
+    2,
+    1,
+    1,
+    1,
+    1
+   ],
+   "C": 12.371678261331855,
+   "SO": 22.539554784396895,
+   "ABC": 5.277916867529369,
+   "M1": 30,
+   "Wiener": 71,
+   "BP": 109.4
+  },
+  {
+   "name": "2,5-dimethylhexane",
+   "ds": [
+    3,
+    3,
+    2,
+    2,
+    1,
+    1,
+    1,
+    1
+   ],
+   "C": 12.589439589303936,
+   "SO": 22.688640316347684,
+   "ABC": 5.387306667270547,
+   "M1": 30,
+   "Wiener": 74,
+   "BP": 109.1
+  },
+  {
+   "name": "3,3-dimethylhexane",
+   "ds": [
+    4,
+    2,
+    2,
+    2,
+    1,
+    1,
+    1,
+    1
+   ],
+   "C": 14.490963653419257,
+   "SO": 24.491046240980253,
+   "ABC": 5.267584713501615,
+   "M1": 32,
+   "Wiener": 67,
+   "BP": 111.9
+  },
+  {
+   "name": "3,4-dimethylhexane",
+   "ds": [
+    3,
+    3,
+    2,
+    2,
+    1,
+    1,
+    1,
+    1
+   ],
+   "C": 11.891949041011344,
+   "SO": 22.250434513383603,
+   "ABC": 5.128086953268309,
+   "M1": 30,
+   "Wiener": 68,
+   "BP": 117.7
+  },
+  {
+   "name": "2,2,3-trimethylpentane",
+   "ds": [
+    4,
+    3,
+    2,
+    1,
+    1,
+    1,
+    1,
+    1
+   ],
+   "C": 16.647053414881597,
+   "SO": 26.37321378998514,
+   "ABC": 5.47428357902204,
+   "M1": 34,
+   "Wiener": 63,
+   "BP": 109.8
+  },
+  {
+   "name": "2,2,4-trimethylpentane",
+   "ds": [
+    4,
+    3,
+    2,
+    1,
+    1,
+    1,
+    1,
+    1
+   ],
+   "C": 17.298596704437788,
+   "SO": 26.771559427653308,
+   "ABC": 5.6452829355818634,
+   "M1": 34,
+   "Wiener": 66,
+   "BP": 99.2
+  },
+  {
+   "name": "2,3,3-trimethylpentane",
+   "ds": [
+    4,
+    3,
+    2,
+    1,
+    1,
+    1,
+    1,
+    1
+   ],
+   "C": 16.568251335128416,
+   "SO": 26.278970504071452,
+   "ABC": 5.424754756165328,
+   "M1": 34,
+   "Wiener": 62,
+   "BP": 114.8
+  },
+  {
+   "name": "2,3,4-trimethylpentane",
+   "ds": [
+    3,
+    3,
+    3,
+    1,
+    1,
+    1,
+    1,
+    1
+   ],
+   "C": 14.358812119928263,
+   "SO": 24.296669675080462,
+   "ABC": 5.415816237971963,
+   "M1": 32,
+   "Wiener": 65,
+   "BP": 113.5
+  },
+  {
+   "name": "3-ethyl-2-methylpentane",
+   "ds": [
+    3,
+    3,
+    2,
+    2,
+    1,
+    1,
+    1,
+    1
+   ],
+   "C": 11.891949041011344,
+   "SO": 22.250434513383603,
+   "ABC": 5.128086953268309,
+   "M1": 30,
+   "Wiener": 67,
+   "BP": 115.6
+  },
+  {
+   "name": "3-ethyl-3-methylpentane",
+   "ds": [
+    4,
+    2,
+    2,
+    2,
+    1,
+    1,
+    1,
+    1
+   ],
+   "C": 14.194400245693997,
+   "SO": 24.24771742311577,
+   "ABC": 5.108666090903724,
+   "M1": 32,
+   "Wiener": 64,
+   "BP": 118.3
+  },
+  {
+   "name": "2,2,3,3-tetramethylbutane",
+   "ds": [
+    4,
+    4,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+   ],
+   "C": 21.23602887504134,
+   "SO": 30.39548800319835,
+   "ABC": 5.808524858402425,
+   "M1": 38,
+   "Wiener": 58,
+   "BP": 106.5
+  }
+ ]
+}

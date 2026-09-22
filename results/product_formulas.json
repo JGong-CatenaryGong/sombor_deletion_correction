@@ -1,0 +1,212 @@
+[
+ {
+  "product": "cartesian",
+  "factors": [
+   "P4",
+   "P3"
+  ],
+  "C_direct": 44.984852296,
+  "C_double_sum_formula": 44.984852296,
+  "match": true
+ },
+ {
+  "product": "cartesian",
+  "factors": [
+   "C4",
+   "P3"
+  ],
+  "C_direct": 62.77381139,
+  "C_double_sum_formula": 62.77381139,
+  "match": true
+ },
+ {
+  "product": "cartesian",
+  "factors": [
+   "K13",
+   "K2"
+  ],
+  "C_direct": 25.187986588,
+  "C_double_sum_formula": 25.187986588,
+  "match": true
+ },
+ {
+  "product": "cartesian",
+  "factors": [
+   "K2",
+   "K2"
+  ],
+  "N": 4,
+  "R": 2,
+  "C_direct": 4.738873178,
+  "C_regular_formula": 4.738873178,
+  "match": true
+ },
+ {
+  "product": "tensor",
+  "factors": [
+   "K2",
+   "K2"
+  ],
+  "N": 4,
+  "R": 1,
+  "C_direct": 0.0,
+  "C_regular_formula": 0.0,
+  "match": true
+ },
+ {
+  "product": "strong",
+  "factors": [
+   "K2",
+   "K2"
+  ],
+  "N": 4,
+  "R": 3,
+  "C_direct": 15.29014588,
+  "C_regular_formula": 15.29014588,
+  "match": true
+ },
+ {
+  "product": "cartesian",
+  "factors": [
+   "C4",
+   "C4"
+  ],
+  "N": 16,
+  "R": 4,
+  "C_direct": 126.116015903,
+  "C_regular_formula": 126.116015903,
+  "match": true
+ },
+ {
+  "product": "tensor",
+  "factors": [
+   "C4",
+   "C4"
+  ],
+  "N": 16,
+  "R": 4,
+  "C_direct": 126.116015903,
+  "C_regular_formula": 126.116015903,
+  "match": true
+ },
+ {
+  "product": "strong",
+  "factors": [
+   "C4",
+   "C4"
+  ],
+  "N": 16,
+  "R": 8,
+  "C_direct": 612.47216688,
+  "C_regular_formula": 612.47216688,
+  "match": true
+ },
+ {
+  "product": "cartesian",
+  "factors": [
+   "C3",
+   "K2"
+  ],
+  "N": 6,
+  "R": 3,
+  "C_direct": 22.93521882,
+  "C_regular_formula": 22.93521882,
+  "match": true
+ },
+ {
+  "product": "tensor",
+  "factors": [
+   "C3",
+   "K2"
+  ],
+  "N": 6,
+  "R": 2,
+  "C_direct": 7.108309767,
+  "C_regular_formula": 7.108309767,
+  "match": true
+ },
+ {
+  "product": "strong",
+  "factors": [
+   "C3",
+   "K2"
+  ],
+  "N": 6,
+  "R": 5,
+  "C_direct": 80.153228932,
+  "C_regular_formula": 80.153228932,
+  "match": true
+ },
+ {
+  "product": "cartesian",
+  "factors": [
+   "K4",
+   "K2"
+  ],
+  "N": 8,
+  "R": 4,
+  "C_direct": 63.058007951,
+  "C_regular_formula": 63.058007951,
+  "match": true
+ },
+ {
+  "product": "tensor",
+  "factors": [
+   "K4",
+   "K2"
+  ],
+  "N": 8,
+  "R": 3,
+  "C_direct": 30.580291759,
+  "C_regular_formula": 30.580291759,
+  "match": true
+ },
+ {
+  "product": "strong",
+  "factors": [
+   "K4",
+   "K2"
+  ],
+  "N": 8,
+  "R": 7,
+  "C_direct": 228.463361051,
+  "C_regular_formula": 228.463361051,
+  "match": true
+ },
+ {
+  "product": "cartesian",
+  "factors": [
+   "K33",
+   "K2"
+  ],
+  "N": 12,
+  "R": 4,
+  "C_direct": 94.587011927,
+  "C_regular_formula": 94.587011927,
+  "match": true
+ },
+ {
+  "product": "tensor",
+  "factors": [
+   "K33",
+   "K2"
+  ],
+  "N": 12,
+  "R": 3,
+  "C_direct": 45.870437639,
+  "C_regular_formula": 45.870437639,
+  "match": true
+ },
+ {
+  "product": "strong",
+  "factors": [
+   "K33",
+   "K2"
+  ],
+  "N": 12,
+  "R": 7,
+  "C_direct": 342.695041577,
+  "C_regular_formula": 342.695041577,
+  "match": true
+ }
+]

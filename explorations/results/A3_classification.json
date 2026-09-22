@@ -1,0 +1,217 @@
+{
+ "script": "explorations/A3_classify.py",
+ "part_A_dataset": {
+  "n_configurations": 119794,
+  "n_distinct_delta_values": 85909,
+  "n_cross_type_groups": 2,
+  "cross_type_groups": [
+   {
+    "delta": "2*sqrt(5)",
+    "types": [
+     [
+      1,
+      3
+     ],
+     [
+      2,
+      2
+     ]
+    ],
+    "occurrences": {
+     "(1, 3)": 68,
+     "(2, 2)": 55
+    },
+    "n_configs": 2,
+    "examples": [
+     [
+      1,
+      3,
+      [],
+      [
+       1,
+       6
+      ]
+     ],
+     [
+      2,
+      2,
+      [
+       1
+      ],
+      [
+       1
+      ]
+     ]
+    ]
+   },
+   {
+    "delta": "2*sqrt(13)",
+    "types": [
+     [
+      2,
+      4
+     ],
+     [
+      3,
+      3
+     ]
+    ],
+    "occurrences": {
+     "(2, 4)": 20,
+     "(3, 3)": 410
+    },
+    "n_configs": 4,
+    "examples": [
+     [
+      2,
+      4,
+      [
+       1
+      ],
+      [
+       3,
+       4,
+       6
+      ]
+     ],
+     [
+      3,
+      3,
+      [
+       2,
+       2
+      ],
+      [
+       2,
+       3
+      ]
+     ],
+     [
+      3,
+      3,
+      [
+       2,
+       3
+      ],
+      [
+       2,
+       2
+      ]
+     ],
+     [
+      4,
+      2,
+      [
+       3,
+       4,
+       6
+      ],
+      [
+       1
+      ]
+     ]
+    ]
+   }
+  ],
+  "near_miss_2_8_vs_4_7_vectors_differ": true,
+  "near_miss_vectors": {
+   "(2,8;(5),(2,3,3,4,4,5,5))": "8*sqrt(5) + 4*sqrt(17) + -1*sqrt(26) + sqrt(29) + -1*sqrt(53) + -2*sqrt(58) + -2*sqrt(65) + 2*sqrt(73) + -2*sqrt(74) + 2*sqrt(89)",
+   "(4,7;(4,5,6),(3,3,3,4,6,7))": "-5 + 5*sqrt(2) + -12*sqrt(5) + -1*sqrt(34) + sqrt(41) + 3*sqrt(58) + 2*sqrt(65)"
+  }
+ },
+ "part_B_bounded_D7": {
+  "D": 7,
+  "n_sides": 1716,
+  "n_configurations_unordered": 1473186,
+  "n_configurations_ordered": 2944656,
+  "n_distinct_delta_values": 762544,
+  "n_cross_type_groups": 2,
+  "cross_type_groups": [
+   {
+    "delta": "2*sqrt(13)",
+    "types": [
+     [
+      2,
+      4
+     ],
+     [
+      3,
+      3
+     ]
+    ],
+    "configs_per_type": {
+     "(2, 4)": 1,
+     "(3, 3)": 1
+    },
+    "n_configs": 2,
+    "examples": [
+     [
+      2,
+      4,
+      [
+       1
+      ],
+      [
+       3,
+       4,
+       6
+      ]
+     ],
+     [
+      3,
+      3,
+      [
+       2,
+       2
+      ],
+      [
+       2,
+       3
+      ]
+     ]
+    ]
+   },
+   {
+    "delta": "2*sqrt(5)",
+    "types": [
+     [
+      1,
+      3
+     ],
+     [
+      2,
+      2
+     ]
+    ],
+    "configs_per_type": {
+     "(1, 3)": 1,
+     "(2, 2)": 1
+    },
+    "n_configs": 2,
+    "examples": [
+     [
+      1,
+      3,
+      [],
+      [
+       1,
+       6
+      ]
+     ],
+     [
+      2,
+      2,
+      [
+       1
+      ],
+      [
+       1
+      ]
+     ]
+    ]
+   }
+  ],
+  "cross_type_group_count_total": 2,
+  "n_vectors_with_within_type_coincidences": 182924
+ }
+}

@@ -1,0 +1,17 @@
+name = "StarTheorem"
+version = "0.1.0"
+keywords = ["math"]
+defaultTargets = ["StarTheorem"]
+
+[leanOptions]
+pp.unicode.fun = true # pretty-prints `fun a ↦ b`
+relaxedAutoImplicit = false
+weak.linter.mathlibStandardSet = true
+maxSynthPendingDepth = 3
+
+[[require]]
+name = "mathlib"
+path = ".lake/packages/mathlib"
+
+[[lean_lib]]
+name = "StarTheorem"

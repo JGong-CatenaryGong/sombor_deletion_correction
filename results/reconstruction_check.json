@@ -1,0 +1,340 @@
+{
+ "n_graphs": 288266,
+ "hashing": "none (full certificates)",
+ "decks": {
+  "edge": {
+   "n_collision_classes": 13,
+   "n_graphs_in_collisions": 33,
+   "restricted": {
+    "all": {
+     "n_graphs": 288266,
+     "n_collision_classes": 13
+    },
+    "m>=4": {
+     "n_graphs": 288208,
+     "n_collision_classes": 0
+    },
+    "connected m>=4": {
+     "n_graphs": 273187,
+     "n_collision_classes": 0
+    }
+   },
+   "examples": [
+    {
+     "members": [
+      "@",
+      "A?",
+      "B?",
+      "C?",
+      "D??",
+      "E???",
+      "F????",
+      "G?????",
+      "H??????"
+     ],
+     "n": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+     ],
+     "m": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     "found_isomorphic_pair": false,
+     "flags": [
+      251,
+      26,
+      26,
+      26,
+      26,
+      26,
+      26,
+      26,
+      26
+     ]
+    },
+    {
+     "members": [
+      "CE",
+      "CQ"
+     ],
+     "n": [
+      4,
+      4
+     ],
+     "m": [
+      2,
+      2
+     ],
+     "found_isomorphic_pair": false,
+     "flags": [
+      26,
+      26
+     ]
+    },
+    {
+     "members": [
+      "CF",
+      "CT"
+     ],
+     "n": [
+      4,
+      4
+     ],
+     "m": [
+      3,
+      3
+     ],
+     "found_isomorphic_pair": false,
+     "flags": [
+      251,
+      2
+     ]
+    },
+    {
+     "members": [
+      "D?o",
+      "DCO"
+     ],
+     "n": [
+      5,
+      5
+     ],
+     "m": [
+      2,
+      2
+     ],
+     "found_isomorphic_pair": false,
+     "flags": [
+      26,
+      26
+     ]
+    },
+    {
+     "members": [
+      "D?w",
+      "DCc"
+     ],
+     "n": [
+      5,
+      5
+     ],
+     "m": [
+      3,
+      3
+     ],
+     "found_isomorphic_pair": false,
+     "flags": [
+      26,
+      2
+     ]
+    },
+    {
+     "members": [
+      "E?B?",
+      "E?`?"
+     ],
+     "n": [
+      6,
+      6
+     ],
+     "m": [
+      2,
+      2
+     ],
+     "found_isomorphic_pair": false,
+     "flags": [
+      26,
+      26
+     ]
+    },
+    {
+     "members": [
+      "E?B_",
+      "E?aG"
+     ],
+     "n": [
+      6,
+      6
+     ],
+     "m": [
+      3,
+      3
+     ],
+     "found_isomorphic_pair": false,
+     "flags": [
+      26,
+      2
+     ]
+    },
+    {
+     "members": [
+      "F??E?",
+      "F?AA?"
+     ],
+     "n": [
+      7,
+      7
+     ],
+     "m": [
+      2,
+      2
+     ],
+     "found_isomorphic_pair": false,
+     "flags": [
+      26,
+      26
+     ]
+    },
+    {
+     "members": [
+      "F??F?",
+      "F?ACG"
+     ],
+     "n": [
+      7,
+      7
+     ],
+     "m": [
+      3,
+      3
+     ],
+     "found_isomorphic_pair": false,
+     "flags": [
+      26,
+      2
+     ]
+    },
+    {
+     "members": [
+      "G???E?",
+      "G??CA?"
+     ],
+     "n": [
+      8,
+      8
+     ],
+     "m": [
+      2,
+      2
+     ],
+     "found_isomorphic_pair": false,
+     "flags": [
+      26,
+      26
+     ]
+    },
+    {
+     "members": [
+      "G???F?",
+      "G??CCC"
+     ],
+     "n": [
+      8,
+      8
+     ],
+     "m": [
+      3,
+      3
+     ],
+     "found_isomorphic_pair": false,
+     "flags": [
+      26,
+      2
+     ]
+    },
+    {
+     "members": [
+      "H????B?",
+      "H???C@?"
+     ],
+     "n": [
+      9,
+      9
+     ],
+     "m": [
+      2,
+      2
+     ],
+     "found_isomorphic_pair": false,
+     "flags": [
+      26,
+      26
+     ]
+    },
+    {
+     "members": [
+      "H????B_",
+      "H???CA@"
+     ],
+     "n": [
+      9,
+      9
+     ],
+     "m": [
+      3,
+      3
+     ],
+     "found_isomorphic_pair": false,
+     "flags": [
+      26,
+      2
+     ]
+    }
+   ]
+  },
+  "vertex": {
+   "n_collision_classes": 1,
+   "n_graphs_in_collisions": 2,
+   "restricted": {
+    "all": {
+     "n_graphs": 288266,
+     "n_collision_classes": 1
+    },
+    "m>=4": {
+     "n_graphs": 288208,
+     "n_collision_classes": 0
+    },
+    "connected m>=4": {
+     "n_graphs": 273187,
+     "n_collision_classes": 0
+    }
+   },
+   "examples": [
+    {
+     "members": [
+      "A?",
+      "A_"
+     ],
+     "n": [
+      2,
+      2
+     ],
+     "m": [
+      0,
+      1
+     ],
+     "found_isomorphic_pair": false,
+     "flags": [
+      26,
+      251
+     ]
+    }
+   ]
+  }
+ }
+}

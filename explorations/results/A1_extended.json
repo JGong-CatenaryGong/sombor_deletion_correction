@@ -1,0 +1,183 @@
+{
+ "script": "explorations/A1_extended.py",
+ "dataset": "frozen n<=9, all graphs with m>=4",
+ "n_checked": 288208,
+ "outcomes": {
+  "solve_fail:underdetermined(rank 0/2)": 440,
+  "ok": 286364,
+  "solve_fail:underdetermined(rank 0/1)": 1153,
+  "star_ok": 15,
+  "solve_fail:underdetermined(rank 0/3)": 157,
+  "solve_fail:underdetermined(rank 0/4)": 55,
+  "solve_fail:underdetermined(rank 0/5)": 18,
+  "solve_fail:underdetermined(rank 0/6)": 5,
+  "solve_fail:underdetermined(rank 0/7)": 1
+ },
+ "success_rate": 0.993653888858047,
+ "free_parameter_profile": {
+  "nondeg/k=2": {
+   "ok": 27
+  },
+  "nondeg/k=3": {
+   "ok": 136
+  },
+  "nondeg/k=4": {
+   "ok": 514
+  },
+  "nondeg/k=5": {
+   "ok": 1602
+  },
+  "nondeg/k=6": {
+   "ok": 4075
+  },
+  "nondeg/k=7": {
+   "ok": 8414
+  },
+  "nondeg/k=8": {
+   "ok": 14977
+  },
+  "nondeg/k=9": {
+   "ok": 23549
+  },
+  "nondeg/k=10": {
+   "ok": 32653
+  },
+  "nondeg/k=11": {
+   "ok": 39648
+  },
+  "nondeg/k=12": {
+   "ok": 42065
+  },
+  "nondeg/k=13": {
+   "ok": 38866
+  },
+  "nondeg/k=14": {
+   "ok": 31231
+  },
+  "nondeg/k=15": {
+   "ok": 21875
+  },
+  "nondeg/k=16": {
+   "ok": 13432
+  },
+  "nondeg/k=17": {
+   "ok": 7279
+  },
+  "nondeg/k=18": {
+   "ok": 3509
+  },
+  "nondeg/k=19": {
+   "ok": 1515
+  },
+  "nondeg/k=20": {
+   "ok": 612
+  },
+  "nondeg/k=21": {
+   "ok": 244
+  },
+  "nondeg/k=22": {
+   "ok": 89
+  },
+  "nondeg/k=23": {
+   "ok": 31
+  },
+  "nondeg/k=24": {
+   "ok": 12
+  },
+  "nondeg/k=25": {
+   "ok": 5
+  },
+  "nondeg/k=26": {
+   "ok": 2
+  },
+  "nondeg/k=27": {
+   "ok": 1
+  },
+  "nondeg/k=28": {
+   "ok": 1
+  }
+ },
+ "failures": [
+  [
+   "CV",
+   "solve-underdetermined(rank 0/2)"
+  ],
+  [
+   "C^",
+   "solve-underdetermined(rank 0/1)"
+  ],
+  [
+   "DCs",
+   "solve-underdetermined(rank 0/2)"
+  ],
+  [
+   "DCw",
+   "solve-underdetermined(rank 0/2)"
+  ],
+  [
+   "DC{",
+   "solve-underdetermined(rank 0/3)"
+  ],
+  [
+   "DEk",
+   "solve-underdetermined(rank 0/1)"
+  ],
+  [
+   "DEs",
+   "solve-underdetermined(rank 0/1)"
+  ],
+  [
+   "DEw",
+   "solve-underdetermined(rank 0/1)"
+  ],
+  [
+   "DE{",
+   "solve-underdetermined(rank 0/2)"
+  ],
+  [
+   "DF{",
+   "solve-underdetermined(rank 0/1)"
+  ],
+  [
+   "DQw",
+   "solve-underdetermined(rank 0/1)"
+  ],
+  [
+   "DQ{",
+   "solve-underdetermined(rank 0/2)"
+  ],
+  [
+   "DT{",
+   "solve-underdetermined(rank 0/1)"
+  ],
+  [
+   "DU{",
+   "solve-underdetermined(rank 0/1)"
+  ],
+  [
+   "E?`o",
+   "solve-underdetermined(rank 0/2)"
+  ],
+  [
+   "E?bG",
+   "solve-underdetermined(rank 0/2)"
+  ],
+  [
+   "E?b_",
+   "solve-underdetermined(rank 0/2)"
+  ],
+  [
+   "E?bg",
+   "solve-underdetermined(rank 0/3)"
+  ],
+  [
+   "E?bo",
+   "solve-underdetermined(rank 0/3)"
+  ],
+  [
+   "E?bw",
+   "solve-underdetermined(rank 0/4)"
+  ]
+ ],
+ "n_failures": 1829
+}

@@ -1,0 +1,100 @@
+{
+ "steps": 13,
+ "failed": 0,
+ "machine_verified": 10,
+ "argument_only": 3,
+ "records": [
+  {
+   "step": "S1",
+   "claim": "c(a,b)*D = 2a-1 with D = sqrt(a^2+b^2)+sqrt((a-1)^2+b^2)",
+   "verified": true,
+   "witness": "difference simplifies to 0",
+   "kind": "machine"
+  },
+  {
+   "step": "S2a",
+   "claim": "dD/da <= 2  (so d/da[(2a-1)/D] >= 0)",
+   "verified": true,
+   "witness": "dD/da = a/sqrt(a^2+b^2) + (a-1)/sqrt((a-1)^2+b^2) <= 1+1 = 2  (each term < 1); residual (-a + sqrt(b**2 + (a - 1)**2) + 1)/sqrt(b**2 + (a - 1)**2)",
+   "kind": "machine"
+  },
+  {
+   "step": "S2b",
+   "claim": "D >= 2a-1  (denominator at least the numerator)",
+   "verified": true,
+   "witness": "D-(2a-1) = [sqrt(a^2+b^2)-a] + [sqrt((a-1)^2+b^2)-(a-1)] >= 0",
+   "kind": "machine"
+  },
+  {
+   "step": "S2c",
+   "claim": "x -> sqrt(x^2+b^2) convex, hence c(a,b) increases in a",
+   "verified": true,
+   "witness": "second derivative = b**2/(b**2 + x**2)**(3/2) >= 0",
+   "kind": "machine"
+  },
+  {
+   "step": "S3",
+   "claim": "dc/db <= 0, i.e. c decreases in the second argument",
+   "verified": true,
+   "witness": "dc/db = -b/sqrt(b**2 + (a - 1)**2) + b/sqrt(a**2 + b**2) and sqrt(a^2+b^2) >= sqrt((a-1)^2+b^2)",
+   "kind": "machine"
+  },
+  {
+   "step": "S4a",
+   "claim": "sqrt(x^2+y^2) <= x+y for x,y >= 0",
+   "verified": true,
+   "witness": "(x+y)^2-(x^2+y^2) = 2*x*y >= 0",
+   "kind": "machine"
+  },
+  {
+   "step": "S4b",
+   "claim": "sqrt(x^2+y^2) >= (x+y)/sqrt(2)",
+   "verified": true,
+   "witness": "2(x^2+y^2)-(x+y)^2 = x**2 - 2*x*y + y**2 >= 0",
+   "kind": "machine"
+  },
+  {
+   "step": "S5a",
+   "claim": "phi(a,b) <= (a+b-2) c(m,1) for 1 <= a,b <= m",
+   "verified": true,
+   "witness": "argument, not a machine check: phi(a,b) = (a-1)c(a,b)+(b-1)c(b,a); by S2/S3 (machine-verified) c(a,b) <= c(a,1) <= c(m,1) and c(b,a) <= c(b,1) <= c(m,1), so phi <= (a+b-2)c(m,1)",
+   "kind": "argument"
+  },
+  {
+   "step": "S5b",
+   "claim": "(M1-2m)c(m,1) <= m(m-1)c(m,1)  <=>  M1 <= m^2+m",
+   "verified": true,
+   "witness": "subtract the left side: difference = (m^2+m-M1)c(m,1), so the inequality is equivalent to M1 <= m^2+m (and c(m,1) > 0)",
+   "kind": "machine"
+  },
+  {
+   "step": "S5c",
+   "claim": "M1 = sum_uv (d_u+d_v) <= m(m+1) given d_u+d_v <= m+1 per edge",
+   "verified": true,
+   "witness": "argument, not a machine check: m summands, each <= m+1 (M1 = sum_uv(d_u+d_v) is the identity M1 = sum_v d_v^2; the per-edge bound d_u+d_v <= m+1 is step L2, verified exhaustively elsewhere)",
+   "kind": "argument"
+  },
+  {
+   "step": "S6",
+   "claim": "C(K_{1,k}) = k(k-1)[sqrt(k^2+1)-sqrt((k-1)^2+1)]",
+   "verified": true,
+   "witness": "k edges of type (k,1), each contributing (k-1)c(k,1); checked exactly against the closed form for k = 2..12 (11/11 agree, bad=[]); symbolic identity for general k holds by construction of phi(k,1)",
+   "kind": "machine"
+  },
+  {
+   "step": "S7",
+   "claim": "C = n r (r-1)(r sqrt2 - sqrt(2r^2-2r+1)) for r-regular graphs",
+   "verified": true,
+   "witness": "c(r,r) = sqrt(2r^2)-sqrt((r-1)^2+r^2); |E| = nr/2 edges each contributing 2(r-1)c(r,r)",
+   "kind": "machine"
+  },
+  {
+   "step": "S8",
+   "claim": "general identity: sum_e Delta_e^f = T_f(G) + C_f(G)",
+   "verified": true,
+   "witness": "argument, not a machine check: the term f(d_u,d_x)-f(d_u-1,d_x) occurs once for every edge at u other than ux, i.e. exactly d_u-1 times; each f(d_u,d_v) occurs once.  This is a change of summation order over the edge-incidence set (machine-verified in Lean: `sum_deltaOrd`, and exhaustively for 12 indices in results/general_identity.json).",
+   "kind": "argument"
+  }
+ ],
+ "note": "10 steps are machine-verified: a sympy computation decides the claim (rationalisation, monotonicity derivatives, the two elementary bounds, equivalence of the M1 bounds, the star and regular closed forms). 3 steps (S5a, S5c, S8) are *arguments* that reduce to earlier steps or to the Lean/exhaustive checks and carry no independent symbolic computation; they are marked kind=\"argument\" in the records."
+}

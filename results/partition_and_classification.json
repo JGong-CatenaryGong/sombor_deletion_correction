@@ -1,0 +1,297 @@
+{
+ "script": "src/coincidence_classification.py",
+ "partitions": {
+  "chem_n9": {
+   "n_graphs": 14598,
+   "delta_edeck": {
+    "n": 14598,
+    "classes": 11113,
+    "collision_graphs": 5555,
+    "residual_bits": 0.608709
+   },
+   "so_ge_edeck": {
+    "n": 14598,
+    "classes": 11112,
+    "collision_graphs": 5557,
+    "residual_bits": 0.608846
+   },
+   "deck_edge_types": {
+    "n": 14598,
+    "classes": 11112,
+    "collision_graphs": 5557,
+    "residual_bits": 0.608846
+   },
+   "graph_SO": {
+    "n": 14598,
+    "classes": 1823,
+    "collision_graphs": 14056,
+    "residual_bits": 4.219817
+   },
+   "graph_edge_type_multiset": {
+    "n": 14598,
+    "classes": 1830,
+    "collision_graphs": 14051,
+    "residual_bits": 4.215012
+   },
+   "delta_vs_so_ge_same_partition": false,
+   "deck_sombor_vs_deck_edge_types_same_partition": true,
+   "graph_SO_vs_graph_edge_types_same_partition": false
+  },
+  "chem_m4_n9": {
+   "n_graphs": 14592,
+   "delta_edeck": {
+    "n": 14592,
+    "classes": 11107,
+    "collision_graphs": 5555,
+    "residual_bits": 0.60896
+   },
+   "so_ge_edeck": {
+    "n": 14592,
+    "classes": 11107,
+    "collision_graphs": 5555,
+    "residual_bits": 0.60896
+   },
+   "deck_edge_types": {
+    "n": 14592,
+    "classes": 11107,
+    "collision_graphs": 5555,
+    "residual_bits": 0.60896
+   },
+   "graph_SO": {
+    "n": 14592,
+    "classes": 1817,
+    "collision_graphs": 14056,
+    "residual_bits": 4.221552
+   },
+   "graph_edge_type_multiset": {
+    "n": 14592,
+    "classes": 1824,
+    "collision_graphs": 14051,
+    "residual_bits": 4.216745
+   },
+   "delta_vs_so_ge_same_partition": true,
+   "deck_sombor_vs_deck_edge_types_same_partition": true,
+   "graph_SO_vs_graph_edge_types_same_partition": false
+  },
+  "conn_n9": {
+   "n_graphs": 273193,
+   "delta_edeck": {
+    "n": 273193,
+    "classes": 246102,
+    "collision_graphs": 47130,
+    "residual_bits": 0.228582
+   },
+   "so_ge_edeck": {
+    "n": 273193,
+    "classes": 246101,
+    "collision_graphs": 47132,
+    "residual_bits": 0.228589
+   },
+   "deck_edge_types": {
+    "n": 273193,
+    "classes": 246101,
+    "collision_graphs": 47132,
+    "residual_bits": 0.228589
+   },
+   "graph_SO": {
+    "n": 273193,
+    "classes": 54960,
+    "collision_graphs": 250662,
+    "residual_bits": 3.528963
+   },
+   "graph_edge_type_multiset": {
+    "n": 273193,
+    "classes": 54970,
+    "collision_graphs": 250654,
+    "residual_bits": 3.528668
+   },
+   "delta_vs_so_ge_same_partition": false,
+   "deck_sombor_vs_deck_edge_types_same_partition": true,
+   "graph_SO_vs_graph_edge_types_same_partition": false
+  },
+  "conn_m4_n9": {
+   "n_graphs": 273187,
+   "delta_edeck": {
+    "n": 273187,
+    "classes": 246096,
+    "collision_graphs": 47130,
+    "residual_bits": 0.228587
+   },
+   "so_ge_edeck": {
+    "n": 273187,
+    "classes": 246096,
+    "collision_graphs": 47130,
+    "residual_bits": 0.228587
+   },
+   "deck_edge_types": {
+    "n": 273187,
+    "classes": 246096,
+    "collision_graphs": 47130,
+    "residual_bits": 0.228587
+   },
+   "graph_SO": {
+    "n": 273187,
+    "classes": 54954,
+    "collision_graphs": 250662,
+    "residual_bits": 3.529041
+   },
+   "graph_edge_type_multiset": {
+    "n": 273187,
+    "classes": 54964,
+    "collision_graphs": 250654,
+    "residual_bits": 3.528746
+   },
+   "delta_vs_so_ge_same_partition": true,
+   "deck_sombor_vs_deck_edge_types_same_partition": true,
+   "graph_SO_vs_graph_edge_types_same_partition": false
+  },
+  "all_n8": {
+   "n_graphs": 13598,
+   "delta_edeck": {
+    "n": 13598,
+    "classes": 11555,
+    "collision_graphs": 3642,
+    "residual_bits": 0.33316
+   },
+   "so_ge_edeck": {
+    "n": 13598,
+    "classes": 11553,
+    "collision_graphs": 3642,
+    "residual_bits": 0.334769
+   },
+   "deck_edge_types": {
+    "n": 13598,
+    "classes": 11553,
+    "collision_graphs": 3642,
+    "residual_bits": 0.334769
+   },
+   "graph_SO": {
+    "n": 13598,
+    "classes": 5577,
+    "collision_graphs": 10899,
+    "residual_bits": 1.793446
+   },
+   "graph_edge_type_multiset": {
+    "n": 13598,
+    "classes": 5590,
+    "collision_graphs": 10890,
+    "residual_bits": 1.789159
+   },
+   "delta_vs_so_ge_same_partition": false,
+   "deck_sombor_vs_deck_edge_types_same_partition": true,
+   "graph_SO_vs_graph_edge_types_same_partition": false
+  }
+ },
+ "coincidences": {
+  "n_distinct_configurations": 119794,
+  "n_distinct_delta_values": 85909,
+  "n_coincidences": 12223,
+  "n_trivial_symmetric": 12221,
+  "n_cross_type": 2,
+  "cross_type_verified_symbolically": 2,
+  "cross_type_failed": 0,
+  "cross_type_examples": [
+   {
+    "types": [
+     [
+      1,
+      3
+     ],
+     [
+      2,
+      2
+     ]
+    ],
+    "delta": "4.47213595499957939281834733746",
+    "configs": [
+     [
+      2,
+      2,
+      [
+       1
+      ],
+      [
+       1
+      ]
+     ],
+     [
+      1,
+      3,
+      [],
+      [
+       1,
+       6
+      ]
+     ]
+    ]
+   },
+   {
+    "types": [
+     [
+      2,
+      4
+     ],
+     [
+      3,
+      3
+     ],
+     [
+      4,
+      2
+     ]
+    ],
+    "delta": "7.21110255092797858623844253494",
+    "configs": [
+     [
+      3,
+      3,
+      [
+       2,
+       3
+      ],
+      [
+       2,
+       2
+      ]
+     ],
+     [
+      3,
+      3,
+      [
+       2,
+       2
+      ],
+      [
+       2,
+       3
+      ]
+     ],
+     [
+      4,
+      2,
+      [
+       3,
+       4,
+       6
+      ],
+      [
+       1
+      ]
+     ],
+     [
+      2,
+      4,
+      [
+       1
+      ],
+      [
+       3,
+       4,
+       6
+      ]
+     ]
+    ]
+   }
+  ]
+ }
+}

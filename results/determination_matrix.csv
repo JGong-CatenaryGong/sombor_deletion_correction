@@ -1,0 +1,1783 @@
+set,n_graphs,signature,target,target_desc,determined,H_target,I_signature_target,H_target_given_signature
+chem_n9,14598,deck:deg_seq,ds,degree sequence of G,True,6.378235,6.378235,0.0
+chem_n9,14598,deck:deg_seq,ds_sig,multiset of degree sequences of the cards,True,9.618471,9.618471,0.0
+chem_n9,14598,deck:deg_seq,et,multiset of edge degree-types of G,True,9.618471,9.618471,0.0
+chem_n9,14598,deck:deg_seq,so,Sombor index SO(G),True,9.613666,9.613666,0.0
+chem_n9,14598,deck:deg_seq,dd,multiset {Delta_e},False,13.224774,9.618471,3.606302
+chem_n9,14598,deck:deg_seq,taus,number of spanning trees,False,9.675644,5.842303,3.833341
+chem_n9,14598,deck:deg_seq,tri,number of triangles,False,2.68594,0.894143,1.791796
+chem_n9,14598,deck:deg_seq,wiener,Wiener index,False,5.436299,3.119163,2.317136
+chem_n9,14598,deck:deg_seq,n,order n,True,0.793669,0.793669,0.0
+chem_n9,14598,deck:deg_seq,m,size m,True,2.970278,2.970278,0.0
+chem_n9,14598,deck:deg_seq,C,Sombor deletion correction C(G),True,9.618334,9.618334,0.0
+chem_n9,14598,deck:edge_types,ds,degree sequence of G,False,6.378235,6.378098,0.000137
+chem_n9,14598,deck:edge_types,ds_sig,multiset of degree sequences of the cards,False,9.618471,9.618334,0.000137
+chem_n9,14598,deck:edge_types,et,multiset of edge degree-types of G,False,9.618471,9.618334,0.000137
+chem_n9,14598,deck:edge_types,so,Sombor index SO(G),False,9.613666,9.613529,0.000137
+chem_n9,14598,deck:edge_types,dd,multiset {Delta_e},False,13.224774,13.224637,0.000137
+chem_n9,14598,deck:edge_types,taus,number of spanning trees,False,9.675644,9.070086,0.605558
+chem_n9,14598,deck:edge_types,tri,number of triangles,False,2.68594,2.234646,0.451294
+chem_n9,14598,deck:edge_types,wiener,Wiener index,False,5.436299,5.011871,0.424428
+chem_n9,14598,deck:edge_types,n,order n,False,0.793669,0.793532,0.000137
+chem_n9,14598,deck:edge_types,m,size m,True,2.970278,2.970278,0.0
+chem_n9,14598,deck:edge_types,C,Sombor deletion correction C(G),False,9.618334,9.618197,0.000137
+chem_n9,14598,deck:n_comp,ds,degree sequence of G,False,6.378235,4.02224,2.355995
+chem_n9,14598,deck:n_comp,ds_sig,multiset of degree sequences of the cards,False,9.618471,4.347432,5.27104
+chem_n9,14598,deck:n_comp,et,multiset of edge degree-types of G,False,9.618471,4.347432,5.27104
+chem_n9,14598,deck:n_comp,so,Sombor index SO(G),False,9.613666,4.342627,5.27104
+chem_n9,14598,deck:n_comp,dd,multiset {Delta_e},False,13.224774,4.55369,8.671083
+chem_n9,14598,deck:n_comp,taus,number of spanning trees,False,9.675644,3.454002,6.221642
+chem_n9,14598,deck:n_comp,tri,number of triangles,False,2.68594,0.463173,2.222767
+chem_n9,14598,deck:n_comp,wiener,Wiener index,False,5.436299,1.679015,3.757284
+chem_n9,14598,deck:n_comp,n,order n,False,0.793669,0.323257,0.470412
+chem_n9,14598,deck:n_comp,m,size m,True,2.970278,2.970278,0.0
+chem_n9,14598,deck:n_comp,C,Sombor deletion correction C(G),False,9.618334,4.347295,5.27104
+chem_n9,14598,deck:comp_sizes,ds,degree sequence of G,False,6.378235,4.93133,1.446905
+chem_n9,14598,deck:comp_sizes,ds_sig,multiset of degree sequences of the cards,False,9.618471,5.411144,4.207327
+chem_n9,14598,deck:comp_sizes,et,multiset of edge degree-types of G,False,9.618471,5.411144,4.207327
+chem_n9,14598,deck:comp_sizes,so,Sombor index SO(G),False,9.613666,5.406339,4.207327
+chem_n9,14598,deck:comp_sizes,dd,multiset {Delta_e},False,13.224774,5.636962,7.587812
+chem_n9,14598,deck:comp_sizes,taus,number of spanning trees,False,9.675644,3.975069,5.700575
+chem_n9,14598,deck:comp_sizes,tri,number of triangles,False,2.68594,0.711733,1.974207
+chem_n9,14598,deck:comp_sizes,wiener,Wiener index,False,5.436299,2.546526,2.889772
+chem_n9,14598,deck:comp_sizes,n,order n,True,0.793669,0.793669,0.0
+chem_n9,14598,deck:comp_sizes,m,size m,True,2.970278,2.970278,0.0
+chem_n9,14598,deck:comp_sizes,C,Sombor deletion correction C(G),False,9.618334,5.411007,4.207327
+chem_n9,14598,deck:tri,ds,degree sequence of G,False,6.378235,3.356845,3.02139
+chem_n9,14598,deck:tri,ds_sig,multiset of degree sequences of the cards,False,9.618471,4.081826,5.536646
+chem_n9,14598,deck:tri,et,multiset of edge degree-types of G,False,9.618471,4.081826,5.536646
+chem_n9,14598,deck:tri,so,Sombor index SO(G),False,9.613666,4.077021,5.536646
+chem_n9,14598,deck:tri,dd,multiset {Delta_e},False,13.224774,6.083748,7.141025
+chem_n9,14598,deck:tri,taus,number of spanning trees,False,9.675644,4.725168,4.950476
+chem_n9,14598,deck:tri,tri,number of triangles,False,2.68594,2.685751,0.000189
+chem_n9,14598,deck:tri,wiener,Wiener index,False,5.436299,1.95493,3.481369
+chem_n9,14598,deck:tri,n,order n,False,0.793669,0.303243,0.490426
+chem_n9,14598,deck:tri,m,size m,True,2.970278,2.970278,0.0
+chem_n9,14598,deck:tri,C,Sombor deletion correction C(G),False,9.618334,4.081689,5.536646
+chem_n9,14598,deck:clique,ds,degree sequence of G,False,6.378235,3.127741,3.250495
+chem_n9,14598,deck:clique,ds_sig,multiset of degree sequences of the cards,False,9.618471,3.436458,6.182014
+chem_n9,14598,deck:clique,et,multiset of edge degree-types of G,False,9.618471,3.436458,6.182014
+chem_n9,14598,deck:clique,so,Sombor index SO(G),False,9.613666,3.431653,6.182014
+chem_n9,14598,deck:clique,dd,multiset {Delta_e},False,13.224774,4.43468,8.790094
+chem_n9,14598,deck:clique,taus,number of spanning trees,False,9.675644,3.218842,6.456803
+chem_n9,14598,deck:clique,tri,number of triangles,False,2.68594,1.52728,1.15866
+chem_n9,14598,deck:clique,wiener,Wiener index,False,5.436299,1.533343,3.902956
+chem_n9,14598,deck:clique,n,order n,False,0.793669,0.243131,0.550538
+chem_n9,14598,deck:clique,m,size m,True,2.970278,2.970278,0.0
+chem_n9,14598,deck:clique,C,Sombor deletion correction C(G),False,9.618334,3.436321,6.182014
+chem_n9,14598,deck:chrom,ds,degree sequence of G,False,6.378235,3.150128,3.228107
+chem_n9,14598,deck:chrom,ds_sig,multiset of degree sequences of the cards,False,9.618471,3.485669,6.132802
+chem_n9,14598,deck:chrom,et,multiset of edge degree-types of G,False,9.618471,3.485669,6.132802
+chem_n9,14598,deck:chrom,so,Sombor index SO(G),False,9.613666,3.480864,6.132802
+chem_n9,14598,deck:chrom,dd,multiset {Delta_e},False,13.224774,4.365922,8.858851
+chem_n9,14598,deck:chrom,taus,number of spanning trees,False,9.675644,3.181523,6.494121
+chem_n9,14598,deck:chrom,tri,number of triangles,False,2.68594,0.958172,1.727768
+chem_n9,14598,deck:chrom,wiener,Wiener index,False,5.436299,1.512063,3.924236
+chem_n9,14598,deck:chrom,n,order n,False,0.793669,0.262781,0.530888
+chem_n9,14598,deck:chrom,m,size m,True,2.970278,2.970278,0.0
+chem_n9,14598,deck:chrom,C,Sombor deletion correction C(G),False,9.618334,3.485532,6.132802
+chem_n9,14598,deck:girth,ds,degree sequence of G,False,6.378235,3.206267,3.171969
+chem_n9,14598,deck:girth,ds_sig,multiset of degree sequences of the cards,False,9.618471,3.503925,6.114546
+chem_n9,14598,deck:girth,et,multiset of edge degree-types of G,False,9.618471,3.503925,6.114546
+chem_n9,14598,deck:girth,so,Sombor index SO(G),False,9.613666,3.49912,6.114546
+chem_n9,14598,deck:girth,dd,multiset {Delta_e},False,13.224774,4.440091,8.784683
+chem_n9,14598,deck:girth,taus,number of spanning trees,False,9.675644,3.277324,6.39832
+chem_n9,14598,deck:girth,tri,number of triangles,False,2.68594,1.356522,1.329417
+chem_n9,14598,deck:girth,wiener,Wiener index,False,5.436299,1.592869,3.84343
+chem_n9,14598,deck:girth,n,order n,False,0.793669,0.291762,0.501907
+chem_n9,14598,deck:girth,m,size m,True,2.970278,2.970278,0.0
+chem_n9,14598,deck:girth,C,Sombor deletion correction C(G),False,9.618334,3.503788,6.114546
+chem_n9,14598,deck:n_bridges,ds,degree sequence of G,False,6.378235,5.083354,1.294882
+chem_n9,14598,deck:n_bridges,ds_sig,multiset of degree sequences of the cards,False,9.618471,6.250982,3.367489
+chem_n9,14598,deck:n_bridges,et,multiset of edge degree-types of G,False,9.618471,6.250982,3.367489
+chem_n9,14598,deck:n_bridges,so,Sombor index SO(G),False,9.613666,6.246177,3.367489
+chem_n9,14598,deck:n_bridges,dd,multiset {Delta_e},False,13.224774,7.102717,6.122057
+chem_n9,14598,deck:n_bridges,taus,number of spanning trees,False,9.675644,5.440595,4.235049
+chem_n9,14598,deck:n_bridges,tri,number of triangles,False,2.68594,0.974088,1.711852
+chem_n9,14598,deck:n_bridges,wiener,Wiener index,False,5.436299,2.434243,3.002056
+chem_n9,14598,deck:n_bridges,n,order n,False,0.793669,0.640583,0.153086
+chem_n9,14598,deck:n_bridges,m,size m,True,2.970278,2.970278,0.0
+chem_n9,14598,deck:n_bridges,C,Sombor deletion correction C(G),False,9.618334,6.250845,3.367489
+chem_n9,14598,deck:n_cut,ds,degree sequence of G,False,6.378235,5.584338,0.793897
+chem_n9,14598,deck:n_cut,ds_sig,multiset of degree sequences of the cards,False,9.618471,7.284298,2.334174
+chem_n9,14598,deck:n_cut,et,multiset of edge degree-types of G,False,9.618471,7.284298,2.334174
+chem_n9,14598,deck:n_cut,so,Sombor index SO(G),False,9.613666,7.279493,2.334174
+chem_n9,14598,deck:n_cut,dd,multiset {Delta_e},False,13.224774,8.804414,4.420359
+chem_n9,14598,deck:n_cut,taus,number of spanning trees,False,9.675644,6.004457,3.671187
+chem_n9,14598,deck:n_cut,tri,number of triangles,False,2.68594,1.206553,1.479387
+chem_n9,14598,deck:n_cut,wiener,Wiener index,False,5.436299,3.288397,2.147902
+chem_n9,14598,deck:n_cut,n,order n,False,0.793669,0.605217,0.188452
+chem_n9,14598,deck:n_cut,m,size m,True,2.970278,2.970278,0.0
+chem_n9,14598,deck:n_cut,C,Sombor deletion correction C(G),False,9.618334,7.284161,2.334174
+chem_n9,14598,deck:diam,ds,degree sequence of G,False,6.378235,4.503713,1.874523
+chem_n9,14598,deck:diam,ds_sig,multiset of degree sequences of the cards,False,9.618471,5.993033,3.625438
+chem_n9,14598,deck:diam,et,multiset of edge degree-types of G,False,9.618471,5.993033,3.625438
+chem_n9,14598,deck:diam,so,Sombor index SO(G),False,9.613666,5.988228,3.625438
+chem_n9,14598,deck:diam,dd,multiset {Delta_e},False,13.224774,8.212062,5.012712
+chem_n9,14598,deck:diam,taus,number of spanning trees,False,9.675644,5.105497,4.570147
+chem_n9,14598,deck:diam,tri,number of triangles,False,2.68594,0.891752,1.794188
+chem_n9,14598,deck:diam,wiener,Wiener index,False,5.436299,3.418193,2.018106
+chem_n9,14598,deck:diam,n,order n,False,0.793669,0.626948,0.166721
+chem_n9,14598,deck:diam,m,size m,True,2.970278,2.970278,0.0
+chem_n9,14598,deck:diam,C,Sombor deletion correction C(G),False,9.618334,5.992896,3.625438
+chem_n9,14598,deck:dist_dist,ds,degree sequence of G,False,6.378235,6.339167,0.039068
+chem_n9,14598,deck:dist_dist,ds_sig,multiset of degree sequences of the cards,False,9.618471,9.558085,0.060386
+chem_n9,14598,deck:dist_dist,et,multiset of edge degree-types of G,False,9.618471,9.558085,0.060386
+chem_n9,14598,deck:dist_dist,so,Sombor index SO(G),False,9.613666,9.55328,0.060386
+chem_n9,14598,deck:dist_dist,dd,multiset {Delta_e},False,13.224774,13.144879,0.079895
+chem_n9,14598,deck:dist_dist,taus,number of spanning trees,False,9.675644,9.598215,0.077429
+chem_n9,14598,deck:dist_dist,tri,number of triangles,False,2.68594,2.641148,0.044791
+chem_n9,14598,deck:dist_dist,wiener,Wiener index,False,5.436299,5.436162,0.000137
+chem_n9,14598,deck:dist_dist,n,order n,False,0.793669,0.793532,0.000137
+chem_n9,14598,deck:dist_dist,m,size m,True,2.970278,2.970278,0.0
+chem_n9,14598,deck:dist_dist,C,Sombor deletion correction C(G),False,9.618334,9.557948,0.060386
+chem_n9,14598,deck:match_poly,ds,degree sequence of G,False,6.378235,6.378098,0.000137
+chem_n9,14598,deck:match_poly,ds_sig,multiset of degree sequences of the cards,False,9.618471,9.618334,0.000137
+chem_n9,14598,deck:match_poly,et,multiset of edge degree-types of G,False,9.618471,9.618334,0.000137
+chem_n9,14598,deck:match_poly,so,Sombor index SO(G),False,9.613666,9.613529,0.000137
+chem_n9,14598,deck:match_poly,dd,multiset {Delta_e},False,13.224774,13.224637,0.000137
+chem_n9,14598,deck:match_poly,taus,number of spanning trees,False,9.675644,9.675507,0.000137
+chem_n9,14598,deck:match_poly,tri,number of triangles,False,2.68594,2.685803,0.000137
+chem_n9,14598,deck:match_poly,wiener,Wiener index,False,5.436299,5.436162,0.000137
+chem_n9,14598,deck:match_poly,n,order n,False,0.793669,0.793532,0.000137
+chem_n9,14598,deck:match_poly,m,size m,True,2.970278,2.970278,0.0
+chem_n9,14598,deck:match_poly,C,Sombor deletion correction C(G),False,9.618334,9.618197,0.000137
+chem_n9,14598,deck:taus,ds,degree sequence of G,False,6.378235,5.458044,0.920192
+chem_n9,14598,deck:taus,ds_sig,multiset of degree sequences of the cards,False,9.618471,7.911499,1.706972
+chem_n9,14598,deck:taus,et,multiset of edge degree-types of G,False,9.618471,7.911499,1.706972
+chem_n9,14598,deck:taus,so,Sombor index SO(G),False,9.613666,7.906694,1.706972
+chem_n9,14598,deck:taus,dd,multiset {Delta_e},False,13.224774,11.299865,1.924908
+chem_n9,14598,deck:taus,taus,number of spanning trees,True,9.675644,9.675644,0.0
+chem_n9,14598,deck:taus,tri,number of triangles,False,2.68594,2.683686,0.002254
+chem_n9,14598,deck:taus,wiener,Wiener index,False,5.436299,4.136435,1.299864
+chem_n9,14598,deck:taus,n,order n,True,0.793669,0.793669,0.0
+chem_n9,14598,deck:taus,m,size m,True,2.970278,2.970278,0.0
+chem_n9,14598,deck:taus,C,Sombor deletion correction C(G),False,9.618334,7.911362,1.706972
+chem_n9,14598,deck:sombor,ds,degree sequence of G,False,6.378235,6.378098,0.000137
+chem_n9,14598,deck:sombor,ds_sig,multiset of degree sequences of the cards,False,9.618471,9.618334,0.000137
+chem_n9,14598,deck:sombor,et,multiset of edge degree-types of G,False,9.618471,9.618334,0.000137
+chem_n9,14598,deck:sombor,so,Sombor index SO(G),False,9.613666,9.613529,0.000137
+chem_n9,14598,deck:sombor,dd,multiset {Delta_e},False,13.224774,13.224637,0.000137
+chem_n9,14598,deck:sombor,taus,number of spanning trees,False,9.675644,9.070086,0.605558
+chem_n9,14598,deck:sombor,tri,number of triangles,False,2.68594,2.234646,0.451294
+chem_n9,14598,deck:sombor,wiener,Wiener index,False,5.436299,5.011871,0.424428
+chem_n9,14598,deck:sombor,n,order n,False,0.793669,0.793532,0.000137
+chem_n9,14598,deck:sombor,m,size m,True,2.970278,2.970278,0.0
+chem_n9,14598,deck:sombor,C,Sombor deletion correction C(G),False,9.618334,9.618197,0.000137
+chem_n9,14598,deck:sombor_inv,ds,degree sequence of G,False,6.378235,6.378098,0.000137
+chem_n9,14598,deck:sombor_inv,ds_sig,multiset of degree sequences of the cards,False,9.618471,9.618334,0.000137
+chem_n9,14598,deck:sombor_inv,et,multiset of edge degree-types of G,False,9.618471,9.618334,0.000137
+chem_n9,14598,deck:sombor_inv,so,Sombor index SO(G),False,9.613666,9.613529,0.000137
+chem_n9,14598,deck:sombor_inv,dd,multiset {Delta_e},False,13.224774,13.224637,0.000137
+chem_n9,14598,deck:sombor_inv,taus,number of spanning trees,False,9.675644,9.070086,0.605558
+chem_n9,14598,deck:sombor_inv,tri,number of triangles,False,2.68594,2.234646,0.451294
+chem_n9,14598,deck:sombor_inv,wiener,Wiener index,False,5.436299,5.011871,0.424428
+chem_n9,14598,deck:sombor_inv,n,order n,False,0.793669,0.793532,0.000137
+chem_n9,14598,deck:sombor_inv,m,size m,True,2.970278,2.970278,0.0
+chem_n9,14598,deck:sombor_inv,C,Sombor deletion correction C(G),False,9.618334,9.618197,0.000137
+chem_n9,14598,deck:randic,ds,degree sequence of G,False,6.378235,6.378098,0.000137
+chem_n9,14598,deck:randic,ds_sig,multiset of degree sequences of the cards,False,9.618471,9.618334,0.000137
+chem_n9,14598,deck:randic,et,multiset of edge degree-types of G,False,9.618471,9.618334,0.000137
+chem_n9,14598,deck:randic,so,Sombor index SO(G),False,9.613666,9.613529,0.000137
+chem_n9,14598,deck:randic,dd,multiset {Delta_e},False,13.224774,13.224637,0.000137
+chem_n9,14598,deck:randic,taus,number of spanning trees,False,9.675644,9.070086,0.605558
+chem_n9,14598,deck:randic,tri,number of triangles,False,2.68594,2.234646,0.451294
+chem_n9,14598,deck:randic,wiener,Wiener index,False,5.436299,5.011871,0.424428
+chem_n9,14598,deck:randic,n,order n,False,0.793669,0.793532,0.000137
+chem_n9,14598,deck:randic,m,size m,True,2.970278,2.970278,0.0
+chem_n9,14598,deck:randic,C,Sombor deletion correction C(G),False,9.618334,9.618197,0.000137
+chem_n9,14598,deck:abc,ds,degree sequence of G,False,6.378235,6.378098,0.000137
+chem_n9,14598,deck:abc,ds_sig,multiset of degree sequences of the cards,False,9.618471,9.618334,0.000137
+chem_n9,14598,deck:abc,et,multiset of edge degree-types of G,False,9.618471,9.618334,0.000137
+chem_n9,14598,deck:abc,so,Sombor index SO(G),False,9.613666,9.613529,0.000137
+chem_n9,14598,deck:abc,dd,multiset {Delta_e},False,13.224774,13.223797,0.000977
+chem_n9,14598,deck:abc,taus,number of spanning trees,False,9.675644,9.069246,0.606398
+chem_n9,14598,deck:abc,tri,number of triangles,False,2.68594,2.234646,0.451294
+chem_n9,14598,deck:abc,wiener,Wiener index,False,5.436299,5.011031,0.425268
+chem_n9,14598,deck:abc,n,order n,False,0.793669,0.793532,0.000137
+chem_n9,14598,deck:abc,m,size m,True,2.970278,2.970278,0.0
+chem_n9,14598,deck:abc,C,Sombor deletion correction C(G),False,9.618334,9.618197,0.000137
+chem_n9,14598,deck:m1,ds,degree sequence of G,False,6.378235,6.25612,0.122116
+chem_n9,14598,deck:m1,ds_sig,multiset of degree sequences of the cards,False,9.618471,9.420669,0.197802
+chem_n9,14598,deck:m1,et,multiset of edge degree-types of G,False,9.618471,9.420669,0.197802
+chem_n9,14598,deck:m1,so,Sombor index SO(G),False,9.613666,9.415865,0.197802
+chem_n9,14598,deck:m1,dd,multiset {Delta_e},False,13.224774,9.420669,3.804104
+chem_n9,14598,deck:m1,taus,number of spanning trees,False,9.675644,5.677396,3.998248
+chem_n9,14598,deck:m1,tri,number of triangles,False,2.68594,0.856837,1.829103
+chem_n9,14598,deck:m1,wiener,Wiener index,False,5.436299,2.986157,2.450142
+chem_n9,14598,deck:m1,n,order n,False,0.793669,0.734928,0.058741
+chem_n9,14598,deck:m1,m,size m,True,2.970278,2.970278,0.0
+chem_n9,14598,deck:m1,C,Sombor deletion correction C(G),False,9.618334,9.420532,0.197802
+chem_n9,14598,deck:m2,ds,degree sequence of G,False,6.378235,6.378098,0.000137
+chem_n9,14598,deck:m2,ds_sig,multiset of degree sequences of the cards,False,9.618471,9.618334,0.000137
+chem_n9,14598,deck:m2,et,multiset of edge degree-types of G,False,9.618471,9.618334,0.000137
+chem_n9,14598,deck:m2,so,Sombor index SO(G),False,9.613666,9.613529,0.000137
+chem_n9,14598,deck:m2,dd,multiset {Delta_e},False,13.224774,13.150918,0.073856
+chem_n9,14598,deck:m2,taus,number of spanning trees,False,9.675644,8.996504,0.67914
+chem_n9,14598,deck:m2,tri,number of triangles,False,2.68594,2.175976,0.509964
+chem_n9,14598,deck:m2,wiener,Wiener index,False,5.436299,4.95361,0.482689
+chem_n9,14598,deck:m2,n,order n,False,0.793669,0.793532,0.000137
+chem_n9,14598,deck:m2,m,size m,True,2.970278,2.970278,0.0
+chem_n9,14598,deck:m2,C,Sombor deletion correction C(G),False,9.618334,9.618197,0.000137
+chem_n9,14598,deck:wiener,ds,degree sequence of G,False,6.378235,6.326322,0.051914
+chem_n9,14598,deck:wiener,ds_sig,multiset of degree sequences of the cards,False,9.618471,9.53712,0.081351
+chem_n9,14598,deck:wiener,et,multiset of edge degree-types of G,False,9.618471,9.53712,0.081351
+chem_n9,14598,deck:wiener,so,Sombor index SO(G),False,9.613666,9.532315,0.081351
+chem_n9,14598,deck:wiener,dd,multiset {Delta_e},False,13.224774,13.121858,0.102916
+chem_n9,14598,deck:wiener,taus,number of spanning trees,False,9.675644,9.576428,0.099216
+chem_n9,14598,deck:wiener,tri,number of triangles,False,2.68594,2.627188,0.058751
+chem_n9,14598,deck:wiener,wiener,Wiener index,False,5.436299,5.436025,0.000274
+chem_n9,14598,deck:wiener,n,order n,False,0.793669,0.793532,0.000137
+chem_n9,14598,deck:wiener,m,size m,True,2.970278,2.970278,0.0
+chem_n9,14598,deck:wiener,C,Sombor deletion correction C(G),False,9.618334,9.536983,0.081351
+chem_n9,14598,deck:adj_spec,ds,degree sequence of G,True,6.378235,6.378235,0.0
+chem_n9,14598,deck:adj_spec,ds_sig,multiset of degree sequences of the cards,True,9.618471,9.618471,0.0
+chem_n9,14598,deck:adj_spec,et,multiset of edge degree-types of G,True,9.618471,9.618471,0.0
+chem_n9,14598,deck:adj_spec,so,Sombor index SO(G),True,9.613666,9.613666,0.0
+chem_n9,14598,deck:adj_spec,dd,multiset {Delta_e},True,13.224774,13.224774,0.0
+chem_n9,14598,deck:adj_spec,taus,number of spanning trees,True,9.675644,9.675644,0.0
+chem_n9,14598,deck:adj_spec,tri,number of triangles,True,2.68594,2.68594,0.0
+chem_n9,14598,deck:adj_spec,wiener,Wiener index,True,5.436299,5.436299,0.0
+chem_n9,14598,deck:adj_spec,n,order n,True,0.793669,0.793669,0.0
+chem_n9,14598,deck:adj_spec,m,size m,True,2.970278,2.970278,0.0
+chem_n9,14598,deck:adj_spec,C,Sombor deletion correction C(G),True,9.618334,9.618334,0.0
+chem_n9,14598,deck:lap_spec,ds,degree sequence of G,True,6.378235,6.378235,0.0
+chem_n9,14598,deck:lap_spec,ds_sig,multiset of degree sequences of the cards,True,9.618471,9.618471,0.0
+chem_n9,14598,deck:lap_spec,et,multiset of edge degree-types of G,True,9.618471,9.618471,0.0
+chem_n9,14598,deck:lap_spec,so,Sombor index SO(G),True,9.613666,9.613666,0.0
+chem_n9,14598,deck:lap_spec,dd,multiset {Delta_e},True,13.224774,13.224774,0.0
+chem_n9,14598,deck:lap_spec,taus,number of spanning trees,True,9.675644,9.675644,0.0
+chem_n9,14598,deck:lap_spec,tri,number of triangles,True,2.68594,2.68594,0.0
+chem_n9,14598,deck:lap_spec,wiener,Wiener index,True,5.436299,5.436299,0.0
+chem_n9,14598,deck:lap_spec,n,order n,True,0.793669,0.793669,0.0
+chem_n9,14598,deck:lap_spec,m,size m,True,2.970278,2.970278,0.0
+chem_n9,14598,deck:lap_spec,C,Sombor deletion correction C(G),True,9.618334,9.618334,0.0
+chem_n9,14598,deck:q_spec,ds,degree sequence of G,True,6.378235,6.378235,0.0
+chem_n9,14598,deck:q_spec,ds_sig,multiset of degree sequences of the cards,True,9.618471,9.618471,0.0
+chem_n9,14598,deck:q_spec,et,multiset of edge degree-types of G,True,9.618471,9.618471,0.0
+chem_n9,14598,deck:q_spec,so,Sombor index SO(G),True,9.613666,9.613666,0.0
+chem_n9,14598,deck:q_spec,dd,multiset {Delta_e},True,13.224774,13.224774,0.0
+chem_n9,14598,deck:q_spec,taus,number of spanning trees,True,9.675644,9.675644,0.0
+chem_n9,14598,deck:q_spec,tri,number of triangles,True,2.68594,2.68594,0.0
+chem_n9,14598,deck:q_spec,wiener,Wiener index,True,5.436299,5.436299,0.0
+chem_n9,14598,deck:q_spec,n,order n,True,0.793669,0.793669,0.0
+chem_n9,14598,deck:q_spec,m,size m,True,2.970278,2.970278,0.0
+chem_n9,14598,deck:q_spec,C,Sombor deletion correction C(G),True,9.618334,9.618334,0.0
+chem_n9,14598,deck:adj_charpoly,ds,degree sequence of G,True,6.378235,6.378235,0.0
+chem_n9,14598,deck:adj_charpoly,ds_sig,multiset of degree sequences of the cards,True,9.618471,9.618471,0.0
+chem_n9,14598,deck:adj_charpoly,et,multiset of edge degree-types of G,True,9.618471,9.618471,0.0
+chem_n9,14598,deck:adj_charpoly,so,Sombor index SO(G),True,9.613666,9.613666,0.0
+chem_n9,14598,deck:adj_charpoly,dd,multiset {Delta_e},True,13.224774,13.224774,0.0
+chem_n9,14598,deck:adj_charpoly,taus,number of spanning trees,True,9.675644,9.675644,0.0
+chem_n9,14598,deck:adj_charpoly,tri,number of triangles,True,2.68594,2.68594,0.0
+chem_n9,14598,deck:adj_charpoly,wiener,Wiener index,True,5.436299,5.436299,0.0
+chem_n9,14598,deck:adj_charpoly,n,order n,True,0.793669,0.793669,0.0
+chem_n9,14598,deck:adj_charpoly,m,size m,True,2.970278,2.970278,0.0
+chem_n9,14598,deck:adj_charpoly,C,Sombor deletion correction C(G),True,9.618334,9.618334,0.0
+chem_n9,14598,deck:lap_charpoly,ds,degree sequence of G,True,6.378235,6.378235,0.0
+chem_n9,14598,deck:lap_charpoly,ds_sig,multiset of degree sequences of the cards,True,9.618471,9.618471,0.0
+chem_n9,14598,deck:lap_charpoly,et,multiset of edge degree-types of G,True,9.618471,9.618471,0.0
+chem_n9,14598,deck:lap_charpoly,so,Sombor index SO(G),True,9.613666,9.613666,0.0
+chem_n9,14598,deck:lap_charpoly,dd,multiset {Delta_e},True,13.224774,13.224774,0.0
+chem_n9,14598,deck:lap_charpoly,taus,number of spanning trees,True,9.675644,9.675644,0.0
+chem_n9,14598,deck:lap_charpoly,tri,number of triangles,True,2.68594,2.68594,0.0
+chem_n9,14598,deck:lap_charpoly,wiener,Wiener index,True,5.436299,5.436299,0.0
+chem_n9,14598,deck:lap_charpoly,n,order n,True,0.793669,0.793669,0.0
+chem_n9,14598,deck:lap_charpoly,m,size m,True,2.970278,2.970278,0.0
+chem_n9,14598,deck:lap_charpoly,C,Sombor deletion correction C(G),True,9.618334,9.618334,0.0
+chem_n9,14598,deck:energy,ds,degree sequence of G,False,6.378235,6.378098,0.000137
+chem_n9,14598,deck:energy,ds_sig,multiset of degree sequences of the cards,False,9.618471,9.618334,0.000137
+chem_n9,14598,deck:energy,et,multiset of edge degree-types of G,False,9.618471,9.618334,0.000137
+chem_n9,14598,deck:energy,so,Sombor index SO(G),False,9.613666,9.613529,0.000137
+chem_n9,14598,deck:energy,dd,multiset {Delta_e},False,13.224774,13.224637,0.000137
+chem_n9,14598,deck:energy,taus,number of spanning trees,False,9.675644,9.675507,0.000137
+chem_n9,14598,deck:energy,tri,number of triangles,False,2.68594,2.685803,0.000137
+chem_n9,14598,deck:energy,wiener,Wiener index,False,5.436299,5.436162,0.000137
+chem_n9,14598,deck:energy,n,order n,False,0.793669,0.793532,0.000137
+chem_n9,14598,deck:energy,m,size m,True,2.970278,2.970278,0.0
+chem_n9,14598,deck:energy,C,Sombor deletion correction C(G),False,9.618334,9.618197,0.000137
+chemp_n9,11704,deck:deg_seq,ds,degree sequence of G,True,6.39856,6.39856,0.0
+chemp_n9,11704,deck:deg_seq,ds_sig,multiset of degree sequences of the cards,True,9.758357,9.758357,0.0
+chemp_n9,11704,deck:deg_seq,et,multiset of edge degree-types of G,True,9.758357,9.758357,0.0
+chemp_n9,11704,deck:deg_seq,so,Sombor index SO(G),True,9.753616,9.753616,0.0
+chemp_n9,11704,deck:deg_seq,dd,multiset {Delta_e},False,13.113663,9.758357,3.355306
+chemp_n9,11704,deck:deg_seq,taus,number of spanning trees,False,9.02365,5.671612,3.352038
+chemp_n9,11704,deck:deg_seq,tri,number of triangles,False,2.641744,1.061123,1.580621
+chemp_n9,11704,deck:deg_seq,wiener,Wiener index,False,5.4443,3.127248,2.317053
+chemp_n9,11704,deck:deg_seq,n,order n,True,0.847161,0.847161,0.0
+chemp_n9,11704,deck:deg_seq,m,size m,True,2.847327,2.847327,0.0
+chemp_n9,11704,deck:deg_seq,C,Sombor deletion correction C(G),True,9.758186,9.758186,0.0
+chemp_n9,11704,deck:edge_types,ds,degree sequence of G,False,6.39856,6.398389,0.000171
+chemp_n9,11704,deck:edge_types,ds_sig,multiset of degree sequences of the cards,False,9.758357,9.758186,0.000171
+chemp_n9,11704,deck:edge_types,et,multiset of edge degree-types of G,False,9.758357,9.758186,0.000171
+chemp_n9,11704,deck:edge_types,so,Sombor index SO(G),False,9.753616,9.753445,0.000171
+chemp_n9,11704,deck:edge_types,dd,multiset {Delta_e},False,13.113663,13.113492,0.000171
+chemp_n9,11704,deck:edge_types,taus,number of spanning trees,False,9.02365,8.625162,0.398488
+chemp_n9,11704,deck:edge_types,tri,number of triangles,False,2.641744,2.337482,0.304262
+chemp_n9,11704,deck:edge_types,wiener,Wiener index,False,5.4443,5.112189,0.332112
+chemp_n9,11704,deck:edge_types,n,order n,False,0.847161,0.84699,0.000171
+chemp_n9,11704,deck:edge_types,m,size m,True,2.847327,2.847327,0.0
+chemp_n9,11704,deck:edge_types,C,Sombor deletion correction C(G),False,9.758186,9.758015,0.000171
+chemp_n9,11704,deck:n_comp,ds,degree sequence of G,False,6.39856,3.949398,2.449161
+chemp_n9,11704,deck:n_comp,ds_sig,multiset of degree sequences of the cards,False,9.758357,4.327839,5.430518
+chemp_n9,11704,deck:n_comp,et,multiset of edge degree-types of G,False,9.758357,4.327839,5.430518
+chemp_n9,11704,deck:n_comp,so,Sombor index SO(G),False,9.753616,4.323099,5.430518
+chemp_n9,11704,deck:n_comp,dd,multiset {Delta_e},False,13.113663,4.579379,8.534284
+chemp_n9,11704,deck:n_comp,taus,number of spanning trees,False,9.02365,3.39869,5.62496
+chemp_n9,11704,deck:n_comp,tri,number of triangles,False,2.641744,0.611458,2.030286
+chemp_n9,11704,deck:n_comp,wiener,Wiener index,False,5.4443,1.559271,3.885029
+chemp_n9,11704,deck:n_comp,n,order n,False,0.847161,0.371273,0.475888
+chemp_n9,11704,deck:n_comp,m,size m,True,2.847327,2.847327,0.0
+chemp_n9,11704,deck:n_comp,C,Sombor deletion correction C(G),False,9.758186,4.327668,5.430518
+chemp_n9,11704,deck:comp_sizes,ds,degree sequence of G,False,6.39856,4.952058,1.446502
+chemp_n9,11704,deck:comp_sizes,ds_sig,multiset of degree sequences of the cards,False,9.758357,5.522082,4.236275
+chemp_n9,11704,deck:comp_sizes,et,multiset of edge degree-types of G,False,9.758357,5.522082,4.236275
+chemp_n9,11704,deck:comp_sizes,so,Sombor index SO(G),False,9.753616,5.517341,4.236275
+chemp_n9,11704,deck:comp_sizes,dd,multiset {Delta_e},False,13.113663,5.797967,7.315696
+chemp_n9,11704,deck:comp_sizes,taus,number of spanning trees,False,9.02365,3.95771,5.06594
+chemp_n9,11704,deck:comp_sizes,tri,number of triangles,False,2.641744,0.917539,1.724205
+chemp_n9,11704,deck:comp_sizes,wiener,Wiener index,False,5.4443,2.511687,2.932614
+chemp_n9,11704,deck:comp_sizes,n,order n,True,0.847161,0.847161,0.0
+chemp_n9,11704,deck:comp_sizes,m,size m,True,2.847327,2.847327,0.0
+chemp_n9,11704,deck:comp_sizes,C,Sombor deletion correction C(G),False,9.758186,5.521911,4.236275
+chemp_n9,11704,deck:tri,ds,degree sequence of G,False,6.39856,3.283001,3.115559
+chemp_n9,11704,deck:tri,ds_sig,multiset of degree sequences of the cards,False,9.758357,4.026255,5.732102
+chemp_n9,11704,deck:tri,et,multiset of edge degree-types of G,False,9.758357,4.026255,5.732102
+chemp_n9,11704,deck:tri,so,Sombor index SO(G),False,9.753616,4.021514,5.732102
+chemp_n9,11704,deck:tri,dd,multiset {Delta_e},False,13.113663,5.891858,7.221805
+chemp_n9,11704,deck:tri,taus,number of spanning trees,False,9.02365,4.360451,4.663199
+chemp_n9,11704,deck:tri,tri,number of triangles,False,2.641744,2.641509,0.000235
+chemp_n9,11704,deck:tri,wiener,Wiener index,False,5.4443,1.858235,3.586065
+chemp_n9,11704,deck:tri,n,order n,False,0.847161,0.357019,0.490142
+chemp_n9,11704,deck:tri,m,size m,True,2.847327,2.847327,0.0
+chemp_n9,11704,deck:tri,C,Sombor deletion correction C(G),False,9.758186,4.026084,5.732102
+chemp_n9,11704,deck:clique,ds,degree sequence of G,False,6.39856,3.029967,3.368592
+chemp_n9,11704,deck:clique,ds_sig,multiset of degree sequences of the cards,False,9.758357,3.341708,6.416649
+chemp_n9,11704,deck:clique,et,multiset of edge degree-types of G,False,9.758357,3.341708,6.416649
+chemp_n9,11704,deck:clique,so,Sombor index SO(G),False,9.753616,3.336967,6.416649
+chemp_n9,11704,deck:clique,dd,multiset {Delta_e},False,13.113663,4.274073,8.83959
+chemp_n9,11704,deck:clique,taus,number of spanning trees,False,9.02365,2.979775,6.043875
+chemp_n9,11704,deck:clique,tri,number of triangles,False,2.641744,1.575789,1.065955
+chemp_n9,11704,deck:clique,wiener,Wiener index,False,5.4443,1.416069,4.028231
+chemp_n9,11704,deck:clique,n,order n,False,0.847161,0.287003,0.560158
+chemp_n9,11704,deck:clique,m,size m,True,2.847327,2.847327,0.0
+chemp_n9,11704,deck:clique,C,Sombor deletion correction C(G),False,9.758186,3.341537,6.416649
+chemp_n9,11704,deck:chrom,ds,degree sequence of G,False,6.39856,3.05192,3.346639
+chemp_n9,11704,deck:chrom,ds_sig,multiset of degree sequences of the cards,False,9.758357,3.400036,6.35832
+chemp_n9,11704,deck:chrom,et,multiset of edge degree-types of G,False,9.758357,3.400036,6.35832
+chemp_n9,11704,deck:chrom,so,Sombor index SO(G),False,9.753616,3.395296,6.35832
+chemp_n9,11704,deck:chrom,dd,multiset {Delta_e},False,13.113663,4.260112,8.853551
+chemp_n9,11704,deck:chrom,taus,number of spanning trees,False,9.02365,2.969235,6.054415
+chemp_n9,11704,deck:chrom,tri,number of triangles,False,2.641744,1.046773,1.594971
+chemp_n9,11704,deck:chrom,wiener,Wiener index,False,5.4443,1.394858,4.049442
+chemp_n9,11704,deck:chrom,n,order n,False,0.847161,0.30557,0.541591
+chemp_n9,11704,deck:chrom,m,size m,True,2.847327,2.847327,0.0
+chemp_n9,11704,deck:chrom,C,Sombor deletion correction C(G),False,9.758186,3.399865,6.35832
+chemp_n9,11704,deck:girth,ds,degree sequence of G,False,6.39856,3.137125,3.261435
+chemp_n9,11704,deck:girth,ds_sig,multiset of degree sequences of the cards,False,9.758357,3.464351,6.294006
+chemp_n9,11704,deck:girth,et,multiset of edge degree-types of G,False,9.758357,3.464351,6.294006
+chemp_n9,11704,deck:girth,so,Sombor index SO(G),False,9.753616,3.45961,6.294006
+chemp_n9,11704,deck:girth,dd,multiset {Delta_e},False,13.113663,4.376786,8.736877
+chemp_n9,11704,deck:girth,taus,number of spanning trees,False,9.02365,3.126822,5.896828
+chemp_n9,11704,deck:girth,tri,number of triangles,False,2.641744,1.422329,1.219415
+chemp_n9,11704,deck:girth,wiener,Wiener index,False,5.4443,1.505409,3.938891
+chemp_n9,11704,deck:girth,n,order n,False,0.847161,0.349986,0.497175
+chemp_n9,11704,deck:girth,m,size m,True,2.847327,2.847327,0.0
+chemp_n9,11704,deck:girth,C,Sombor deletion correction C(G),False,9.758186,3.46418,6.294006
+chemp_n9,11704,deck:n_bridges,ds,degree sequence of G,False,6.39856,4.928813,1.469746
+chemp_n9,11704,deck:n_bridges,ds_sig,multiset of degree sequences of the cards,False,9.758357,6.22809,3.530267
+chemp_n9,11704,deck:n_bridges,et,multiset of edge degree-types of G,False,9.758357,6.22809,3.530267
+chemp_n9,11704,deck:n_bridges,so,Sombor index SO(G),False,9.753616,6.22335,3.530267
+chemp_n9,11704,deck:n_bridges,dd,multiset {Delta_e},False,13.113663,7.245001,5.868662
+chemp_n9,11704,deck:n_bridges,taus,number of spanning trees,False,9.02365,5.51664,3.50701
+chemp_n9,11704,deck:n_bridges,tri,number of triangles,False,2.641744,1.214069,1.427675
+chemp_n9,11704,deck:n_bridges,wiener,Wiener index,False,5.4443,2.374348,3.069953
+chemp_n9,11704,deck:n_bridges,n,order n,False,0.847161,0.721044,0.126116
+chemp_n9,11704,deck:n_bridges,m,size m,True,2.847327,2.847327,0.0
+chemp_n9,11704,deck:n_bridges,C,Sombor deletion correction C(G),False,9.758186,6.227919,3.530267
+chemp_n9,11704,deck:n_cut,ds,degree sequence of G,False,6.39856,5.5233,0.875259
+chemp_n9,11704,deck:n_cut,ds_sig,multiset of degree sequences of the cards,False,9.758357,7.468048,2.290308
+chemp_n9,11704,deck:n_cut,et,multiset of edge degree-types of G,False,9.758357,7.468048,2.290308
+chemp_n9,11704,deck:n_cut,so,Sombor index SO(G),False,9.753616,7.463308,2.290308
+chemp_n9,11704,deck:n_cut,dd,multiset {Delta_e},False,13.113663,9.231429,3.882234
+chemp_n9,11704,deck:n_cut,taus,number of spanning trees,False,9.02365,6.130744,2.892906
+chemp_n9,11704,deck:n_cut,tri,number of triangles,False,2.641744,1.469585,1.172159
+chemp_n9,11704,deck:n_cut,wiener,Wiener index,False,5.4443,3.365529,2.078771
+chemp_n9,11704,deck:n_cut,n,order n,False,0.847161,0.674551,0.172609
+chemp_n9,11704,deck:n_cut,m,size m,True,2.847327,2.847327,0.0
+chemp_n9,11704,deck:n_cut,C,Sombor deletion correction C(G),False,9.758186,7.467877,2.290308
+chemp_n9,11704,deck:diam,ds,degree sequence of G,False,6.39856,4.446786,1.951774
+chemp_n9,11704,deck:diam,ds_sig,multiset of degree sequences of the cards,False,9.758357,6.117719,3.640637
+chemp_n9,11704,deck:diam,et,multiset of edge degree-types of G,False,9.758357,6.117719,3.640637
+chemp_n9,11704,deck:diam,so,Sombor index SO(G),False,9.753616,6.112979,3.640637
+chemp_n9,11704,deck:diam,dd,multiset {Delta_e},False,13.113663,8.413009,4.700654
+chemp_n9,11704,deck:diam,taus,number of spanning trees,False,9.02365,4.897213,4.126436
+chemp_n9,11704,deck:diam,tri,number of triangles,False,2.641744,1.033156,1.608588
+chemp_n9,11704,deck:diam,wiener,Wiener index,False,5.4443,3.385751,2.05855
+chemp_n9,11704,deck:diam,n,order n,False,0.847161,0.661741,0.185419
+chemp_n9,11704,deck:diam,m,size m,True,2.847327,2.847327,0.0
+chemp_n9,11704,deck:diam,C,Sombor deletion correction C(G),False,9.758186,6.117548,3.640637
+chemp_n9,11704,deck:dist_dist,ds,degree sequence of G,False,6.39856,6.369175,0.029384
+chemp_n9,11704,deck:dist_dist,ds_sig,multiset of degree sequences of the cards,False,9.758357,9.722414,0.035942
+chemp_n9,11704,deck:dist_dist,et,multiset of edge degree-types of G,False,9.758357,9.722414,0.035942
+chemp_n9,11704,deck:dist_dist,so,Sombor index SO(G),False,9.753616,9.717674,0.035942
+chemp_n9,11704,deck:dist_dist,dd,multiset {Delta_e},False,13.113663,13.070137,0.043526
+chemp_n9,11704,deck:dist_dist,taus,number of spanning trees,False,9.02365,8.983713,0.039937
+chemp_n9,11704,deck:dist_dist,tri,number of triangles,False,2.641744,2.618224,0.023521
+chemp_n9,11704,deck:dist_dist,wiener,Wiener index,False,5.4443,5.444129,0.000171
+chemp_n9,11704,deck:dist_dist,n,order n,False,0.847161,0.84699,0.000171
+chemp_n9,11704,deck:dist_dist,m,size m,True,2.847327,2.847327,0.0
+chemp_n9,11704,deck:dist_dist,C,Sombor deletion correction C(G),False,9.758186,9.722243,0.035942
+chemp_n9,11704,deck:match_poly,ds,degree sequence of G,False,6.39856,6.398389,0.000171
+chemp_n9,11704,deck:match_poly,ds_sig,multiset of degree sequences of the cards,False,9.758357,9.758186,0.000171
+chemp_n9,11704,deck:match_poly,et,multiset of edge degree-types of G,False,9.758357,9.758186,0.000171
+chemp_n9,11704,deck:match_poly,so,Sombor index SO(G),False,9.753616,9.753445,0.000171
+chemp_n9,11704,deck:match_poly,dd,multiset {Delta_e},False,13.113663,13.113492,0.000171
+chemp_n9,11704,deck:match_poly,taus,number of spanning trees,False,9.02365,9.023479,0.000171
+chemp_n9,11704,deck:match_poly,tri,number of triangles,False,2.641744,2.641573,0.000171
+chemp_n9,11704,deck:match_poly,wiener,Wiener index,False,5.4443,5.444129,0.000171
+chemp_n9,11704,deck:match_poly,n,order n,False,0.847161,0.84699,0.000171
+chemp_n9,11704,deck:match_poly,m,size m,True,2.847327,2.847327,0.0
+chemp_n9,11704,deck:match_poly,C,Sombor deletion correction C(G),False,9.758186,9.758015,0.000171
+chemp_n9,11704,deck:taus,ds,degree sequence of G,False,6.39856,5.306639,1.091921
+chemp_n9,11704,deck:taus,ds_sig,multiset of degree sequences of the cards,False,9.758357,7.743419,2.014938
+chemp_n9,11704,deck:taus,et,multiset of edge degree-types of G,False,9.758357,7.743419,2.014938
+chemp_n9,11704,deck:taus,so,Sombor index SO(G),False,9.753616,7.738678,2.014938
+chemp_n9,11704,deck:taus,dd,multiset {Delta_e},False,13.113663,10.846426,2.267237
+chemp_n9,11704,deck:taus,taus,number of spanning trees,True,9.02365,9.02365,0.0
+chemp_n9,11704,deck:taus,tri,number of triangles,False,2.641744,2.638933,0.002811
+chemp_n9,11704,deck:taus,wiener,Wiener index,False,5.4443,3.897968,1.546332
+chemp_n9,11704,deck:taus,n,order n,True,0.847161,0.847161,0.0
+chemp_n9,11704,deck:taus,m,size m,True,2.847327,2.847327,0.0
+chemp_n9,11704,deck:taus,C,Sombor deletion correction C(G),False,9.758186,7.743248,2.014938
+chemp_n9,11704,deck:sombor,ds,degree sequence of G,False,6.39856,6.398389,0.000171
+chemp_n9,11704,deck:sombor,ds_sig,multiset of degree sequences of the cards,False,9.758357,9.758186,0.000171
+chemp_n9,11704,deck:sombor,et,multiset of edge degree-types of G,False,9.758357,9.758186,0.000171
+chemp_n9,11704,deck:sombor,so,Sombor index SO(G),False,9.753616,9.753445,0.000171
+chemp_n9,11704,deck:sombor,dd,multiset {Delta_e},False,13.113663,13.113492,0.000171
+chemp_n9,11704,deck:sombor,taus,number of spanning trees,False,9.02365,8.625162,0.398488
+chemp_n9,11704,deck:sombor,tri,number of triangles,False,2.641744,2.337482,0.304262
+chemp_n9,11704,deck:sombor,wiener,Wiener index,False,5.4443,5.112189,0.332112
+chemp_n9,11704,deck:sombor,n,order n,False,0.847161,0.84699,0.000171
+chemp_n9,11704,deck:sombor,m,size m,True,2.847327,2.847327,0.0
+chemp_n9,11704,deck:sombor,C,Sombor deletion correction C(G),False,9.758186,9.758015,0.000171
+chemp_n9,11704,deck:sombor_inv,ds,degree sequence of G,False,6.39856,6.398389,0.000171
+chemp_n9,11704,deck:sombor_inv,ds_sig,multiset of degree sequences of the cards,False,9.758357,9.758186,0.000171
+chemp_n9,11704,deck:sombor_inv,et,multiset of edge degree-types of G,False,9.758357,9.758186,0.000171
+chemp_n9,11704,deck:sombor_inv,so,Sombor index SO(G),False,9.753616,9.753445,0.000171
+chemp_n9,11704,deck:sombor_inv,dd,multiset {Delta_e},False,13.113663,13.113492,0.000171
+chemp_n9,11704,deck:sombor_inv,taus,number of spanning trees,False,9.02365,8.625162,0.398488
+chemp_n9,11704,deck:sombor_inv,tri,number of triangles,False,2.641744,2.337482,0.304262
+chemp_n9,11704,deck:sombor_inv,wiener,Wiener index,False,5.4443,5.112189,0.332112
+chemp_n9,11704,deck:sombor_inv,n,order n,False,0.847161,0.84699,0.000171
+chemp_n9,11704,deck:sombor_inv,m,size m,True,2.847327,2.847327,0.0
+chemp_n9,11704,deck:sombor_inv,C,Sombor deletion correction C(G),False,9.758186,9.758015,0.000171
+chemp_n9,11704,deck:randic,ds,degree sequence of G,False,6.39856,6.398389,0.000171
+chemp_n9,11704,deck:randic,ds_sig,multiset of degree sequences of the cards,False,9.758357,9.758186,0.000171
+chemp_n9,11704,deck:randic,et,multiset of edge degree-types of G,False,9.758357,9.758186,0.000171
+chemp_n9,11704,deck:randic,so,Sombor index SO(G),False,9.753616,9.753445,0.000171
+chemp_n9,11704,deck:randic,dd,multiset {Delta_e},False,13.113663,13.113492,0.000171
+chemp_n9,11704,deck:randic,taus,number of spanning trees,False,9.02365,8.625162,0.398488
+chemp_n9,11704,deck:randic,tri,number of triangles,False,2.641744,2.337482,0.304262
+chemp_n9,11704,deck:randic,wiener,Wiener index,False,5.4443,5.112189,0.332112
+chemp_n9,11704,deck:randic,n,order n,False,0.847161,0.84699,0.000171
+chemp_n9,11704,deck:randic,m,size m,True,2.847327,2.847327,0.0
+chemp_n9,11704,deck:randic,C,Sombor deletion correction C(G),False,9.758186,9.758015,0.000171
+chemp_n9,11704,deck:abc,ds,degree sequence of G,False,6.39856,6.398389,0.000171
+chemp_n9,11704,deck:abc,ds_sig,multiset of degree sequences of the cards,False,9.758357,9.758186,0.000171
+chemp_n9,11704,deck:abc,et,multiset of edge degree-types of G,False,9.758357,9.758186,0.000171
+chemp_n9,11704,deck:abc,so,Sombor index SO(G),False,9.753616,9.753445,0.000171
+chemp_n9,11704,deck:abc,dd,multiset {Delta_e},False,13.113663,13.112444,0.001219
+chemp_n9,11704,deck:abc,taus,number of spanning trees,False,9.02365,8.624114,0.399536
+chemp_n9,11704,deck:abc,tri,number of triangles,False,2.641744,2.337482,0.304262
+chemp_n9,11704,deck:abc,wiener,Wiener index,False,5.4443,5.111141,0.33316
+chemp_n9,11704,deck:abc,n,order n,False,0.847161,0.84699,0.000171
+chemp_n9,11704,deck:abc,m,size m,True,2.847327,2.847327,0.0
+chemp_n9,11704,deck:abc,C,Sombor deletion correction C(G),False,9.758186,9.758015,0.000171
+chemp_n9,11704,deck:m1,ds,degree sequence of G,False,6.39856,6.253564,0.144996
+chemp_n9,11704,deck:m1,ds_sig,multiset of degree sequences of the cards,False,9.758357,9.520641,0.237715
+chemp_n9,11704,deck:m1,et,multiset of edge degree-types of G,False,9.758357,9.520641,0.237715
+chemp_n9,11704,deck:m1,so,Sombor index SO(G),False,9.753616,9.515901,0.237715
+chemp_n9,11704,deck:m1,dd,multiset {Delta_e},False,13.113663,9.520641,3.593021
+chemp_n9,11704,deck:m1,taus,number of spanning trees,False,9.02365,5.474412,3.549238
+chemp_n9,11704,deck:m1,tri,number of triangles,False,2.641744,1.011324,1.630421
+chemp_n9,11704,deck:m1,wiener,Wiener index,False,5.4443,2.964542,2.479758
+chemp_n9,11704,deck:m1,n,order n,False,0.847161,0.775568,0.071593
+chemp_n9,11704,deck:m1,m,size m,True,2.847327,2.847327,0.0
+chemp_n9,11704,deck:m1,C,Sombor deletion correction C(G),False,9.758186,9.52047,0.237715
+chemp_n9,11704,deck:m2,ds,degree sequence of G,False,6.39856,6.398389,0.000171
+chemp_n9,11704,deck:m2,ds_sig,multiset of degree sequences of the cards,False,9.758357,9.758186,0.000171
+chemp_n9,11704,deck:m2,et,multiset of edge degree-types of G,False,9.758357,9.758186,0.000171
+chemp_n9,11704,deck:m2,so,Sombor index SO(G),False,9.753616,9.753445,0.000171
+chemp_n9,11704,deck:m2,dd,multiset {Delta_e},False,13.113663,13.054915,0.058747
+chemp_n9,11704,deck:m2,taus,number of spanning trees,False,9.02365,8.566756,0.456894
+chemp_n9,11704,deck:m2,tri,number of triangles,False,2.641744,2.291106,0.350638
+chemp_n9,11704,deck:m2,wiener,Wiener index,False,5.4443,5.061795,0.382505
+chemp_n9,11704,deck:m2,n,order n,False,0.847161,0.84699,0.000171
+chemp_n9,11704,deck:m2,m,size m,True,2.847327,2.847327,0.0
+chemp_n9,11704,deck:m2,C,Sombor deletion correction C(G),False,9.758186,9.758015,0.000171
+chemp_n9,11704,deck:wiener,ds,degree sequence of G,False,6.39856,6.360115,0.038444
+chemp_n9,11704,deck:wiener,ds_sig,multiset of degree sequences of the cards,False,9.758357,9.70827,0.050087
+chemp_n9,11704,deck:wiener,et,multiset of edge degree-types of G,False,9.758357,9.70827,0.050087
+chemp_n9,11704,deck:wiener,so,Sombor index SO(G),False,9.753616,9.703529,0.050087
+chemp_n9,11704,deck:wiener,dd,multiset {Delta_e},False,13.113663,13.054454,0.059208
+chemp_n9,11704,deck:wiener,taus,number of spanning trees,False,9.02365,8.969397,0.054253
+chemp_n9,11704,deck:wiener,tri,number of triangles,False,2.641744,2.610466,0.031278
+chemp_n9,11704,deck:wiener,wiener,Wiener index,False,5.4443,5.443958,0.000342
+chemp_n9,11704,deck:wiener,n,order n,False,0.847161,0.84699,0.000171
+chemp_n9,11704,deck:wiener,m,size m,True,2.847327,2.847327,0.0
+chemp_n9,11704,deck:wiener,C,Sombor deletion correction C(G),False,9.758186,9.708099,0.050087
+chemp_n9,11704,deck:adj_spec,ds,degree sequence of G,True,6.39856,6.39856,0.0
+chemp_n9,11704,deck:adj_spec,ds_sig,multiset of degree sequences of the cards,True,9.758357,9.758357,0.0
+chemp_n9,11704,deck:adj_spec,et,multiset of edge degree-types of G,True,9.758357,9.758357,0.0
+chemp_n9,11704,deck:adj_spec,so,Sombor index SO(G),True,9.753616,9.753616,0.0
+chemp_n9,11704,deck:adj_spec,dd,multiset {Delta_e},True,13.113663,13.113663,0.0
+chemp_n9,11704,deck:adj_spec,taus,number of spanning trees,True,9.02365,9.02365,0.0
+chemp_n9,11704,deck:adj_spec,tri,number of triangles,True,2.641744,2.641744,0.0
+chemp_n9,11704,deck:adj_spec,wiener,Wiener index,True,5.4443,5.4443,0.0
+chemp_n9,11704,deck:adj_spec,n,order n,True,0.847161,0.847161,0.0
+chemp_n9,11704,deck:adj_spec,m,size m,True,2.847327,2.847327,0.0
+chemp_n9,11704,deck:adj_spec,C,Sombor deletion correction C(G),True,9.758186,9.758186,0.0
+chemp_n9,11704,deck:lap_spec,ds,degree sequence of G,True,6.39856,6.39856,0.0
+chemp_n9,11704,deck:lap_spec,ds_sig,multiset of degree sequences of the cards,True,9.758357,9.758357,0.0
+chemp_n9,11704,deck:lap_spec,et,multiset of edge degree-types of G,True,9.758357,9.758357,0.0
+chemp_n9,11704,deck:lap_spec,so,Sombor index SO(G),True,9.753616,9.753616,0.0
+chemp_n9,11704,deck:lap_spec,dd,multiset {Delta_e},True,13.113663,13.113663,0.0
+chemp_n9,11704,deck:lap_spec,taus,number of spanning trees,True,9.02365,9.02365,0.0
+chemp_n9,11704,deck:lap_spec,tri,number of triangles,True,2.641744,2.641744,0.0
+chemp_n9,11704,deck:lap_spec,wiener,Wiener index,True,5.4443,5.4443,0.0
+chemp_n9,11704,deck:lap_spec,n,order n,True,0.847161,0.847161,0.0
+chemp_n9,11704,deck:lap_spec,m,size m,True,2.847327,2.847327,0.0
+chemp_n9,11704,deck:lap_spec,C,Sombor deletion correction C(G),True,9.758186,9.758186,0.0
+chemp_n9,11704,deck:q_spec,ds,degree sequence of G,True,6.39856,6.39856,0.0
+chemp_n9,11704,deck:q_spec,ds_sig,multiset of degree sequences of the cards,True,9.758357,9.758357,0.0
+chemp_n9,11704,deck:q_spec,et,multiset of edge degree-types of G,True,9.758357,9.758357,0.0
+chemp_n9,11704,deck:q_spec,so,Sombor index SO(G),True,9.753616,9.753616,0.0
+chemp_n9,11704,deck:q_spec,dd,multiset {Delta_e},True,13.113663,13.113663,0.0
+chemp_n9,11704,deck:q_spec,taus,number of spanning trees,True,9.02365,9.02365,0.0
+chemp_n9,11704,deck:q_spec,tri,number of triangles,True,2.641744,2.641744,0.0
+chemp_n9,11704,deck:q_spec,wiener,Wiener index,True,5.4443,5.4443,0.0
+chemp_n9,11704,deck:q_spec,n,order n,True,0.847161,0.847161,0.0
+chemp_n9,11704,deck:q_spec,m,size m,True,2.847327,2.847327,0.0
+chemp_n9,11704,deck:q_spec,C,Sombor deletion correction C(G),True,9.758186,9.758186,0.0
+chemp_n9,11704,deck:adj_charpoly,ds,degree sequence of G,True,6.39856,6.39856,0.0
+chemp_n9,11704,deck:adj_charpoly,ds_sig,multiset of degree sequences of the cards,True,9.758357,9.758357,0.0
+chemp_n9,11704,deck:adj_charpoly,et,multiset of edge degree-types of G,True,9.758357,9.758357,0.0
+chemp_n9,11704,deck:adj_charpoly,so,Sombor index SO(G),True,9.753616,9.753616,0.0
+chemp_n9,11704,deck:adj_charpoly,dd,multiset {Delta_e},True,13.113663,13.113663,0.0
+chemp_n9,11704,deck:adj_charpoly,taus,number of spanning trees,True,9.02365,9.02365,0.0
+chemp_n9,11704,deck:adj_charpoly,tri,number of triangles,True,2.641744,2.641744,0.0
+chemp_n9,11704,deck:adj_charpoly,wiener,Wiener index,True,5.4443,5.4443,0.0
+chemp_n9,11704,deck:adj_charpoly,n,order n,True,0.847161,0.847161,0.0
+chemp_n9,11704,deck:adj_charpoly,m,size m,True,2.847327,2.847327,0.0
+chemp_n9,11704,deck:adj_charpoly,C,Sombor deletion correction C(G),True,9.758186,9.758186,0.0
+chemp_n9,11704,deck:lap_charpoly,ds,degree sequence of G,True,6.39856,6.39856,0.0
+chemp_n9,11704,deck:lap_charpoly,ds_sig,multiset of degree sequences of the cards,True,9.758357,9.758357,0.0
+chemp_n9,11704,deck:lap_charpoly,et,multiset of edge degree-types of G,True,9.758357,9.758357,0.0
+chemp_n9,11704,deck:lap_charpoly,so,Sombor index SO(G),True,9.753616,9.753616,0.0
+chemp_n9,11704,deck:lap_charpoly,dd,multiset {Delta_e},True,13.113663,13.113663,0.0
+chemp_n9,11704,deck:lap_charpoly,taus,number of spanning trees,True,9.02365,9.02365,0.0
+chemp_n9,11704,deck:lap_charpoly,tri,number of triangles,True,2.641744,2.641744,0.0
+chemp_n9,11704,deck:lap_charpoly,wiener,Wiener index,True,5.4443,5.4443,0.0
+chemp_n9,11704,deck:lap_charpoly,n,order n,True,0.847161,0.847161,0.0
+chemp_n9,11704,deck:lap_charpoly,m,size m,True,2.847327,2.847327,0.0
+chemp_n9,11704,deck:lap_charpoly,C,Sombor deletion correction C(G),True,9.758186,9.758186,0.0
+chemp_n9,11704,deck:energy,ds,degree sequence of G,False,6.39856,6.398389,0.000171
+chemp_n9,11704,deck:energy,ds_sig,multiset of degree sequences of the cards,False,9.758357,9.758186,0.000171
+chemp_n9,11704,deck:energy,et,multiset of edge degree-types of G,False,9.758357,9.758186,0.000171
+chemp_n9,11704,deck:energy,so,Sombor index SO(G),False,9.753616,9.753445,0.000171
+chemp_n9,11704,deck:energy,dd,multiset {Delta_e},False,13.113663,13.113492,0.000171
+chemp_n9,11704,deck:energy,taus,number of spanning trees,False,9.02365,9.023479,0.000171
+chemp_n9,11704,deck:energy,tri,number of triangles,False,2.641744,2.641573,0.000171
+chemp_n9,11704,deck:energy,wiener,Wiener index,False,5.4443,5.444129,0.000171
+chemp_n9,11704,deck:energy,n,order n,False,0.847161,0.84699,0.000171
+chemp_n9,11704,deck:energy,m,size m,True,2.847327,2.847327,0.0
+chemp_n9,11704,deck:energy,C,Sombor deletion correction C(G),False,9.758186,9.758015,0.000171
+chem_n8,2391,deck:deg_seq,ds,degree sequence of G,True,6.358748,6.358748,0.0
+chem_n8,2391,deck:deg_seq,ds_sig,multiset of degree sequences of the cards,True,8.917921,8.917921,0.0
+chem_n8,2391,deck:deg_seq,et,multiset of edge degree-types of G,True,8.917921,8.917921,0.0
+chem_n8,2391,deck:deg_seq,so,Sombor index SO(G),True,8.917921,8.917921,0.0
+chem_n8,2391,deck:deg_seq,dd,multiset {Delta_e},False,10.910835,8.917921,1.992914
+chem_n8,2391,deck:deg_seq,taus,number of spanning trees,False,7.991713,5.847391,2.144322
+chem_n8,2391,deck:deg_seq,tri,number of triangles,False,2.711663,1.40233,1.309333
+chem_n8,2391,deck:deg_seq,wiener,Wiener index,False,5.197528,3.827911,1.369617
+chem_n8,2391,deck:deg_seq,n,order n,True,0.91807,0.91807,0.0
+chem_n8,2391,deck:deg_seq,m,size m,True,2.999555,2.999555,0.0
+chem_n8,2391,deck:deg_seq,C,Sombor deletion correction C(G),True,8.917084,8.917084,0.0
+chem_n8,2391,deck:edge_types,ds,degree sequence of G,False,6.358748,6.357912,0.000836
+chem_n8,2391,deck:edge_types,ds_sig,multiset of degree sequences of the cards,False,8.917921,8.917084,0.000836
+chem_n8,2391,deck:edge_types,et,multiset of edge degree-types of G,False,8.917921,8.917084,0.000836
+chem_n8,2391,deck:edge_types,so,Sombor index SO(G),False,8.917921,8.917084,0.000836
+chem_n8,2391,deck:edge_types,dd,multiset {Delta_e},False,10.910835,10.909998,0.000836
+chem_n8,2391,deck:edge_types,taus,number of spanning trees,False,7.991713,7.678312,0.3134
+chem_n8,2391,deck:edge_types,tri,number of triangles,False,2.711663,2.442185,0.269477
+chem_n8,2391,deck:edge_types,wiener,Wiener index,False,5.197528,5.004748,0.19278
+chem_n8,2391,deck:edge_types,n,order n,False,0.91807,0.917233,0.000836
+chem_n8,2391,deck:edge_types,m,size m,True,2.999555,2.999555,0.0
+chem_n8,2391,deck:edge_types,C,Sombor deletion correction C(G),False,8.917084,8.916248,0.000836
+chem_n8,2391,deck:n_comp,ds,degree sequence of G,False,6.358748,4.078369,2.28038
+chem_n8,2391,deck:n_comp,ds_sig,multiset of degree sequences of the cards,False,8.917921,4.409431,4.50849
+chem_n8,2391,deck:n_comp,et,multiset of edge degree-types of G,False,8.917921,4.409431,4.50849
+chem_n8,2391,deck:n_comp,so,Sombor index SO(G),False,8.917921,4.409431,4.50849
+chem_n8,2391,deck:n_comp,dd,multiset {Delta_e},False,10.910835,4.575469,6.335366
+chem_n8,2391,deck:n_comp,taus,number of spanning trees,False,7.991713,3.543806,4.447907
+chem_n8,2391,deck:n_comp,tri,number of triangles,False,2.711663,0.69348,2.018183
+chem_n8,2391,deck:n_comp,wiener,Wiener index,False,5.197528,2.109208,3.08832
+chem_n8,2391,deck:n_comp,n,order n,False,0.91807,0.440533,0.477537
+chem_n8,2391,deck:n_comp,m,size m,True,2.999555,2.999555,0.0
+chem_n8,2391,deck:n_comp,C,Sombor deletion correction C(G),False,8.917084,4.408594,4.50849
+chem_n8,2391,deck:comp_sizes,ds,degree sequence of G,False,6.358748,5.020968,1.337781
+chem_n8,2391,deck:comp_sizes,ds_sig,multiset of degree sequences of the cards,False,8.917921,5.491601,3.42632
+chem_n8,2391,deck:comp_sizes,et,multiset of edge degree-types of G,False,8.917921,5.491601,3.42632
+chem_n8,2391,deck:comp_sizes,so,Sombor index SO(G),False,8.917921,5.491601,3.42632
+chem_n8,2391,deck:comp_sizes,dd,multiset {Delta_e},False,10.910835,5.668829,5.242006
+chem_n8,2391,deck:comp_sizes,taus,number of spanning trees,False,7.991713,4.078301,3.913412
+chem_n8,2391,deck:comp_sizes,tri,number of triangles,False,2.711663,1.03189,1.679773
+chem_n8,2391,deck:comp_sizes,wiener,Wiener index,False,5.197528,3.059645,2.137883
+chem_n8,2391,deck:comp_sizes,n,order n,True,0.91807,0.91807,0.0
+chem_n8,2391,deck:comp_sizes,m,size m,True,2.999555,2.999555,0.0
+chem_n8,2391,deck:comp_sizes,C,Sombor deletion correction C(G),False,8.917084,5.490764,3.42632
+chem_n8,2391,deck:tri,ds,degree sequence of G,False,6.358748,3.701331,2.657417
+chem_n8,2391,deck:tri,ds_sig,multiset of degree sequences of the cards,False,8.917921,4.690217,4.227704
+chem_n8,2391,deck:tri,et,multiset of edge degree-types of G,False,8.917921,4.690217,4.227704
+chem_n8,2391,deck:tri,so,Sombor index SO(G),False,8.917921,4.690217,4.227704
+chem_n8,2391,deck:tri,dd,multiset {Delta_e},False,10.910835,6.1284,4.782435
+chem_n8,2391,deck:tri,taus,number of spanning trees,False,7.991713,4.91599,3.075723
+chem_n8,2391,deck:tri,tri,number of triangles,False,2.711663,2.710511,0.001152
+chem_n8,2391,deck:tri,wiener,Wiener index,False,5.197528,2.418557,2.77897
+chem_n8,2391,deck:tri,n,order n,False,0.91807,0.460975,0.457095
+chem_n8,2391,deck:tri,m,size m,True,2.999555,2.999555,0.0
+chem_n8,2391,deck:tri,C,Sombor deletion correction C(G),False,8.917084,4.68938,4.227704
+chem_n8,2391,deck:clique,ds,degree sequence of G,False,6.358748,3.31037,3.048379
+chem_n8,2391,deck:clique,ds_sig,multiset of degree sequences of the cards,False,8.917921,3.807419,5.110502
+chem_n8,2391,deck:clique,et,multiset of edge degree-types of G,False,8.917921,3.807419,5.110502
+chem_n8,2391,deck:clique,so,Sombor index SO(G),False,8.917921,3.807419,5.110502
+chem_n8,2391,deck:clique,dd,multiset {Delta_e},False,10.910835,4.665158,6.245676
+chem_n8,2391,deck:clique,taus,number of spanning trees,False,7.991713,3.512734,4.478978
+chem_n8,2391,deck:clique,tri,number of triangles,False,2.711663,1.741965,0.969698
+chem_n8,2391,deck:clique,wiener,Wiener index,False,5.197528,1.914612,3.282916
+chem_n8,2391,deck:clique,n,order n,False,0.91807,0.359651,0.558419
+chem_n8,2391,deck:clique,m,size m,True,2.999555,2.999555,0.0
+chem_n8,2391,deck:clique,C,Sombor deletion correction C(G),False,8.917084,3.806582,5.110502
+chem_n8,2391,deck:chrom,ds,degree sequence of G,False,6.358748,3.353679,3.005069
+chem_n8,2391,deck:chrom,ds_sig,multiset of degree sequences of the cards,False,8.917921,3.890555,5.027366
+chem_n8,2391,deck:chrom,et,multiset of edge degree-types of G,False,8.917921,3.890555,5.027366
+chem_n8,2391,deck:chrom,so,Sombor index SO(G),False,8.917921,3.890555,5.027366
+chem_n8,2391,deck:chrom,dd,multiset {Delta_e},False,10.910835,4.718994,6.19184
+chem_n8,2391,deck:chrom,taus,number of spanning trees,False,7.991713,3.550163,4.441549
+chem_n8,2391,deck:chrom,tri,number of triangles,False,2.711663,1.301626,1.410037
+chem_n8,2391,deck:chrom,wiener,Wiener index,False,5.197528,1.918281,3.279247
+chem_n8,2391,deck:chrom,n,order n,False,0.91807,0.390097,0.527973
+chem_n8,2391,deck:chrom,m,size m,True,2.999555,2.999555,0.0
+chem_n8,2391,deck:chrom,C,Sombor deletion correction C(G),False,8.917084,3.889718,5.027366
+chem_n8,2391,deck:girth,ds,degree sequence of G,False,6.358748,3.436597,2.922151
+chem_n8,2391,deck:girth,ds_sig,multiset of degree sequences of the cards,False,8.917921,3.904776,5.013144
+chem_n8,2391,deck:girth,et,multiset of edge degree-types of G,False,8.917921,3.904776,5.013144
+chem_n8,2391,deck:girth,so,Sombor index SO(G),False,8.917921,3.904776,5.013144
+chem_n8,2391,deck:girth,dd,multiset {Delta_e},False,10.910835,4.70516,6.205674
+chem_n8,2391,deck:girth,taus,number of spanning trees,False,7.991713,3.595443,4.39627
+chem_n8,2391,deck:girth,tri,number of triangles,False,2.711663,1.524894,1.186768
+chem_n8,2391,deck:girth,wiener,Wiener index,False,5.197528,2.019867,3.177661
+chem_n8,2391,deck:girth,n,order n,False,0.91807,0.434912,0.483158
+chem_n8,2391,deck:girth,m,size m,True,2.999555,2.999555,0.0
+chem_n8,2391,deck:girth,C,Sombor deletion correction C(G),False,8.917084,3.90394,5.013144
+chem_n8,2391,deck:n_bridges,ds,degree sequence of G,False,6.358748,5.127738,1.231011
+chem_n8,2391,deck:n_bridges,ds_sig,multiset of degree sequences of the cards,False,8.917921,6.221596,2.696324
+chem_n8,2391,deck:n_bridges,et,multiset of edge degree-types of G,False,8.917921,6.221596,2.696324
+chem_n8,2391,deck:n_bridges,so,Sombor index SO(G),False,8.917921,6.221596,2.696324
+chem_n8,2391,deck:n_bridges,dd,multiset {Delta_e},False,10.910835,6.839168,4.071666
+chem_n8,2391,deck:n_bridges,taus,number of spanning trees,False,7.991713,5.487597,2.504116
+chem_n8,2391,deck:n_bridges,tri,number of triangles,False,2.711663,1.418404,1.293259
+chem_n8,2391,deck:n_bridges,wiener,Wiener index,False,5.197528,2.934375,2.263152
+chem_n8,2391,deck:n_bridges,n,order n,False,0.91807,0.785115,0.132955
+chem_n8,2391,deck:n_bridges,m,size m,True,2.999555,2.999555,0.0
+chem_n8,2391,deck:n_bridges,C,Sombor deletion correction C(G),False,8.917084,6.22076,2.696324
+chem_n8,2391,deck:n_cut,ds,degree sequence of G,False,6.358748,5.742736,0.616012
+chem_n8,2391,deck:n_cut,ds_sig,multiset of degree sequences of the cards,False,8.917921,7.318301,1.59962
+chem_n8,2391,deck:n_cut,et,multiset of edge degree-types of G,False,8.917921,7.318301,1.59962
+chem_n8,2391,deck:n_cut,so,Sombor index SO(G),False,8.917921,7.318301,1.59962
+chem_n8,2391,deck:n_cut,dd,multiset {Delta_e},False,10.910835,8.347619,2.563216
+chem_n8,2391,deck:n_cut,taus,number of spanning trees,False,7.991713,5.891078,2.100635
+chem_n8,2391,deck:n_cut,tri,number of triangles,False,2.711663,1.651381,1.060282
+chem_n8,2391,deck:n_cut,wiener,Wiener index,False,5.197528,3.849134,1.348393
+chem_n8,2391,deck:n_cut,n,order n,False,0.91807,0.757672,0.160398
+chem_n8,2391,deck:n_cut,m,size m,True,2.999555,2.999555,0.0
+chem_n8,2391,deck:n_cut,C,Sombor deletion correction C(G),False,8.917084,7.317465,1.59962
+chem_n8,2391,deck:diam,ds,degree sequence of G,False,6.358748,4.938546,1.420203
+chem_n8,2391,deck:diam,ds_sig,multiset of degree sequences of the cards,False,8.917921,6.48722,2.430701
+chem_n8,2391,deck:diam,et,multiset of edge degree-types of G,False,8.917921,6.48722,2.430701
+chem_n8,2391,deck:diam,so,Sombor index SO(G),False,8.917921,6.48722,2.430701
+chem_n8,2391,deck:diam,dd,multiset {Delta_e},False,10.910835,7.918569,2.992265
+chem_n8,2391,deck:diam,taus,number of spanning trees,False,7.991713,5.251454,2.740259
+chem_n8,2391,deck:diam,tri,number of triangles,False,2.711663,1.314637,1.397025
+chem_n8,2391,deck:diam,wiener,Wiener index,False,5.197528,3.856892,1.340636
+chem_n8,2391,deck:diam,n,order n,False,0.91807,0.797455,0.120615
+chem_n8,2391,deck:diam,m,size m,True,2.999555,2.999555,0.0
+chem_n8,2391,deck:diam,C,Sombor deletion correction C(G),False,8.917084,6.486384,2.430701
+chem_n8,2391,deck:dist_dist,ds,degree sequence of G,False,6.358748,6.294434,0.064314
+chem_n8,2391,deck:dist_dist,ds_sig,multiset of degree sequences of the cards,False,8.917921,8.829554,0.088366
+chem_n8,2391,deck:dist_dist,et,multiset of edge degree-types of G,False,8.917921,8.829554,0.088366
+chem_n8,2391,deck:dist_dist,so,Sombor index SO(G),False,8.917921,8.829554,0.088366
+chem_n8,2391,deck:dist_dist,dd,multiset {Delta_e},False,10.910835,10.805423,0.105412
+chem_n8,2391,deck:dist_dist,taus,number of spanning trees,False,7.991713,7.885465,0.106248
+chem_n8,2391,deck:dist_dist,tri,number of triangles,False,2.711663,2.644524,0.067139
+chem_n8,2391,deck:dist_dist,wiener,Wiener index,False,5.197528,5.196691,0.000836
+chem_n8,2391,deck:dist_dist,n,order n,False,0.91807,0.917233,0.000836
+chem_n8,2391,deck:dist_dist,m,size m,True,2.999555,2.999555,0.0
+chem_n8,2391,deck:dist_dist,C,Sombor deletion correction C(G),False,8.917084,8.828718,0.088366
+chem_n8,2391,deck:match_poly,ds,degree sequence of G,False,6.358748,6.357912,0.000836
+chem_n8,2391,deck:match_poly,ds_sig,multiset of degree sequences of the cards,False,8.917921,8.917084,0.000836
+chem_n8,2391,deck:match_poly,et,multiset of edge degree-types of G,False,8.917921,8.917084,0.000836
+chem_n8,2391,deck:match_poly,so,Sombor index SO(G),False,8.917921,8.917084,0.000836
+chem_n8,2391,deck:match_poly,dd,multiset {Delta_e},False,10.910835,10.909998,0.000836
+chem_n8,2391,deck:match_poly,taus,number of spanning trees,False,7.991713,7.990876,0.000836
+chem_n8,2391,deck:match_poly,tri,number of triangles,False,2.711663,2.710826,0.000836
+chem_n8,2391,deck:match_poly,wiener,Wiener index,False,5.197528,5.196691,0.000836
+chem_n8,2391,deck:match_poly,n,order n,False,0.91807,0.917233,0.000836
+chem_n8,2391,deck:match_poly,m,size m,True,2.999555,2.999555,0.0
+chem_n8,2391,deck:match_poly,C,Sombor deletion correction C(G),False,8.917084,8.916248,0.000836
+chem_n8,2391,deck:taus,ds,degree sequence of G,False,6.358748,5.444355,0.914393
+chem_n8,2391,deck:taus,ds_sig,multiset of degree sequences of the cards,False,8.917921,7.418402,1.499519
+chem_n8,2391,deck:taus,et,multiset of edge degree-types of G,False,8.917921,7.418402,1.499519
+chem_n8,2391,deck:taus,so,Sombor index SO(G),False,8.917921,7.418402,1.499519
+chem_n8,2391,deck:taus,dd,multiset {Delta_e},False,10.910835,9.303079,1.607756
+chem_n8,2391,deck:taus,taus,number of spanning trees,True,7.991713,7.991713,0.0
+chem_n8,2391,deck:taus,tri,number of triangles,False,2.711663,2.709153,0.002509
+chem_n8,2391,deck:taus,wiener,Wiener index,False,5.197528,4.035728,1.1618
+chem_n8,2391,deck:taus,n,order n,True,0.91807,0.91807,0.0
+chem_n8,2391,deck:taus,m,size m,True,2.999555,2.999555,0.0
+chem_n8,2391,deck:taus,C,Sombor deletion correction C(G),False,8.917084,7.417565,1.499519
+chem_n8,2391,deck:sombor,ds,degree sequence of G,False,6.358748,6.357912,0.000836
+chem_n8,2391,deck:sombor,ds_sig,multiset of degree sequences of the cards,False,8.917921,8.917084,0.000836
+chem_n8,2391,deck:sombor,et,multiset of edge degree-types of G,False,8.917921,8.917084,0.000836
+chem_n8,2391,deck:sombor,so,Sombor index SO(G),False,8.917921,8.917084,0.000836
+chem_n8,2391,deck:sombor,dd,multiset {Delta_e},False,10.910835,10.909998,0.000836
+chem_n8,2391,deck:sombor,taus,number of spanning trees,False,7.991713,7.678312,0.3134
+chem_n8,2391,deck:sombor,tri,number of triangles,False,2.711663,2.442185,0.269477
+chem_n8,2391,deck:sombor,wiener,Wiener index,False,5.197528,5.004748,0.19278
+chem_n8,2391,deck:sombor,n,order n,False,0.91807,0.917233,0.000836
+chem_n8,2391,deck:sombor,m,size m,True,2.999555,2.999555,0.0
+chem_n8,2391,deck:sombor,C,Sombor deletion correction C(G),False,8.917084,8.916248,0.000836
+chem_n8,2391,deck:sombor_inv,ds,degree sequence of G,False,6.358748,6.357912,0.000836
+chem_n8,2391,deck:sombor_inv,ds_sig,multiset of degree sequences of the cards,False,8.917921,8.917084,0.000836
+chem_n8,2391,deck:sombor_inv,et,multiset of edge degree-types of G,False,8.917921,8.917084,0.000836
+chem_n8,2391,deck:sombor_inv,so,Sombor index SO(G),False,8.917921,8.917084,0.000836
+chem_n8,2391,deck:sombor_inv,dd,multiset {Delta_e},False,10.910835,10.909998,0.000836
+chem_n8,2391,deck:sombor_inv,taus,number of spanning trees,False,7.991713,7.678312,0.3134
+chem_n8,2391,deck:sombor_inv,tri,number of triangles,False,2.711663,2.442185,0.269477
+chem_n8,2391,deck:sombor_inv,wiener,Wiener index,False,5.197528,5.004748,0.19278
+chem_n8,2391,deck:sombor_inv,n,order n,False,0.91807,0.917233,0.000836
+chem_n8,2391,deck:sombor_inv,m,size m,True,2.999555,2.999555,0.0
+chem_n8,2391,deck:sombor_inv,C,Sombor deletion correction C(G),False,8.917084,8.916248,0.000836
+chem_n8,2391,deck:randic,ds,degree sequence of G,False,6.358748,6.357912,0.000836
+chem_n8,2391,deck:randic,ds_sig,multiset of degree sequences of the cards,False,8.917921,8.917084,0.000836
+chem_n8,2391,deck:randic,et,multiset of edge degree-types of G,False,8.917921,8.917084,0.000836
+chem_n8,2391,deck:randic,so,Sombor index SO(G),False,8.917921,8.917084,0.000836
+chem_n8,2391,deck:randic,dd,multiset {Delta_e},False,10.910835,10.909998,0.000836
+chem_n8,2391,deck:randic,taus,number of spanning trees,False,7.991713,7.678312,0.3134
+chem_n8,2391,deck:randic,tri,number of triangles,False,2.711663,2.442185,0.269477
+chem_n8,2391,deck:randic,wiener,Wiener index,False,5.197528,5.004748,0.19278
+chem_n8,2391,deck:randic,n,order n,False,0.91807,0.917233,0.000836
+chem_n8,2391,deck:randic,m,size m,True,2.999555,2.999555,0.0
+chem_n8,2391,deck:randic,C,Sombor deletion correction C(G),False,8.917084,8.916248,0.000836
+chem_n8,2391,deck:abc,ds,degree sequence of G,False,6.358748,6.357912,0.000836
+chem_n8,2391,deck:abc,ds_sig,multiset of degree sequences of the cards,False,8.917921,8.917084,0.000836
+chem_n8,2391,deck:abc,et,multiset of edge degree-types of G,False,8.917921,8.917084,0.000836
+chem_n8,2391,deck:abc,so,Sombor index SO(G),False,8.917921,8.917084,0.000836
+chem_n8,2391,deck:abc,dd,multiset {Delta_e},False,10.910835,10.909162,0.001673
+chem_n8,2391,deck:abc,taus,number of spanning trees,False,7.991713,7.677476,0.314237
+chem_n8,2391,deck:abc,tri,number of triangles,False,2.711663,2.442185,0.269477
+chem_n8,2391,deck:abc,wiener,Wiener index,False,5.197528,5.003911,0.193616
+chem_n8,2391,deck:abc,n,order n,False,0.91807,0.917233,0.000836
+chem_n8,2391,deck:abc,m,size m,True,2.999555,2.999555,0.0
+chem_n8,2391,deck:abc,C,Sombor deletion correction C(G),False,8.917084,8.916248,0.000836
+chem_n8,2391,deck:m1,ds,degree sequence of G,False,6.358748,6.243042,0.115706
+chem_n8,2391,deck:m1,ds_sig,multiset of degree sequences of the cards,False,8.917921,8.750483,0.167438
+chem_n8,2391,deck:m1,et,multiset of edge degree-types of G,False,8.917921,8.750483,0.167438
+chem_n8,2391,deck:m1,so,Sombor index SO(G),False,8.917921,8.750483,0.167438
+chem_n8,2391,deck:m1,dd,multiset {Delta_e},False,10.910835,8.750483,2.160352
+chem_n8,2391,deck:m1,taus,number of spanning trees,False,7.991713,5.70077,2.290943
+chem_n8,2391,deck:m1,tri,number of triangles,False,2.711663,1.350838,1.360825
+chem_n8,2391,deck:m1,wiener,Wiener index,False,5.197528,3.700192,1.497336
+chem_n8,2391,deck:m1,n,order n,False,0.91807,0.861194,0.056876
+chem_n8,2391,deck:m1,m,size m,True,2.999555,2.999555,0.0
+chem_n8,2391,deck:m1,C,Sombor deletion correction C(G),False,8.917084,8.749646,0.167438
+chem_n8,2391,deck:m2,ds,degree sequence of G,False,6.358748,6.357912,0.000836
+chem_n8,2391,deck:m2,ds_sig,multiset of degree sequences of the cards,False,8.917921,8.917084,0.000836
+chem_n8,2391,deck:m2,et,multiset of edge degree-types of G,False,8.917921,8.917084,0.000836
+chem_n8,2391,deck:m2,so,Sombor index SO(G),False,8.917921,8.917084,0.000836
+chem_n8,2391,deck:m2,dd,multiset {Delta_e},False,10.910835,10.878827,0.032007
+chem_n8,2391,deck:m2,taus,number of spanning trees,False,7.991713,7.647142,0.344571
+chem_n8,2391,deck:m2,tri,number of triangles,False,2.711663,2.420011,0.291652
+chem_n8,2391,deck:m2,wiener,Wiener index,False,5.197528,4.976923,0.220605
+chem_n8,2391,deck:m2,n,order n,False,0.91807,0.917233,0.000836
+chem_n8,2391,deck:m2,m,size m,True,2.999555,2.999555,0.0
+chem_n8,2391,deck:m2,C,Sombor deletion correction C(G),False,8.917084,8.916248,0.000836
+chem_n8,2391,deck:wiener,ds,degree sequence of G,False,6.358748,6.287948,0.070801
+chem_n8,2391,deck:wiener,ds_sig,multiset of degree sequences of the cards,False,8.917921,8.818569,0.099351
+chem_n8,2391,deck:wiener,et,multiset of edge degree-types of G,False,8.917921,8.818569,0.099351
+chem_n8,2391,deck:wiener,so,Sombor index SO(G),False,8.917921,8.818569,0.099351
+chem_n8,2391,deck:wiener,dd,multiset {Delta_e},False,10.910835,10.792765,0.118069
+chem_n8,2391,deck:wiener,taus,number of spanning trees,False,7.991713,7.872807,0.118906
+chem_n8,2391,deck:wiener,tri,number of triangles,False,2.711663,2.635212,0.076451
+chem_n8,2391,deck:wiener,wiener,Wiener index,False,5.197528,5.196691,0.000836
+chem_n8,2391,deck:wiener,n,order n,False,0.91807,0.917233,0.000836
+chem_n8,2391,deck:wiener,m,size m,True,2.999555,2.999555,0.0
+chem_n8,2391,deck:wiener,C,Sombor deletion correction C(G),False,8.917084,8.817733,0.099351
+chem_n8,2391,deck:adj_spec,ds,degree sequence of G,True,6.358748,6.358748,0.0
+chem_n8,2391,deck:adj_spec,ds_sig,multiset of degree sequences of the cards,True,8.917921,8.917921,0.0
+chem_n8,2391,deck:adj_spec,et,multiset of edge degree-types of G,True,8.917921,8.917921,0.0
+chem_n8,2391,deck:adj_spec,so,Sombor index SO(G),True,8.917921,8.917921,0.0
+chem_n8,2391,deck:adj_spec,dd,multiset {Delta_e},True,10.910835,10.910835,0.0
+chem_n8,2391,deck:adj_spec,taus,number of spanning trees,True,7.991713,7.991713,0.0
+chem_n8,2391,deck:adj_spec,tri,number of triangles,True,2.711663,2.711663,0.0
+chem_n8,2391,deck:adj_spec,wiener,Wiener index,True,5.197528,5.197528,0.0
+chem_n8,2391,deck:adj_spec,n,order n,True,0.91807,0.91807,0.0
+chem_n8,2391,deck:adj_spec,m,size m,True,2.999555,2.999555,0.0
+chem_n8,2391,deck:adj_spec,C,Sombor deletion correction C(G),True,8.917084,8.917084,0.0
+chem_n8,2391,deck:lap_spec,ds,degree sequence of G,True,6.358748,6.358748,0.0
+chem_n8,2391,deck:lap_spec,ds_sig,multiset of degree sequences of the cards,True,8.917921,8.917921,0.0
+chem_n8,2391,deck:lap_spec,et,multiset of edge degree-types of G,True,8.917921,8.917921,0.0
+chem_n8,2391,deck:lap_spec,so,Sombor index SO(G),True,8.917921,8.917921,0.0
+chem_n8,2391,deck:lap_spec,dd,multiset {Delta_e},True,10.910835,10.910835,0.0
+chem_n8,2391,deck:lap_spec,taus,number of spanning trees,True,7.991713,7.991713,0.0
+chem_n8,2391,deck:lap_spec,tri,number of triangles,True,2.711663,2.711663,0.0
+chem_n8,2391,deck:lap_spec,wiener,Wiener index,True,5.197528,5.197528,0.0
+chem_n8,2391,deck:lap_spec,n,order n,True,0.91807,0.91807,0.0
+chem_n8,2391,deck:lap_spec,m,size m,True,2.999555,2.999555,0.0
+chem_n8,2391,deck:lap_spec,C,Sombor deletion correction C(G),True,8.917084,8.917084,0.0
+chem_n8,2391,deck:q_spec,ds,degree sequence of G,True,6.358748,6.358748,0.0
+chem_n8,2391,deck:q_spec,ds_sig,multiset of degree sequences of the cards,True,8.917921,8.917921,0.0
+chem_n8,2391,deck:q_spec,et,multiset of edge degree-types of G,True,8.917921,8.917921,0.0
+chem_n8,2391,deck:q_spec,so,Sombor index SO(G),True,8.917921,8.917921,0.0
+chem_n8,2391,deck:q_spec,dd,multiset {Delta_e},True,10.910835,10.910835,0.0
+chem_n8,2391,deck:q_spec,taus,number of spanning trees,True,7.991713,7.991713,0.0
+chem_n8,2391,deck:q_spec,tri,number of triangles,True,2.711663,2.711663,0.0
+chem_n8,2391,deck:q_spec,wiener,Wiener index,True,5.197528,5.197528,0.0
+chem_n8,2391,deck:q_spec,n,order n,True,0.91807,0.91807,0.0
+chem_n8,2391,deck:q_spec,m,size m,True,2.999555,2.999555,0.0
+chem_n8,2391,deck:q_spec,C,Sombor deletion correction C(G),True,8.917084,8.917084,0.0
+chem_n8,2391,deck:adj_charpoly,ds,degree sequence of G,True,6.358748,6.358748,0.0
+chem_n8,2391,deck:adj_charpoly,ds_sig,multiset of degree sequences of the cards,True,8.917921,8.917921,0.0
+chem_n8,2391,deck:adj_charpoly,et,multiset of edge degree-types of G,True,8.917921,8.917921,0.0
+chem_n8,2391,deck:adj_charpoly,so,Sombor index SO(G),True,8.917921,8.917921,0.0
+chem_n8,2391,deck:adj_charpoly,dd,multiset {Delta_e},True,10.910835,10.910835,0.0
+chem_n8,2391,deck:adj_charpoly,taus,number of spanning trees,True,7.991713,7.991713,0.0
+chem_n8,2391,deck:adj_charpoly,tri,number of triangles,True,2.711663,2.711663,0.0
+chem_n8,2391,deck:adj_charpoly,wiener,Wiener index,True,5.197528,5.197528,0.0
+chem_n8,2391,deck:adj_charpoly,n,order n,True,0.91807,0.91807,0.0
+chem_n8,2391,deck:adj_charpoly,m,size m,True,2.999555,2.999555,0.0
+chem_n8,2391,deck:adj_charpoly,C,Sombor deletion correction C(G),True,8.917084,8.917084,0.0
+chem_n8,2391,deck:lap_charpoly,ds,degree sequence of G,True,6.358748,6.358748,0.0
+chem_n8,2391,deck:lap_charpoly,ds_sig,multiset of degree sequences of the cards,True,8.917921,8.917921,0.0
+chem_n8,2391,deck:lap_charpoly,et,multiset of edge degree-types of G,True,8.917921,8.917921,0.0
+chem_n8,2391,deck:lap_charpoly,so,Sombor index SO(G),True,8.917921,8.917921,0.0
+chem_n8,2391,deck:lap_charpoly,dd,multiset {Delta_e},True,10.910835,10.910835,0.0
+chem_n8,2391,deck:lap_charpoly,taus,number of spanning trees,True,7.991713,7.991713,0.0
+chem_n8,2391,deck:lap_charpoly,tri,number of triangles,True,2.711663,2.711663,0.0
+chem_n8,2391,deck:lap_charpoly,wiener,Wiener index,True,5.197528,5.197528,0.0
+chem_n8,2391,deck:lap_charpoly,n,order n,True,0.91807,0.91807,0.0
+chem_n8,2391,deck:lap_charpoly,m,size m,True,2.999555,2.999555,0.0
+chem_n8,2391,deck:lap_charpoly,C,Sombor deletion correction C(G),True,8.917084,8.917084,0.0
+chem_n8,2391,deck:energy,ds,degree sequence of G,False,6.358748,6.357912,0.000836
+chem_n8,2391,deck:energy,ds_sig,multiset of degree sequences of the cards,False,8.917921,8.917084,0.000836
+chem_n8,2391,deck:energy,et,multiset of edge degree-types of G,False,8.917921,8.917084,0.000836
+chem_n8,2391,deck:energy,so,Sombor index SO(G),False,8.917921,8.917084,0.000836
+chem_n8,2391,deck:energy,dd,multiset {Delta_e},False,10.910835,10.909998,0.000836
+chem_n8,2391,deck:energy,taus,number of spanning trees,False,7.991713,7.990876,0.000836
+chem_n8,2391,deck:energy,tri,number of triangles,False,2.711663,2.710826,0.000836
+chem_n8,2391,deck:energy,wiener,Wiener index,False,5.197528,5.196691,0.000836
+chem_n8,2391,deck:energy,n,order n,False,0.91807,0.917233,0.000836
+chem_n8,2391,deck:energy,m,size m,True,2.999555,2.999555,0.0
+chem_n8,2391,deck:energy,C,Sombor deletion correction C(G),False,8.917084,8.916248,0.000836
+conn_n8,12113,deck:deg_seq,ds,degree sequence of G,True,8.780348,8.780348,0.0
+conn_n8,12113,deck:deg_seq,ds_sig,multiset of degree sequences of the cards,True,11.849712,11.849712,0.0
+conn_n8,12113,deck:deg_seq,et,multiset of edge degree-types of G,True,11.849712,11.849712,0.0
+conn_n8,12113,deck:deg_seq,so,Sombor index SO(G),True,11.849712,11.849712,0.0
+conn_n8,12113,deck:deg_seq,dd,multiset {Delta_e},False,13.42249,11.849712,1.572778
+conn_n8,12113,deck:deg_seq,taus,number of spanning trees,False,10.733699,9.088125,1.645574
+conn_n8,12113,deck:deg_seq,tri,number of triangles,False,4.228454,3.275343,0.953111
+conn_n8,12113,deck:deg_seq,wiener,Wiener index,False,4.662157,3.96816,0.693997
+conn_n8,12113,deck:deg_seq,n,order n,True,0.471299,0.471299,0.0
+conn_n8,12113,deck:deg_seq,m,size m,True,3.615142,3.615142,0.0
+conn_n8,12113,deck:deg_seq,C,Sombor deletion correction C(G),True,11.849547,11.849547,0.0
+conn_n8,12113,deck:edge_types,ds,degree sequence of G,False,8.780348,8.780183,0.000165
+conn_n8,12113,deck:edge_types,ds_sig,multiset of degree sequences of the cards,False,11.849712,11.849547,0.000165
+conn_n8,12113,deck:edge_types,et,multiset of edge degree-types of G,False,11.849712,11.849547,0.000165
+conn_n8,12113,deck:edge_types,so,Sombor index SO(G),False,11.849712,11.849547,0.000165
+conn_n8,12113,deck:edge_types,dd,multiset {Delta_e},False,13.42249,13.422325,0.000165
+conn_n8,12113,deck:edge_types,taus,number of spanning trees,False,10.733699,10.591756,0.141943
+conn_n8,12113,deck:edge_types,tri,number of triangles,False,4.228454,4.103355,0.125099
+conn_n8,12113,deck:edge_types,wiener,Wiener index,False,4.662157,4.600885,0.061273
+conn_n8,12113,deck:edge_types,n,order n,False,0.471299,0.471134,0.000165
+conn_n8,12113,deck:edge_types,m,size m,True,3.615142,3.615142,0.0
+conn_n8,12113,deck:edge_types,C,Sombor deletion correction C(G),False,11.849547,11.849382,0.000165
+conn_n8,12113,deck:n_comp,ds,degree sequence of G,False,8.780348,4.510865,4.269483
+conn_n8,12113,deck:n_comp,ds_sig,multiset of degree sequences of the cards,False,11.849712,4.642647,7.207065
+conn_n8,12113,deck:n_comp,et,multiset of edge degree-types of G,False,11.849712,4.642647,7.207065
+conn_n8,12113,deck:n_comp,so,Sombor index SO(G),False,11.849712,4.642647,7.207065
+conn_n8,12113,deck:n_comp,dd,multiset {Delta_e},False,13.42249,4.680041,8.742449
+conn_n8,12113,deck:n_comp,taus,number of spanning trees,False,10.733699,4.008255,6.725444
+conn_n8,12113,deck:n_comp,tri,number of triangles,False,4.228454,1.664464,2.56399
+conn_n8,12113,deck:n_comp,wiener,Wiener index,False,4.662157,2.439707,2.22245
+conn_n8,12113,deck:n_comp,n,order n,False,0.471299,0.178917,0.292382
+conn_n8,12113,deck:n_comp,m,size m,True,3.615142,3.615142,0.0
+conn_n8,12113,deck:n_comp,C,Sombor deletion correction C(G),False,11.849547,4.642482,7.207065
+conn_n8,12113,deck:comp_sizes,ds,degree sequence of G,False,8.780348,4.967175,3.813172
+conn_n8,12113,deck:comp_sizes,ds_sig,multiset of degree sequences of the cards,False,11.849712,5.129827,6.719885
+conn_n8,12113,deck:comp_sizes,et,multiset of edge degree-types of G,False,11.849712,5.129827,6.719885
+conn_n8,12113,deck:comp_sizes,so,Sombor index SO(G),False,11.849712,5.129827,6.719885
+conn_n8,12113,deck:comp_sizes,dd,multiset {Delta_e},False,13.42249,5.16943,8.253061
+conn_n8,12113,deck:comp_sizes,taus,number of spanning trees,False,10.733699,4.229915,6.503785
+conn_n8,12113,deck:comp_sizes,tri,number of triangles,False,4.228454,1.874173,2.354281
+conn_n8,12113,deck:comp_sizes,wiener,Wiener index,False,4.662157,2.872495,1.789662
+conn_n8,12113,deck:comp_sizes,n,order n,True,0.471299,0.471299,0.0
+conn_n8,12113,deck:comp_sizes,m,size m,True,3.615142,3.615142,0.0
+conn_n8,12113,deck:comp_sizes,C,Sombor deletion correction C(G),False,11.849547,5.129662,6.719885
+conn_n8,12113,deck:tri,ds,degree sequence of G,False,8.780348,6.02095,2.759398
+conn_n8,12113,deck:tri,ds_sig,multiset of degree sequences of the cards,False,11.849712,8.070267,3.779445
+conn_n8,12113,deck:tri,et,multiset of edge degree-types of G,False,11.849712,8.070267,3.779445
+conn_n8,12113,deck:tri,so,Sombor index SO(G),False,11.849712,8.070267,3.779445
+conn_n8,12113,deck:tri,dd,multiset {Delta_e},False,13.42249,9.405593,4.016897
+conn_n8,12113,deck:tri,taus,number of spanning trees,False,10.733699,7.987893,2.745806
+conn_n8,12113,deck:tri,tri,number of triangles,False,4.228454,4.228227,0.000227
+conn_n8,12113,deck:tri,wiener,Wiener index,False,4.662157,2.828923,1.833234
+conn_n8,12113,deck:tri,n,order n,False,0.471299,0.298559,0.172741
+conn_n8,12113,deck:tri,m,size m,True,3.615142,3.615142,0.0
+conn_n8,12113,deck:tri,C,Sombor deletion correction C(G),False,11.849547,8.070102,3.779445
+conn_n8,12113,deck:clique,ds,degree sequence of G,False,8.780348,4.21746,4.562887
+conn_n8,12113,deck:clique,ds_sig,multiset of degree sequences of the cards,False,11.849712,5.011342,6.83837
+conn_n8,12113,deck:clique,et,multiset of edge degree-types of G,False,11.849712,5.011342,6.83837
+conn_n8,12113,deck:clique,so,Sombor index SO(G),False,11.849712,5.011342,6.83837
+conn_n8,12113,deck:clique,dd,multiset {Delta_e},False,13.42249,5.653693,7.768798
+conn_n8,12113,deck:clique,taus,number of spanning trees,False,10.733699,4.587194,6.146506
+conn_n8,12113,deck:clique,tri,number of triangles,False,4.228454,2.469744,1.75871
+conn_n8,12113,deck:clique,wiener,Wiener index,False,4.662157,2.398048,2.264109
+conn_n8,12113,deck:clique,n,order n,False,0.471299,0.185579,0.28572
+conn_n8,12113,deck:clique,m,size m,True,3.615142,3.615142,0.0
+conn_n8,12113,deck:clique,C,Sombor deletion correction C(G),False,11.849547,5.011177,6.83837
+conn_n8,12113,deck:chrom,ds,degree sequence of G,False,8.780348,4.322723,4.457625
+conn_n8,12113,deck:chrom,ds_sig,multiset of degree sequences of the cards,False,11.849712,5.247072,6.60264
+conn_n8,12113,deck:chrom,et,multiset of edge degree-types of G,False,11.849712,5.247072,6.60264
+conn_n8,12113,deck:chrom,so,Sombor index SO(G),False,11.849712,5.247072,6.60264
+conn_n8,12113,deck:chrom,dd,multiset {Delta_e},False,13.42249,5.99394,7.428551
+conn_n8,12113,deck:chrom,taus,number of spanning trees,False,10.733699,4.883531,5.850169
+conn_n8,12113,deck:chrom,tri,number of triangles,False,4.228454,2.376194,1.85226
+conn_n8,12113,deck:chrom,wiener,Wiener index,False,4.662157,2.423365,2.238792
+conn_n8,12113,deck:chrom,n,order n,False,0.471299,0.200778,0.270522
+conn_n8,12113,deck:chrom,m,size m,True,3.615142,3.615142,0.0
+conn_n8,12113,deck:chrom,C,Sombor deletion correction C(G),False,11.849547,5.246907,6.60264
+conn_n8,12113,deck:girth,ds,degree sequence of G,False,8.780348,3.768624,5.011723
+conn_n8,12113,deck:girth,ds_sig,multiset of degree sequences of the cards,False,11.849712,3.951225,7.898487
+conn_n8,12113,deck:girth,et,multiset of edge degree-types of G,False,11.849712,3.951225,7.898487
+conn_n8,12113,deck:girth,so,Sombor index SO(G),False,11.849712,3.951225,7.898487
+conn_n8,12113,deck:girth,dd,multiset {Delta_e},False,13.42249,4.170282,9.252208
+conn_n8,12113,deck:girth,taus,number of spanning trees,False,10.733699,3.484051,7.249648
+conn_n8,12113,deck:girth,tri,number of triangles,False,4.228454,1.761691,2.466763
+conn_n8,12113,deck:girth,wiener,Wiener index,False,4.662157,2.303293,2.358865
+conn_n8,12113,deck:girth,n,order n,False,0.471299,0.165607,0.305693
+conn_n8,12113,deck:girth,m,size m,True,3.615142,3.615142,0.0
+conn_n8,12113,deck:girth,C,Sombor deletion correction C(G),False,11.849547,3.95106,7.898487
+conn_n8,12113,deck:n_bridges,ds,degree sequence of G,False,8.780348,5.805391,2.974956
+conn_n8,12113,deck:n_bridges,ds_sig,multiset of degree sequences of the cards,False,11.849712,6.373187,5.476525
+conn_n8,12113,deck:n_bridges,et,multiset of edge degree-types of G,False,11.849712,6.373187,5.476525
+conn_n8,12113,deck:n_bridges,so,Sombor index SO(G),False,11.849712,6.373187,5.476525
+conn_n8,12113,deck:n_bridges,dd,multiset {Delta_e},False,13.42249,6.536147,6.886343
+conn_n8,12113,deck:n_bridges,taus,number of spanning trees,False,10.733699,5.47779,5.255909
+conn_n8,12113,deck:n_bridges,tri,number of triangles,False,4.228454,2.193462,2.034992
+conn_n8,12113,deck:n_bridges,wiener,Wiener index,False,4.662157,2.742927,1.91923
+conn_n8,12113,deck:n_bridges,n,order n,False,0.471299,0.312059,0.15924
+conn_n8,12113,deck:n_bridges,m,size m,True,3.615142,3.615142,0.0
+conn_n8,12113,deck:n_bridges,C,Sombor deletion correction C(G),False,11.849547,6.373022,5.476525
+conn_n8,12113,deck:n_cut,ds,degree sequence of G,False,8.780348,6.051878,2.72847
+conn_n8,12113,deck:n_cut,ds_sig,multiset of degree sequences of the cards,False,11.849712,6.987004,4.862708
+conn_n8,12113,deck:n_cut,et,multiset of edge degree-types of G,False,11.849712,6.987004,4.862708
+conn_n8,12113,deck:n_cut,so,Sombor index SO(G),False,11.849712,6.987004,4.862708
+conn_n8,12113,deck:n_cut,dd,multiset {Delta_e},False,13.42249,7.424071,5.99842
+conn_n8,12113,deck:n_cut,taus,number of spanning trees,False,10.733699,5.701664,5.032035
+conn_n8,12113,deck:n_cut,tri,number of triangles,False,4.228454,2.345242,1.883212
+conn_n8,12113,deck:n_cut,wiener,Wiener index,False,4.662157,3.082995,1.579162
+conn_n8,12113,deck:n_cut,n,order n,False,0.471299,0.299733,0.171566
+conn_n8,12113,deck:n_cut,m,size m,True,3.615142,3.615142,0.0
+conn_n8,12113,deck:n_cut,C,Sombor deletion correction C(G),False,11.849547,6.986839,4.862708
+conn_n8,12113,deck:diam,ds,degree sequence of G,False,8.780348,5.255078,3.52527
+conn_n8,12113,deck:diam,ds_sig,multiset of degree sequences of the cards,False,11.849712,6.636622,5.21309
+conn_n8,12113,deck:diam,et,multiset of edge degree-types of G,False,11.849712,6.636622,5.21309
+conn_n8,12113,deck:diam,so,Sombor index SO(G),False,11.849712,6.636622,5.21309
+conn_n8,12113,deck:diam,dd,multiset {Delta_e},False,13.42249,7.570265,5.852225
+conn_n8,12113,deck:diam,taus,number of spanning trees,False,10.733699,5.405489,5.32821
+conn_n8,12113,deck:diam,tri,number of triangles,False,4.228454,1.94563,2.282824
+conn_n8,12113,deck:diam,wiener,Wiener index,False,4.662157,3.604341,1.057816
+conn_n8,12113,deck:diam,n,order n,False,0.471299,0.34875,0.122549
+conn_n8,12113,deck:diam,m,size m,True,3.615142,3.615142,0.0
+conn_n8,12113,deck:diam,C,Sombor deletion correction C(G),False,11.849547,6.636457,5.21309
+conn_n8,12113,deck:dist_dist,ds,degree sequence of G,False,8.780348,7.304432,1.475916
+conn_n8,12113,deck:dist_dist,ds_sig,multiset of degree sequences of the cards,False,11.849712,9.903071,1.946641
+conn_n8,12113,deck:dist_dist,et,multiset of edge degree-types of G,False,11.849712,9.903071,1.946641
+conn_n8,12113,deck:dist_dist,so,Sombor index SO(G),False,11.849712,9.903071,1.946641
+conn_n8,12113,deck:dist_dist,dd,multiset {Delta_e},False,13.42249,11.321197,2.101294
+conn_n8,12113,deck:dist_dist,taus,number of spanning trees,False,10.733699,8.677366,2.056333
+conn_n8,12113,deck:dist_dist,tri,number of triangles,False,4.228454,3.150615,1.077839
+conn_n8,12113,deck:dist_dist,wiener,Wiener index,False,4.662157,4.661434,0.000723
+conn_n8,12113,deck:dist_dist,n,order n,False,0.471299,0.471134,0.000165
+conn_n8,12113,deck:dist_dist,m,size m,True,3.615142,3.615142,0.0
+conn_n8,12113,deck:dist_dist,C,Sombor deletion correction C(G),False,11.849547,9.902906,1.946641
+conn_n8,12113,deck:match_poly,ds,degree sequence of G,False,8.780348,8.779852,0.000495
+conn_n8,12113,deck:match_poly,ds_sig,multiset of degree sequences of the cards,False,11.849712,11.849217,0.000495
+conn_n8,12113,deck:match_poly,et,multiset of edge degree-types of G,False,11.849712,11.849217,0.000495
+conn_n8,12113,deck:match_poly,so,Sombor index SO(G),False,11.849712,11.849217,0.000495
+conn_n8,12113,deck:match_poly,dd,multiset {Delta_e},False,13.42249,13.421995,0.000495
+conn_n8,12113,deck:match_poly,taus,number of spanning trees,False,10.733699,10.733204,0.000495
+conn_n8,12113,deck:match_poly,tri,number of triangles,False,4.228454,4.227959,0.000495
+conn_n8,12113,deck:match_poly,wiener,Wiener index,False,4.662157,4.661662,0.000495
+conn_n8,12113,deck:match_poly,n,order n,False,0.471299,0.471134,0.000165
+conn_n8,12113,deck:match_poly,m,size m,True,3.615142,3.615142,0.0
+conn_n8,12113,deck:match_poly,C,Sombor deletion correction C(G),False,11.849547,11.849052,0.000495
+conn_n8,12113,deck:taus,ds,degree sequence of G,False,8.780348,7.926552,0.853795
+conn_n8,12113,deck:taus,ds_sig,multiset of degree sequences of the cards,False,11.849712,10.706643,1.143069
+conn_n8,12113,deck:taus,et,multiset of edge degree-types of G,False,11.849712,10.706643,1.143069
+conn_n8,12113,deck:taus,so,Sombor index SO(G),False,11.849712,10.706643,1.143069
+conn_n8,12113,deck:taus,dd,multiset {Delta_e},False,13.42249,12.238283,1.184207
+conn_n8,12113,deck:taus,taus,number of spanning trees,True,10.733699,10.733699,0.0
+conn_n8,12113,deck:taus,tri,number of triangles,False,4.228454,4.226946,0.001508
+conn_n8,12113,deck:taus,wiener,Wiener index,False,4.662157,3.774756,0.887401
+conn_n8,12113,deck:taus,n,order n,True,0.471299,0.471299,0.0
+conn_n8,12113,deck:taus,m,size m,True,3.615142,3.615142,0.0
+conn_n8,12113,deck:taus,C,Sombor deletion correction C(G),False,11.849547,10.706478,1.143069
+conn_n8,12113,deck:sombor,ds,degree sequence of G,False,8.780348,8.780183,0.000165
+conn_n8,12113,deck:sombor,ds_sig,multiset of degree sequences of the cards,False,11.849712,11.849547,0.000165
+conn_n8,12113,deck:sombor,et,multiset of edge degree-types of G,False,11.849712,11.849547,0.000165
+conn_n8,12113,deck:sombor,so,Sombor index SO(G),False,11.849712,11.849547,0.000165
+conn_n8,12113,deck:sombor,dd,multiset {Delta_e},False,13.42249,13.422325,0.000165
+conn_n8,12113,deck:sombor,taus,number of spanning trees,False,10.733699,10.591756,0.141943
+conn_n8,12113,deck:sombor,tri,number of triangles,False,4.228454,4.103355,0.125099
+conn_n8,12113,deck:sombor,wiener,Wiener index,False,4.662157,4.600885,0.061273
+conn_n8,12113,deck:sombor,n,order n,False,0.471299,0.471134,0.000165
+conn_n8,12113,deck:sombor,m,size m,True,3.615142,3.615142,0.0
+conn_n8,12113,deck:sombor,C,Sombor deletion correction C(G),False,11.849547,11.849382,0.000165
+conn_n8,12113,deck:sombor_inv,ds,degree sequence of G,False,8.780348,8.780183,0.000165
+conn_n8,12113,deck:sombor_inv,ds_sig,multiset of degree sequences of the cards,False,11.849712,11.849547,0.000165
+conn_n8,12113,deck:sombor_inv,et,multiset of edge degree-types of G,False,11.849712,11.849547,0.000165
+conn_n8,12113,deck:sombor_inv,so,Sombor index SO(G),False,11.849712,11.849547,0.000165
+conn_n8,12113,deck:sombor_inv,dd,multiset {Delta_e},False,13.42249,13.422325,0.000165
+conn_n8,12113,deck:sombor_inv,taus,number of spanning trees,False,10.733699,10.591756,0.141943
+conn_n8,12113,deck:sombor_inv,tri,number of triangles,False,4.228454,4.103355,0.125099
+conn_n8,12113,deck:sombor_inv,wiener,Wiener index,False,4.662157,4.600885,0.061273
+conn_n8,12113,deck:sombor_inv,n,order n,False,0.471299,0.471134,0.000165
+conn_n8,12113,deck:sombor_inv,m,size m,True,3.615142,3.615142,0.0
+conn_n8,12113,deck:sombor_inv,C,Sombor deletion correction C(G),False,11.849547,11.849382,0.000165
+conn_n8,12113,deck:randic,ds,degree sequence of G,False,8.780348,8.780183,0.000165
+conn_n8,12113,deck:randic,ds_sig,multiset of degree sequences of the cards,False,11.849712,11.849547,0.000165
+conn_n8,12113,deck:randic,et,multiset of edge degree-types of G,False,11.849712,11.849547,0.000165
+conn_n8,12113,deck:randic,so,Sombor index SO(G),False,11.849712,11.849547,0.000165
+conn_n8,12113,deck:randic,dd,multiset {Delta_e},False,13.42249,13.422325,0.000165
+conn_n8,12113,deck:randic,taus,number of spanning trees,False,10.733699,10.591756,0.141943
+conn_n8,12113,deck:randic,tri,number of triangles,False,4.228454,4.103355,0.125099
+conn_n8,12113,deck:randic,wiener,Wiener index,False,4.662157,4.600885,0.061273
+conn_n8,12113,deck:randic,n,order n,False,0.471299,0.471134,0.000165
+conn_n8,12113,deck:randic,m,size m,True,3.615142,3.615142,0.0
+conn_n8,12113,deck:randic,C,Sombor deletion correction C(G),False,11.849547,11.849382,0.000165
+conn_n8,12113,deck:abc,ds,degree sequence of G,False,8.780348,8.780183,0.000165
+conn_n8,12113,deck:abc,ds_sig,multiset of degree sequences of the cards,False,11.849712,11.849547,0.000165
+conn_n8,12113,deck:abc,et,multiset of edge degree-types of G,False,11.849712,11.849547,0.000165
+conn_n8,12113,deck:abc,so,Sombor index SO(G),False,11.849712,11.849547,0.000165
+conn_n8,12113,deck:abc,dd,multiset {Delta_e},False,13.42249,13.42216,0.00033
+conn_n8,12113,deck:abc,taus,number of spanning trees,False,10.733699,10.591591,0.142109
+conn_n8,12113,deck:abc,tri,number of triangles,False,4.228454,4.103355,0.125099
+conn_n8,12113,deck:abc,wiener,Wiener index,False,4.662157,4.60072,0.061438
+conn_n8,12113,deck:abc,n,order n,False,0.471299,0.471134,0.000165
+conn_n8,12113,deck:abc,m,size m,True,3.615142,3.615142,0.0
+conn_n8,12113,deck:abc,C,Sombor deletion correction C(G),False,11.849547,11.849382,0.000165
+conn_n8,12113,deck:m1,ds,degree sequence of G,False,8.780348,8.658153,0.122195
+conn_n8,12113,deck:m1,ds_sig,multiset of degree sequences of the cards,False,11.849712,11.598646,0.251066
+conn_n8,12113,deck:m1,et,multiset of edge degree-types of G,False,11.849712,11.598646,0.251066
+conn_n8,12113,deck:m1,so,Sombor index SO(G),False,11.849712,11.598646,0.251066
+conn_n8,12113,deck:m1,dd,multiset {Delta_e},False,13.42249,11.598646,1.823844
+conn_n8,12113,deck:m1,taus,number of spanning trees,False,10.733699,8.852987,1.880712
+conn_n8,12113,deck:m1,tri,number of triangles,False,4.228454,3.18662,1.041834
+conn_n8,12113,deck:m1,wiener,Wiener index,False,4.662157,3.841129,0.821028
+conn_n8,12113,deck:m1,n,order n,False,0.471299,0.443153,0.028146
+conn_n8,12113,deck:m1,m,size m,True,3.615142,3.615142,0.0
+conn_n8,12113,deck:m1,C,Sombor deletion correction C(G),False,11.849547,11.598481,0.251066
+conn_n8,12113,deck:m2,ds,degree sequence of G,False,8.780348,8.780183,0.000165
+conn_n8,12113,deck:m2,ds_sig,multiset of degree sequences of the cards,False,11.849712,11.849547,0.000165
+conn_n8,12113,deck:m2,et,multiset of edge degree-types of G,False,11.849712,11.849547,0.000165
+conn_n8,12113,deck:m2,so,Sombor index SO(G),False,11.849712,11.849547,0.000165
+conn_n8,12113,deck:m2,dd,multiset {Delta_e},False,13.42249,13.405312,0.017178
+conn_n8,12113,deck:m2,taus,number of spanning trees,False,10.733699,10.574908,0.158791
+conn_n8,12113,deck:m2,tri,number of triangles,False,4.228454,4.091215,0.137239
+conn_n8,12113,deck:m2,wiener,Wiener index,False,4.662157,4.589445,0.072712
+conn_n8,12113,deck:m2,n,order n,False,0.471299,0.471134,0.000165
+conn_n8,12113,deck:m2,m,size m,True,3.615142,3.615142,0.0
+conn_n8,12113,deck:m2,C,Sombor deletion correction C(G),False,11.849547,11.849382,0.000165
+conn_n8,12113,deck:wiener,ds,degree sequence of G,False,8.780348,7.289805,1.490543
+conn_n8,12113,deck:wiener,ds_sig,multiset of degree sequences of the cards,False,11.849712,9.884852,1.96486
+conn_n8,12113,deck:wiener,et,multiset of edge degree-types of G,False,11.849712,9.884852,1.96486
+conn_n8,12113,deck:wiener,so,Sombor index SO(G),False,11.849712,9.884852,1.96486
+conn_n8,12113,deck:wiener,dd,multiset {Delta_e},False,13.42249,11.302482,2.120008
+conn_n8,12113,deck:wiener,taus,number of spanning trees,False,10.733699,8.658817,2.074882
+conn_n8,12113,deck:wiener,tri,number of triangles,False,4.228454,3.138384,1.09007
+conn_n8,12113,deck:wiener,wiener,Wiener index,False,4.662157,4.661434,0.000723
+conn_n8,12113,deck:wiener,n,order n,False,0.471299,0.471134,0.000165
+conn_n8,12113,deck:wiener,m,size m,True,3.615142,3.615142,0.0
+conn_n8,12113,deck:wiener,C,Sombor deletion correction C(G),False,11.849547,9.884687,1.96486
+conn_n8,12113,deck:adj_spec,ds,degree sequence of G,True,8.780348,8.780348,0.0
+conn_n8,12113,deck:adj_spec,ds_sig,multiset of degree sequences of the cards,True,11.849712,11.849712,0.0
+conn_n8,12113,deck:adj_spec,et,multiset of edge degree-types of G,True,11.849712,11.849712,0.0
+conn_n8,12113,deck:adj_spec,so,Sombor index SO(G),True,11.849712,11.849712,0.0
+conn_n8,12113,deck:adj_spec,dd,multiset {Delta_e},True,13.42249,13.42249,0.0
+conn_n8,12113,deck:adj_spec,taus,number of spanning trees,True,10.733699,10.733699,0.0
+conn_n8,12113,deck:adj_spec,tri,number of triangles,True,4.228454,4.228454,0.0
+conn_n8,12113,deck:adj_spec,wiener,Wiener index,True,4.662157,4.662157,0.0
+conn_n8,12113,deck:adj_spec,n,order n,True,0.471299,0.471299,0.0
+conn_n8,12113,deck:adj_spec,m,size m,True,3.615142,3.615142,0.0
+conn_n8,12113,deck:adj_spec,C,Sombor deletion correction C(G),True,11.849547,11.849547,0.0
+conn_n8,12113,deck:lap_spec,ds,degree sequence of G,True,8.780348,8.780348,0.0
+conn_n8,12113,deck:lap_spec,ds_sig,multiset of degree sequences of the cards,True,11.849712,11.849712,0.0
+conn_n8,12113,deck:lap_spec,et,multiset of edge degree-types of G,True,11.849712,11.849712,0.0
+conn_n8,12113,deck:lap_spec,so,Sombor index SO(G),True,11.849712,11.849712,0.0
+conn_n8,12113,deck:lap_spec,dd,multiset {Delta_e},True,13.42249,13.42249,0.0
+conn_n8,12113,deck:lap_spec,taus,number of spanning trees,True,10.733699,10.733699,0.0
+conn_n8,12113,deck:lap_spec,tri,number of triangles,True,4.228454,4.228454,0.0
+conn_n8,12113,deck:lap_spec,wiener,Wiener index,True,4.662157,4.662157,0.0
+conn_n8,12113,deck:lap_spec,n,order n,True,0.471299,0.471299,0.0
+conn_n8,12113,deck:lap_spec,m,size m,True,3.615142,3.615142,0.0
+conn_n8,12113,deck:lap_spec,C,Sombor deletion correction C(G),True,11.849547,11.849547,0.0
+conn_n8,12113,deck:q_spec,ds,degree sequence of G,True,8.780348,8.780348,0.0
+conn_n8,12113,deck:q_spec,ds_sig,multiset of degree sequences of the cards,True,11.849712,11.849712,0.0
+conn_n8,12113,deck:q_spec,et,multiset of edge degree-types of G,True,11.849712,11.849712,0.0
+conn_n8,12113,deck:q_spec,so,Sombor index SO(G),True,11.849712,11.849712,0.0
+conn_n8,12113,deck:q_spec,dd,multiset {Delta_e},True,13.42249,13.42249,0.0
+conn_n8,12113,deck:q_spec,taus,number of spanning trees,True,10.733699,10.733699,0.0
+conn_n8,12113,deck:q_spec,tri,number of triangles,True,4.228454,4.228454,0.0
+conn_n8,12113,deck:q_spec,wiener,Wiener index,True,4.662157,4.662157,0.0
+conn_n8,12113,deck:q_spec,n,order n,True,0.471299,0.471299,0.0
+conn_n8,12113,deck:q_spec,m,size m,True,3.615142,3.615142,0.0
+conn_n8,12113,deck:q_spec,C,Sombor deletion correction C(G),True,11.849547,11.849547,0.0
+conn_n8,12113,deck:adj_charpoly,ds,degree sequence of G,True,8.780348,8.780348,0.0
+conn_n8,12113,deck:adj_charpoly,ds_sig,multiset of degree sequences of the cards,True,11.849712,11.849712,0.0
+conn_n8,12113,deck:adj_charpoly,et,multiset of edge degree-types of G,True,11.849712,11.849712,0.0
+conn_n8,12113,deck:adj_charpoly,so,Sombor index SO(G),True,11.849712,11.849712,0.0
+conn_n8,12113,deck:adj_charpoly,dd,multiset {Delta_e},True,13.42249,13.42249,0.0
+conn_n8,12113,deck:adj_charpoly,taus,number of spanning trees,True,10.733699,10.733699,0.0
+conn_n8,12113,deck:adj_charpoly,tri,number of triangles,True,4.228454,4.228454,0.0
+conn_n8,12113,deck:adj_charpoly,wiener,Wiener index,True,4.662157,4.662157,0.0
+conn_n8,12113,deck:adj_charpoly,n,order n,True,0.471299,0.471299,0.0
+conn_n8,12113,deck:adj_charpoly,m,size m,True,3.615142,3.615142,0.0
+conn_n8,12113,deck:adj_charpoly,C,Sombor deletion correction C(G),True,11.849547,11.849547,0.0
+conn_n8,12113,deck:lap_charpoly,ds,degree sequence of G,True,8.780348,8.780348,0.0
+conn_n8,12113,deck:lap_charpoly,ds_sig,multiset of degree sequences of the cards,True,11.849712,11.849712,0.0
+conn_n8,12113,deck:lap_charpoly,et,multiset of edge degree-types of G,True,11.849712,11.849712,0.0
+conn_n8,12113,deck:lap_charpoly,so,Sombor index SO(G),True,11.849712,11.849712,0.0
+conn_n8,12113,deck:lap_charpoly,dd,multiset {Delta_e},True,13.42249,13.42249,0.0
+conn_n8,12113,deck:lap_charpoly,taus,number of spanning trees,True,10.733699,10.733699,0.0
+conn_n8,12113,deck:lap_charpoly,tri,number of triangles,True,4.228454,4.228454,0.0
+conn_n8,12113,deck:lap_charpoly,wiener,Wiener index,True,4.662157,4.662157,0.0
+conn_n8,12113,deck:lap_charpoly,n,order n,True,0.471299,0.471299,0.0
+conn_n8,12113,deck:lap_charpoly,m,size m,True,3.615142,3.615142,0.0
+conn_n8,12113,deck:lap_charpoly,C,Sombor deletion correction C(G),True,11.849547,11.849547,0.0
+conn_n8,12113,deck:energy,ds,degree sequence of G,False,8.780348,8.780183,0.000165
+conn_n8,12113,deck:energy,ds_sig,multiset of degree sequences of the cards,False,11.849712,11.849547,0.000165
+conn_n8,12113,deck:energy,et,multiset of edge degree-types of G,False,11.849712,11.849547,0.000165
+conn_n8,12113,deck:energy,so,Sombor index SO(G),False,11.849712,11.849547,0.000165
+conn_n8,12113,deck:energy,dd,multiset {Delta_e},False,13.42249,13.422325,0.000165
+conn_n8,12113,deck:energy,taus,number of spanning trees,False,10.733699,10.733534,0.000165
+conn_n8,12113,deck:energy,tri,number of triangles,False,4.228454,4.228289,0.000165
+conn_n8,12113,deck:energy,wiener,Wiener index,False,4.662157,4.661992,0.000165
+conn_n8,12113,deck:energy,n,order n,False,0.471299,0.471134,0.000165
+conn_n8,12113,deck:energy,m,size m,True,3.615142,3.615142,0.0
+conn_n8,12113,deck:energy,C,Sombor deletion correction C(G),False,11.849547,11.849382,0.000165
+all_n8,13598,deck:deg_seq,ds,degree sequence of G,False,9.210117,9.206881,0.003236
+all_n8,13598,deck:deg_seq,ds_sig,multiset of degree sequences of the cards,True,12.136979,12.136979,0.0
+all_n8,13598,deck:deg_seq,et,multiset of edge degree-types of G,False,11.941948,11.940477,0.001471
+all_n8,13598,deck:deg_seq,so,Sombor index SO(G),False,11.937661,11.93619,0.001471
+all_n8,13598,deck:deg_seq,dd,multiset {Delta_e},False,13.397946,11.940477,1.457469
+all_n8,13598,deck:deg_seq,taus,number of spanning trees,False,10.059022,8.582866,1.476156
+all_n8,13598,deck:deg_seq,tri,number of triangles,False,4.209069,3.311305,0.897763
+all_n8,13598,deck:deg_seq,wiener,Wiener index,False,4.975562,4.317084,0.658478
+all_n8,13598,deck:deg_seq,n,order n,False,0.521039,0.519274,0.001765
+all_n8,13598,deck:deg_seq,m,size m,True,3.761507,3.761507,0.0
+all_n8,13598,deck:deg_seq,C,Sombor deletion correction C(G),False,11.894373,11.892902,0.001471
+all_n8,13598,deck:edge_types,ds,degree sequence of G,False,9.210117,9.010242,0.199875
+all_n8,13598,deck:edge_types,ds_sig,multiset of degree sequences of the cards,False,12.136979,11.94034,0.196639
+all_n8,13598,deck:edge_types,et,multiset of edge degree-types of G,False,11.941948,11.94034,0.001608
+all_n8,13598,deck:edge_types,so,Sombor index SO(G),False,11.937661,11.936053,0.001608
+all_n8,13598,deck:edge_types,dd,multiset {Delta_e},False,13.397946,13.396338,0.001608
+all_n8,13598,deck:edge_types,taus,number of spanning trees,False,10.059022,9.775212,0.28381
+all_n8,13598,deck:edge_types,tri,number of triangles,False,4.209069,4.088523,0.120545
+all_n8,13598,deck:edge_types,wiener,Wiener index,False,4.975562,4.914415,0.061147
+all_n8,13598,deck:edge_types,n,order n,False,0.521039,0.322634,0.198404
+all_n8,13598,deck:edge_types,m,size m,True,3.761507,3.761507,0.0
+all_n8,13598,deck:edge_types,C,Sombor deletion correction C(G),False,11.894373,11.892765,0.001608
+all_n8,13598,deck:n_comp,ds,degree sequence of G,False,9.210117,5.031683,4.178434
+all_n8,13598,deck:n_comp,ds_sig,multiset of degree sequences of the cards,False,12.136979,5.220793,6.916186
+all_n8,13598,deck:n_comp,et,multiset of edge degree-types of G,False,11.941948,5.025082,6.916866
+all_n8,13598,deck:n_comp,so,Sombor index SO(G),False,11.937661,5.020795,6.916866
+all_n8,13598,deck:n_comp,dd,multiset {Delta_e},False,13.397946,5.072767,8.32518
+all_n8,13598,deck:n_comp,taus,number of spanning trees,False,10.059022,4.063618,5.995403
+all_n8,13598,deck:n_comp,tri,number of triangles,False,4.209069,1.737885,2.471184
+all_n8,13598,deck:n_comp,wiener,Wiener index,False,4.975562,2.734493,2.241069
+all_n8,13598,deck:n_comp,n,order n,False,0.521039,0.220681,0.300358
+all_n8,13598,deck:n_comp,m,size m,True,3.761507,3.761507,0.0
+all_n8,13598,deck:n_comp,C,Sombor deletion correction C(G),False,11.894373,4.977507,6.916866
+all_n8,13598,deck:comp_sizes,ds,degree sequence of G,False,9.210117,5.584571,3.625546
+all_n8,13598,deck:comp_sizes,ds_sig,multiset of degree sequences of the cards,False,12.136979,5.811247,6.325732
+all_n8,13598,deck:comp_sizes,et,multiset of edge degree-types of G,False,11.941948,5.614745,6.327203
+all_n8,13598,deck:comp_sizes,so,Sombor index SO(G),False,11.937661,5.610458,6.327203
+all_n8,13598,deck:comp_sizes,dd,multiset {Delta_e},False,13.397946,5.665188,7.732759
+all_n8,13598,deck:comp_sizes,taus,number of spanning trees,False,10.059022,4.264442,5.79458
+all_n8,13598,deck:comp_sizes,tri,number of triangles,False,4.209069,1.964068,2.245001
+all_n8,13598,deck:comp_sizes,wiener,Wiener index,False,4.975562,3.268755,1.706807
+all_n8,13598,deck:comp_sizes,n,order n,False,0.521039,0.519274,0.001765
+all_n8,13598,deck:comp_sizes,m,size m,True,3.761507,3.761507,0.0
+all_n8,13598,deck:comp_sizes,C,Sombor deletion correction C(G),False,11.894373,5.56717,6.327203
+all_n8,13598,deck:tri,ds,degree sequence of G,False,9.210117,6.209188,3.000929
+all_n8,13598,deck:tri,ds_sig,multiset of degree sequences of the cards,False,12.136979,8.177308,3.959671
+all_n8,13598,deck:tri,et,multiset of edge degree-types of G,False,11.941948,8.177308,3.76464
+all_n8,13598,deck:tri,so,Sombor index SO(G),False,11.937661,8.173021,3.76464
+all_n8,13598,deck:tri,dd,multiset {Delta_e},False,13.397946,9.416177,3.981769
+all_n8,13598,deck:tri,taus,number of spanning trees,False,10.059022,7.358021,2.701001
+all_n8,13598,deck:tri,tri,number of triangles,False,4.209069,4.207668,0.001401
+all_n8,13598,deck:tri,wiener,Wiener index,False,4.975562,3.012074,1.963488
+all_n8,13598,deck:tri,n,order n,False,0.521039,0.22058,0.300459
+all_n8,13598,deck:tri,m,size m,True,3.761507,3.761507,0.0
+all_n8,13598,deck:tri,C,Sombor deletion correction C(G),False,11.894373,8.129733,3.76464
+all_n8,13598,deck:clique,ds,degree sequence of G,False,9.210117,4.429432,4.780685
+all_n8,13598,deck:clique,ds_sig,multiset of degree sequences of the cards,False,12.136979,5.226148,6.910831
+all_n8,13598,deck:clique,et,multiset of edge degree-types of G,False,11.941948,5.226148,6.7158
+all_n8,13598,deck:clique,so,Sombor index SO(G),False,11.937661,5.222662,6.714999
+all_n8,13598,deck:clique,dd,multiset {Delta_e},False,13.397946,5.835415,7.562532
+all_n8,13598,deck:clique,taus,number of spanning trees,False,10.059022,4.270468,5.788554
+all_n8,13598,deck:clique,tri,number of triangles,False,4.209069,2.482936,1.726132
+all_n8,13598,deck:clique,wiener,Wiener index,False,4.975562,2.522973,2.452589
+all_n8,13598,deck:clique,n,order n,False,0.521039,0.161185,0.359854
+all_n8,13598,deck:clique,m,size m,True,3.761507,3.761507,0.0
+all_n8,13598,deck:clique,C,Sombor deletion correction C(G),False,11.894373,5.178573,6.7158
+all_n8,13598,deck:chrom,ds,degree sequence of G,False,9.210117,4.539295,4.670822
+all_n8,13598,deck:chrom,ds_sig,multiset of degree sequences of the cards,False,12.136979,5.45897,6.678009
+all_n8,13598,deck:chrom,et,multiset of edge degree-types of G,False,11.941948,5.45897,6.482977
+all_n8,13598,deck:chrom,so,Sombor index SO(G),False,11.937661,5.455456,6.482205
+all_n8,13598,deck:chrom,dd,multiset {Delta_e},False,13.397946,6.162427,7.235519
+all_n8,13598,deck:chrom,taus,number of spanning trees,False,10.059022,4.541014,5.518008
+all_n8,13598,deck:chrom,tri,number of triangles,False,4.209069,2.389853,1.819216
+all_n8,13598,deck:chrom,wiener,Wiener index,False,4.975562,2.558908,2.416654
+all_n8,13598,deck:chrom,n,order n,False,0.521039,0.168602,0.352437
+all_n8,13598,deck:chrom,m,size m,True,3.761507,3.761507,0.0
+all_n8,13598,deck:chrom,C,Sombor deletion correction C(G),False,11.894373,5.411395,6.482977
+all_n8,13598,deck:girth,ds,degree sequence of G,False,9.210117,3.966367,5.24375
+all_n8,13598,deck:girth,ds_sig,multiset of degree sequences of the cards,False,12.136979,4.189487,7.947492
+all_n8,13598,deck:girth,et,multiset of edge degree-types of G,False,11.941948,4.189487,7.752461
+all_n8,13598,deck:girth,so,Sombor index SO(G),False,11.937661,4.186916,7.750745
+all_n8,13598,deck:girth,dd,multiset {Delta_e},False,13.397946,4.414421,8.983525
+all_n8,13598,deck:girth,taus,number of spanning trees,False,10.059022,3.267258,6.791764
+all_n8,13598,deck:girth,tri,number of triangles,False,4.209069,1.77008,2.438988
+all_n8,13598,deck:girth,wiener,Wiener index,False,4.975562,2.414086,2.561476
+all_n8,13598,deck:girth,n,order n,False,0.521039,0.142069,0.37897
+all_n8,13598,deck:girth,m,size m,True,3.761507,3.761507,0.0
+all_n8,13598,deck:girth,C,Sombor deletion correction C(G),False,11.894373,4.141912,7.752461
+all_n8,13598,deck:n_bridges,ds,degree sequence of G,False,9.210117,6.007945,3.202172
+all_n8,13598,deck:n_bridges,ds_sig,multiset of degree sequences of the cards,False,12.136979,6.621975,5.515004
+all_n8,13598,deck:n_bridges,et,multiset of edge degree-types of G,False,11.941948,6.621975,5.319973
+all_n8,13598,deck:n_bridges,so,Sombor index SO(G),False,11.937661,6.617688,5.319973
+all_n8,13598,deck:n_bridges,dd,multiset {Delta_e},False,13.397946,6.790789,6.607157
+all_n8,13598,deck:n_bridges,taus,number of spanning trees,False,10.059022,5.124125,4.934896
+all_n8,13598,deck:n_bridges,tri,number of triangles,False,4.209069,2.213348,1.99572
+all_n8,13598,deck:n_bridges,wiener,Wiener index,False,4.975562,2.956037,2.019525
+all_n8,13598,deck:n_bridges,n,order n,False,0.521039,0.226647,0.294392
+all_n8,13598,deck:n_bridges,m,size m,True,3.761507,3.761507,0.0
+all_n8,13598,deck:n_bridges,C,Sombor deletion correction C(G),False,11.894373,6.5744,5.319973
+all_n8,13598,deck:n_cut,ds,degree sequence of G,False,9.210117,6.322126,2.887991
+all_n8,13598,deck:n_cut,ds_sig,multiset of degree sequences of the cards,False,12.136979,7.291377,4.845603
+all_n8,13598,deck:n_cut,et,multiset of edge degree-types of G,False,11.941948,7.291377,4.650571
+all_n8,13598,deck:n_cut,so,Sombor index SO(G),False,11.937661,7.289028,4.648633
+all_n8,13598,deck:n_cut,dd,multiset {Delta_e},False,13.397946,7.715176,5.682771
+all_n8,13598,deck:n_cut,taus,number of spanning trees,False,10.059022,5.329079,4.729942
+all_n8,13598,deck:n_cut,tri,number of triangles,False,4.209069,2.322802,1.886267
+all_n8,13598,deck:n_cut,wiener,Wiener index,False,4.975562,3.355244,1.620318
+all_n8,13598,deck:n_cut,n,order n,False,0.521039,0.226661,0.294378
+all_n8,13598,deck:n_cut,m,size m,True,3.761507,3.761507,0.0
+all_n8,13598,deck:n_cut,C,Sombor deletion correction C(G),False,11.894373,7.243802,4.650571
+all_n8,13598,deck:diam,ds,degree sequence of G,False,9.210117,5.595982,3.614135
+all_n8,13598,deck:diam,ds_sig,multiset of degree sequences of the cards,False,12.136979,6.982408,5.154571
+all_n8,13598,deck:diam,et,multiset of edge degree-types of G,False,11.941948,6.982408,4.95954
+all_n8,13598,deck:diam,so,Sombor index SO(G),False,11.937661,6.978121,4.95954
+all_n8,13598,deck:diam,dd,multiset {Delta_e},False,13.397946,7.857761,5.540186
+all_n8,13598,deck:diam,taus,number of spanning trees,False,10.059022,5.097345,4.961677
+all_n8,13598,deck:diam,tri,number of triangles,False,4.209069,1.982842,2.226226
+all_n8,13598,deck:diam,wiener,Wiener index,False,4.975562,3.864157,1.111405
+all_n8,13598,deck:diam,n,order n,False,0.521039,0.255224,0.265815
+all_n8,13598,deck:diam,m,size m,True,3.761507,3.761507,0.0
+all_n8,13598,deck:diam,C,Sombor deletion correction C(G),False,11.894373,6.934833,4.95954
+all_n8,13598,deck:dist_dist,ds,degree sequence of G,False,9.210117,7.629813,1.580304
+all_n8,13598,deck:dist_dist,ds_sig,multiset of degree sequences of the cards,False,12.136979,10.131359,2.00562
+all_n8,13598,deck:dist_dist,et,multiset of edge degree-types of G,False,11.941948,10.131359,1.810589
+all_n8,13598,deck:dist_dist,so,Sombor index SO(G),False,11.937661,10.127072,1.810589
+all_n8,13598,deck:dist_dist,dd,multiset {Delta_e},False,13.397946,11.448068,1.949879
+all_n8,13598,deck:dist_dist,taus,number of spanning trees,False,10.059022,8.071178,1.987843
+all_n8,13598,deck:dist_dist,tri,number of triangles,False,4.209069,3.193585,1.015483
+all_n8,13598,deck:dist_dist,wiener,Wiener index,False,4.975562,4.973457,0.002105
+all_n8,13598,deck:dist_dist,n,order n,False,0.521039,0.322423,0.198616
+all_n8,13598,deck:dist_dist,m,size m,True,3.761507,3.761507,0.0
+all_n8,13598,deck:dist_dist,C,Sombor deletion correction C(G),False,11.894373,10.083784,1.810589
+all_n8,13598,deck:match_poly,ds,degree sequence of G,False,9.210117,9.007077,0.20304
+all_n8,13598,deck:match_poly,ds_sig,multiset of degree sequences of the cards,False,12.136979,11.937175,0.199804
+all_n8,13598,deck:match_poly,et,multiset of edge degree-types of G,False,11.941948,11.937175,0.004773
+all_n8,13598,deck:match_poly,so,Sombor index SO(G),False,11.937661,11.932888,0.004773
+all_n8,13598,deck:match_poly,dd,multiset {Delta_e},False,13.397946,13.393173,0.004773
+all_n8,13598,deck:match_poly,taus,number of spanning trees,False,10.059022,9.902558,0.156464
+all_n8,13598,deck:match_poly,tri,number of triangles,False,4.209069,4.2051,0.003969
+all_n8,13598,deck:match_poly,wiener,Wiener index,False,4.975562,4.970789,0.004773
+all_n8,13598,deck:match_poly,n,order n,False,0.521039,0.322025,0.199013
+all_n8,13598,deck:match_poly,m,size m,True,3.761507,3.761507,0.0
+all_n8,13598,deck:match_poly,C,Sombor deletion correction C(G),False,11.894373,11.8896,0.004773
+all_n8,13598,deck:taus,ds,degree sequence of G,False,9.210117,7.898475,1.311642
+all_n8,13598,deck:taus,ds_sig,multiset of degree sequences of the cards,False,12.136979,10.413941,1.723038
+all_n8,13598,deck:taus,et,multiset of edge degree-types of G,False,11.941948,10.263327,1.67862
+all_n8,13598,deck:taus,so,Sombor index SO(G),False,11.937661,10.260625,1.677035
+all_n8,13598,deck:taus,dd,multiset {Delta_e},False,13.397946,11.634159,1.763787
+all_n8,13598,deck:taus,taus,number of spanning trees,False,10.059022,10.043553,0.015469
+all_n8,13598,deck:taus,tri,number of triangles,False,4.209069,3.948596,0.260473
+all_n8,13598,deck:taus,wiener,Wiener index,False,4.975562,3.840572,1.13499
+all_n8,13598,deck:taus,n,order n,False,0.521039,0.4456,0.075438
+all_n8,13598,deck:taus,m,size m,True,3.761507,3.761507,0.0
+all_n8,13598,deck:taus,C,Sombor deletion correction C(G),False,11.894373,10.215753,1.67862
+all_n8,13598,deck:sombor,ds,degree sequence of G,False,9.210117,9.010242,0.199875
+all_n8,13598,deck:sombor,ds_sig,multiset of degree sequences of the cards,False,12.136979,11.94034,0.196639
+all_n8,13598,deck:sombor,et,multiset of edge degree-types of G,False,11.941948,11.94034,0.001608
+all_n8,13598,deck:sombor,so,Sombor index SO(G),False,11.937661,11.936053,0.001608
+all_n8,13598,deck:sombor,dd,multiset {Delta_e},False,13.397946,13.396338,0.001608
+all_n8,13598,deck:sombor,taus,number of spanning trees,False,10.059022,9.775212,0.28381
+all_n8,13598,deck:sombor,tri,number of triangles,False,4.209069,4.088523,0.120545
+all_n8,13598,deck:sombor,wiener,Wiener index,False,4.975562,4.914415,0.061147
+all_n8,13598,deck:sombor,n,order n,False,0.521039,0.322634,0.198404
+all_n8,13598,deck:sombor,m,size m,True,3.761507,3.761507,0.0
+all_n8,13598,deck:sombor,C,Sombor deletion correction C(G),False,11.894373,11.892765,0.001608
+all_n8,13598,deck:sombor_inv,ds,degree sequence of G,False,9.210117,9.010242,0.199875
+all_n8,13598,deck:sombor_inv,ds_sig,multiset of degree sequences of the cards,False,12.136979,11.94034,0.196639
+all_n8,13598,deck:sombor_inv,et,multiset of edge degree-types of G,False,11.941948,11.94034,0.001608
+all_n8,13598,deck:sombor_inv,so,Sombor index SO(G),False,11.937661,11.936053,0.001608
+all_n8,13598,deck:sombor_inv,dd,multiset {Delta_e},False,13.397946,13.396338,0.001608
+all_n8,13598,deck:sombor_inv,taus,number of spanning trees,False,10.059022,9.775212,0.28381
+all_n8,13598,deck:sombor_inv,tri,number of triangles,False,4.209069,4.088523,0.120545
+all_n8,13598,deck:sombor_inv,wiener,Wiener index,False,4.975562,4.914415,0.061147
+all_n8,13598,deck:sombor_inv,n,order n,False,0.521039,0.322634,0.198404
+all_n8,13598,deck:sombor_inv,m,size m,True,3.761507,3.761507,0.0
+all_n8,13598,deck:sombor_inv,C,Sombor deletion correction C(G),False,11.894373,11.892765,0.001608
+all_n8,13598,deck:randic,ds,degree sequence of G,False,9.210117,9.010242,0.199875
+all_n8,13598,deck:randic,ds_sig,multiset of degree sequences of the cards,False,12.136979,11.94034,0.196639
+all_n8,13598,deck:randic,et,multiset of edge degree-types of G,False,11.941948,11.94034,0.001608
+all_n8,13598,deck:randic,so,Sombor index SO(G),False,11.937661,11.936053,0.001608
+all_n8,13598,deck:randic,dd,multiset {Delta_e},False,13.397946,13.396338,0.001608
+all_n8,13598,deck:randic,taus,number of spanning trees,False,10.059022,9.775212,0.28381
+all_n8,13598,deck:randic,tri,number of triangles,False,4.209069,4.088523,0.120545
+all_n8,13598,deck:randic,wiener,Wiener index,False,4.975562,4.914415,0.061147
+all_n8,13598,deck:randic,n,order n,False,0.521039,0.322634,0.198404
+all_n8,13598,deck:randic,m,size m,True,3.761507,3.761507,0.0
+all_n8,13598,deck:randic,C,Sombor deletion correction C(G),False,11.894373,11.892765,0.001608
+all_n8,13598,deck:abc,ds,degree sequence of G,False,9.210117,9.010242,0.199875
+all_n8,13598,deck:abc,ds_sig,multiset of degree sequences of the cards,False,12.136979,11.94034,0.196639
+all_n8,13598,deck:abc,et,multiset of edge degree-types of G,False,11.941948,11.94034,0.001608
+all_n8,13598,deck:abc,so,Sombor index SO(G),False,11.937661,11.936053,0.001608
+all_n8,13598,deck:abc,dd,multiset {Delta_e},False,13.397946,13.394665,0.003282
+all_n8,13598,deck:abc,taus,number of spanning trees,False,10.059022,9.774393,0.284629
+all_n8,13598,deck:abc,tri,number of triangles,False,4.209069,4.087585,0.121483
+all_n8,13598,deck:abc,wiener,Wiener index,False,4.975562,4.912742,0.06282
+all_n8,13598,deck:abc,n,order n,False,0.521039,0.322634,0.198404
+all_n8,13598,deck:abc,m,size m,True,3.761507,3.761507,0.0
+all_n8,13598,deck:abc,C,Sombor deletion correction C(G),False,11.894373,11.892765,0.001608
+all_n8,13598,deck:m1,ds,degree sequence of G,False,9.210117,8.885763,0.324354
+all_n8,13598,deck:m1,ds_sig,multiset of degree sequences of the cards,False,12.136979,11.698215,0.438764
+all_n8,13598,deck:m1,et,multiset of edge degree-types of G,False,11.941948,11.698215,0.243732
+all_n8,13598,deck:m1,so,Sombor index SO(G),False,11.937661,11.693928,0.243732
+all_n8,13598,deck:m1,dd,multiset {Delta_e},False,13.397946,11.698215,1.699731
+all_n8,13598,deck:m1,taus,number of spanning trees,False,10.059022,8.209655,1.849367
+all_n8,13598,deck:m1,tri,number of triangles,False,4.209069,3.222071,0.986998
+all_n8,13598,deck:m1,wiener,Wiener index,False,4.975562,4.186544,0.789018
+all_n8,13598,deck:m1,n,order n,False,0.521039,0.313238,0.207801
+all_n8,13598,deck:m1,m,size m,True,3.761507,3.761507,0.0
+all_n8,13598,deck:m1,C,Sombor deletion correction C(G),False,11.894373,11.65064,0.243732
+all_n8,13598,deck:m2,ds,degree sequence of G,False,9.210117,9.010242,0.199875
+all_n8,13598,deck:m2,ds_sig,multiset of degree sequences of the cards,False,12.136979,11.94034,0.196639
+all_n8,13598,deck:m2,et,multiset of edge degree-types of G,False,11.941948,11.94034,0.001608
+all_n8,13598,deck:m2,so,Sombor index SO(G),False,11.937661,11.936053,0.001608
+all_n8,13598,deck:m2,dd,multiset {Delta_e},False,13.397946,13.381183,0.016763
+all_n8,13598,deck:m2,taus,number of spanning trees,False,10.059022,9.760204,0.298818
+all_n8,13598,deck:m2,tri,number of triangles,False,4.209069,4.077708,0.13136
+all_n8,13598,deck:m2,wiener,Wiener index,False,4.975562,4.904225,0.071337
+all_n8,13598,deck:m2,n,order n,False,0.521039,0.322634,0.198404
+all_n8,13598,deck:m2,m,size m,True,3.761507,3.761507,0.0
+all_n8,13598,deck:m2,C,Sombor deletion correction C(G),False,11.894373,11.892765,0.001608
+all_n8,13598,deck:wiener,ds,degree sequence of G,False,9.210117,7.616783,1.593334
+all_n8,13598,deck:wiener,ds_sig,multiset of degree sequences of the cards,False,12.136979,10.115129,2.02185
+all_n8,13598,deck:wiener,et,multiset of edge degree-types of G,False,11.941948,10.115129,1.826819
+all_n8,13598,deck:wiener,so,Sombor index SO(G),False,11.937661,10.110842,1.826819
+all_n8,13598,deck:wiener,dd,multiset {Delta_e},False,13.397946,11.431397,1.966549
+all_n8,13598,deck:wiener,taus,number of spanning trees,False,10.059022,8.054655,2.004367
+all_n8,13598,deck:wiener,tri,number of triangles,False,4.209069,3.18269,1.026379
+all_n8,13598,deck:wiener,wiener,Wiener index,False,4.975562,4.973457,0.002105
+all_n8,13598,deck:wiener,n,order n,False,0.521039,0.322423,0.198616
+all_n8,13598,deck:wiener,m,size m,True,3.761507,3.761507,0.0
+all_n8,13598,deck:wiener,C,Sombor deletion correction C(G),False,11.894373,10.067554,1.826819
+all_n8,13598,deck:adj_spec,ds,degree sequence of G,False,9.210117,9.206881,0.003236
+all_n8,13598,deck:adj_spec,ds_sig,multiset of degree sequences of the cards,True,12.136979,12.136979,0.0
+all_n8,13598,deck:adj_spec,et,multiset of edge degree-types of G,False,11.941948,11.940477,0.001471
+all_n8,13598,deck:adj_spec,so,Sombor index SO(G),False,11.937661,11.93619,0.001471
+all_n8,13598,deck:adj_spec,dd,multiset {Delta_e},False,13.397946,13.396476,0.001471
+all_n8,13598,deck:adj_spec,taus,number of spanning trees,False,10.059022,10.058555,0.000467
+all_n8,13598,deck:adj_spec,tri,number of triangles,False,4.209069,4.208333,0.000735
+all_n8,13598,deck:adj_spec,wiener,Wiener index,False,4.975562,4.974091,0.001471
+all_n8,13598,deck:adj_spec,n,order n,False,0.521039,0.519274,0.001765
+all_n8,13598,deck:adj_spec,m,size m,True,3.761507,3.761507,0.0
+all_n8,13598,deck:adj_spec,C,Sombor deletion correction C(G),False,11.894373,11.892902,0.001471
+all_n8,13598,deck:lap_spec,ds,degree sequence of G,False,9.210117,9.206881,0.003236
+all_n8,13598,deck:lap_spec,ds_sig,multiset of degree sequences of the cards,True,12.136979,12.136979,0.0
+all_n8,13598,deck:lap_spec,et,multiset of edge degree-types of G,False,11.941948,11.940477,0.001471
+all_n8,13598,deck:lap_spec,so,Sombor index SO(G),False,11.937661,11.93619,0.001471
+all_n8,13598,deck:lap_spec,dd,multiset {Delta_e},False,13.397946,13.396476,0.001471
+all_n8,13598,deck:lap_spec,taus,number of spanning trees,False,10.059022,10.058555,0.000467
+all_n8,13598,deck:lap_spec,tri,number of triangles,False,4.209069,4.208333,0.000735
+all_n8,13598,deck:lap_spec,wiener,Wiener index,False,4.975562,4.974091,0.001471
+all_n8,13598,deck:lap_spec,n,order n,False,0.521039,0.519274,0.001765
+all_n8,13598,deck:lap_spec,m,size m,True,3.761507,3.761507,0.0
+all_n8,13598,deck:lap_spec,C,Sombor deletion correction C(G),False,11.894373,11.892902,0.001471
+all_n8,13598,deck:q_spec,ds,degree sequence of G,False,9.210117,9.204767,0.00535
+all_n8,13598,deck:q_spec,ds_sig,multiset of degree sequences of the cards,False,12.136979,12.134864,0.002115
+all_n8,13598,deck:q_spec,et,multiset of edge degree-types of G,False,11.941948,11.938362,0.003585
+all_n8,13598,deck:q_spec,so,Sombor index SO(G),False,11.937661,11.934075,0.003585
+all_n8,13598,deck:q_spec,dd,multiset {Delta_e},False,13.397946,13.394361,0.003585
+all_n8,13598,deck:q_spec,taus,number of spanning trees,False,10.059022,10.058555,0.000467
+all_n8,13598,deck:q_spec,tri,number of triangles,False,4.209069,4.206219,0.00285
+all_n8,13598,deck:q_spec,wiener,Wiener index,False,4.975562,4.971977,0.003585
+all_n8,13598,deck:q_spec,n,order n,False,0.521039,0.519274,0.001765
+all_n8,13598,deck:q_spec,m,size m,True,3.761507,3.761507,0.0
+all_n8,13598,deck:q_spec,C,Sombor deletion correction C(G),False,11.894373,11.890787,0.003585
+all_n8,13598,deck:adj_charpoly,ds,degree sequence of G,False,9.210117,9.206881,0.003236
+all_n8,13598,deck:adj_charpoly,ds_sig,multiset of degree sequences of the cards,True,12.136979,12.136979,0.0
+all_n8,13598,deck:adj_charpoly,et,multiset of edge degree-types of G,False,11.941948,11.940477,0.001471
+all_n8,13598,deck:adj_charpoly,so,Sombor index SO(G),False,11.937661,11.93619,0.001471
+all_n8,13598,deck:adj_charpoly,dd,multiset {Delta_e},False,13.397946,13.396476,0.001471
+all_n8,13598,deck:adj_charpoly,taus,number of spanning trees,False,10.059022,10.058555,0.000467
+all_n8,13598,deck:adj_charpoly,tri,number of triangles,False,4.209069,4.208333,0.000735
+all_n8,13598,deck:adj_charpoly,wiener,Wiener index,False,4.975562,4.974091,0.001471
+all_n8,13598,deck:adj_charpoly,n,order n,False,0.521039,0.519274,0.001765
+all_n8,13598,deck:adj_charpoly,m,size m,True,3.761507,3.761507,0.0
+all_n8,13598,deck:adj_charpoly,C,Sombor deletion correction C(G),False,11.894373,11.892902,0.001471
+all_n8,13598,deck:lap_charpoly,ds,degree sequence of G,False,9.210117,9.206881,0.003236
+all_n8,13598,deck:lap_charpoly,ds_sig,multiset of degree sequences of the cards,True,12.136979,12.136979,0.0
+all_n8,13598,deck:lap_charpoly,et,multiset of edge degree-types of G,False,11.941948,11.940477,0.001471
+all_n8,13598,deck:lap_charpoly,so,Sombor index SO(G),False,11.937661,11.93619,0.001471
+all_n8,13598,deck:lap_charpoly,dd,multiset {Delta_e},False,13.397946,13.396476,0.001471
+all_n8,13598,deck:lap_charpoly,taus,number of spanning trees,False,10.059022,10.058555,0.000467
+all_n8,13598,deck:lap_charpoly,tri,number of triangles,False,4.209069,4.208333,0.000735
+all_n8,13598,deck:lap_charpoly,wiener,Wiener index,False,4.975562,4.974091,0.001471
+all_n8,13598,deck:lap_charpoly,n,order n,False,0.521039,0.519274,0.001765
+all_n8,13598,deck:lap_charpoly,m,size m,True,3.761507,3.761507,0.0
+all_n8,13598,deck:lap_charpoly,C,Sombor deletion correction C(G),False,11.894373,11.892902,0.001471
+all_n8,13598,deck:energy,ds,degree sequence of G,False,9.210117,9.010242,0.199875
+all_n8,13598,deck:energy,ds_sig,multiset of degree sequences of the cards,False,12.136979,11.94034,0.196639
+all_n8,13598,deck:energy,et,multiset of edge degree-types of G,False,11.941948,11.94034,0.001608
+all_n8,13598,deck:energy,so,Sombor index SO(G),False,11.937661,11.936053,0.001608
+all_n8,13598,deck:energy,dd,multiset {Delta_e},False,13.397946,13.396338,0.001608
+all_n8,13598,deck:energy,taus,number of spanning trees,False,10.059022,9.902852,0.156169
+all_n8,13598,deck:energy,tri,number of triangles,False,4.209069,4.208264,0.000804
+all_n8,13598,deck:energy,wiener,Wiener index,False,4.975562,4.973954,0.001608
+all_n8,13598,deck:energy,n,order n,False,0.521039,0.322634,0.198404
+all_n8,13598,deck:energy,m,size m,True,3.761507,3.761507,0.0
+all_n8,13598,deck:energy,C,Sombor deletion correction C(G),False,11.894373,11.892765,0.001608
+conn_n9,273193,deck:deg_seq,ds,degree sequence of G,True,9.698512,9.698512,0.0
+conn_n9,273193,deck:deg_seq,ds_sig,multiset of degree sequences of the cards,True,14.530892,14.530892,0.0
+conn_n9,273193,deck:deg_seq,et,multiset of edge degree-types of G,True,14.530892,14.530892,0.0
+conn_n9,273193,deck:deg_seq,so,Sombor index SO(G),True,14.530598,14.530598,0.0
+conn_n9,273193,deck:deg_seq,dd,multiset {Delta_e},False,17.830979,14.530892,3.300087
+conn_n9,273193,deck:deg_seq,taus,number of spanning trees,False,14.369284,10.951148,3.418136
+conn_n9,273193,deck:deg_seq,tri,number of triangles,False,4.569712,3.084269,1.485443
+conn_n9,273193,deck:deg_seq,wiener,Wiener index,False,4.645134,3.593948,1.051186
+conn_n9,273193,deck:deg_seq,n,order n,True,0.282739,0.282739,0.0
+conn_n9,273193,deck:deg_seq,m,size m,True,3.733889,3.733889,0.0
+conn_n9,273193,deck:deg_seq,C,Sombor deletion correction C(G),True,14.530885,14.530885,0.0
+conn_n9,273193,deck:edge_types,ds,degree sequence of G,False,9.698512,9.698504,7e-06
+conn_n9,273193,deck:edge_types,ds_sig,multiset of degree sequences of the cards,False,14.530892,14.530885,7e-06
+conn_n9,273193,deck:edge_types,et,multiset of edge degree-types of G,False,14.530892,14.530885,7e-06
+conn_n9,273193,deck:edge_types,so,Sombor index SO(G),False,14.530598,14.530591,7e-06
+conn_n9,273193,deck:edge_types,dd,multiset {Delta_e},False,17.830979,17.830972,7e-06
+conn_n9,273193,deck:edge_types,taus,number of spanning trees,False,14.369284,14.141076,0.228208
+conn_n9,273193,deck:edge_types,tri,number of triangles,False,4.569712,4.394913,0.174798
+conn_n9,273193,deck:edge_types,wiener,Wiener index,False,4.645134,4.555747,0.089387
+conn_n9,273193,deck:edge_types,n,order n,False,0.282739,0.282732,7e-06
+conn_n9,273193,deck:edge_types,m,size m,True,3.733889,3.733889,0.0
+conn_n9,273193,deck:edge_types,C,Sombor deletion correction C(G),False,14.530885,14.530878,7e-06
+conn_n9,273193,deck:n_comp,ds,degree sequence of G,False,9.698512,4.483593,5.214919
+conn_n9,273193,deck:n_comp,ds_sig,multiset of degree sequences of the cards,False,14.530892,4.557846,9.973046
+conn_n9,273193,deck:n_comp,et,multiset of edge degree-types of G,False,14.530892,4.557846,9.973046
+conn_n9,273193,deck:n_comp,so,Sombor index SO(G),False,14.530598,4.557552,9.973046
+conn_n9,273193,deck:n_comp,dd,multiset {Delta_e},False,17.830979,4.574474,13.256505
+conn_n9,273193,deck:n_comp,taus,number of spanning trees,False,14.369284,3.852687,10.516597
+conn_n9,273193,deck:n_comp,tri,number of triangles,False,4.569712,1.639874,2.929838
+conn_n9,273193,deck:n_comp,wiener,Wiener index,False,4.645134,2.393549,2.251586
+conn_n9,273193,deck:n_comp,n,order n,False,0.282739,0.078086,0.204653
+conn_n9,273193,deck:n_comp,m,size m,True,3.733889,3.733889,0.0
+conn_n9,273193,deck:n_comp,C,Sombor deletion correction C(G),False,14.530885,4.557839,9.973046
+conn_n9,273193,deck:comp_sizes,ds,degree sequence of G,False,9.698512,4.761395,4.937117
+conn_n9,273193,deck:comp_sizes,ds_sig,multiset of degree sequences of the cards,False,14.530892,4.847966,9.682927
+conn_n9,273193,deck:comp_sizes,et,multiset of edge degree-types of G,False,14.530892,4.847966,9.682927
+conn_n9,273193,deck:comp_sizes,so,Sombor index SO(G),False,14.530598,4.847671,9.682927
+conn_n9,273193,deck:comp_sizes,dd,multiset {Delta_e},False,17.830979,4.865722,12.965257
+conn_n9,273193,deck:comp_sizes,taus,number of spanning trees,False,14.369284,3.964098,10.405186
+conn_n9,273193,deck:comp_sizes,tri,number of triangles,False,4.569712,1.755245,2.814467
+conn_n9,273193,deck:comp_sizes,wiener,Wiener index,False,4.645134,2.648595,1.996539
+conn_n9,273193,deck:comp_sizes,n,order n,True,0.282739,0.282739,0.0
+conn_n9,273193,deck:comp_sizes,m,size m,True,3.733889,3.733889,0.0
+conn_n9,273193,deck:comp_sizes,C,Sombor deletion correction C(G),False,14.530885,4.847958,9.682927
+conn_n9,273193,deck:tri,ds,degree sequence of G,False,9.698512,5.978725,3.719787
+conn_n9,273193,deck:tri,ds_sig,multiset of degree sequences of the cards,False,14.530892,8.74375,5.787143
+conn_n9,273193,deck:tri,et,multiset of edge degree-types of G,False,14.530892,8.74375,5.787143
+conn_n9,273193,deck:tri,so,Sombor index SO(G),False,14.530598,8.743455,5.787143
+conn_n9,273193,deck:tri,dd,multiset {Delta_e},False,17.830979,11.399842,6.431137
+conn_n9,273193,deck:tri,taus,number of spanning trees,False,14.369284,9.087598,5.281686
+conn_n9,273193,deck:tri,tri,number of triangles,False,4.569712,4.569702,1e-05
+conn_n9,273193,deck:tri,wiener,Wiener index,False,4.645134,2.679316,1.965819
+conn_n9,273193,deck:tri,n,order n,False,0.282739,0.15581,0.12693
+conn_n9,273193,deck:tri,m,size m,True,3.733889,3.733889,0.0
+conn_n9,273193,deck:tri,C,Sombor deletion correction C(G),False,14.530885,8.743742,5.787143
+conn_n9,273193,deck:clique,ds,degree sequence of G,False,9.698512,4.14671,5.551802
+conn_n9,273193,deck:clique,ds_sig,multiset of degree sequences of the cards,False,14.530892,4.861019,9.669873
+conn_n9,273193,deck:clique,et,multiset of edge degree-types of G,False,14.530892,4.861019,9.669873
+conn_n9,273193,deck:clique,so,Sombor index SO(G),False,14.530598,4.860725,9.669873
+conn_n9,273193,deck:clique,dd,multiset {Delta_e},False,17.830979,5.838149,11.99283
+conn_n9,273193,deck:clique,taus,number of spanning trees,False,14.369284,4.419206,9.950078
+conn_n9,273193,deck:clique,tri,number of triangles,False,4.569712,2.315661,2.254051
+conn_n9,273193,deck:clique,wiener,Wiener index,False,4.645134,2.342446,2.302689
+conn_n9,273193,deck:clique,n,order n,False,0.282739,0.087326,0.195414
+conn_n9,273193,deck:clique,m,size m,True,3.733889,3.733889,0.0
+conn_n9,273193,deck:clique,C,Sombor deletion correction C(G),False,14.530885,4.861012,9.669873
+conn_n9,273193,deck:chrom,ds,degree sequence of G,False,9.698512,4.195092,5.50342
+conn_n9,273193,deck:chrom,ds_sig,multiset of degree sequences of the cards,False,14.530892,5.056996,9.473897
+conn_n9,273193,deck:chrom,et,multiset of edge degree-types of G,False,14.530892,5.056996,9.473897
+conn_n9,273193,deck:chrom,so,Sombor index SO(G),False,14.530598,5.056701,9.473897
+conn_n9,273193,deck:chrom,dd,multiset {Delta_e},False,17.830979,6.326677,11.504302
+conn_n9,273193,deck:chrom,taus,number of spanning trees,False,14.369284,4.747175,9.622109
+conn_n9,273193,deck:chrom,tri,number of triangles,False,4.569712,2.262939,2.306773
+conn_n9,273193,deck:chrom,wiener,Wiener index,False,4.645134,2.354498,2.290637
+conn_n9,273193,deck:chrom,n,order n,False,0.282739,0.095487,0.187252
+conn_n9,273193,deck:chrom,m,size m,True,3.733889,3.733889,0.0
+conn_n9,273193,deck:chrom,C,Sombor deletion correction C(G),False,14.530885,5.056989,9.473897
+conn_n9,273193,deck:girth,ds,degree sequence of G,False,9.698512,3.767656,5.930856
+conn_n9,273193,deck:girth,ds_sig,multiset of degree sequences of the cards,False,14.530892,3.822517,10.708375
+conn_n9,273193,deck:girth,et,multiset of edge degree-types of G,False,14.530892,3.822517,10.708375
+conn_n9,273193,deck:girth,so,Sombor index SO(G),False,14.530598,3.822223,10.708375
+conn_n9,273193,deck:girth,dd,multiset {Delta_e},False,17.830979,3.92717,13.90381
+conn_n9,273193,deck:girth,taus,number of spanning trees,False,14.369284,3.260259,11.109025
+conn_n9,273193,deck:girth,tri,number of triangles,False,4.569712,1.608304,2.961408
+conn_n9,273193,deck:girth,wiener,Wiener index,False,4.645134,2.234096,2.411038
+conn_n9,273193,deck:girth,n,order n,False,0.282739,0.068571,0.214168
+conn_n9,273193,deck:girth,m,size m,True,3.733889,3.733889,0.0
+conn_n9,273193,deck:girth,C,Sombor deletion correction C(G),False,14.530885,3.82251,10.708375
+conn_n9,273193,deck:n_bridges,ds,degree sequence of G,False,9.698512,5.776581,3.921931
+conn_n9,273193,deck:n_bridges,ds_sig,multiset of degree sequences of the cards,False,14.530892,6.161631,8.369262
+conn_n9,273193,deck:n_bridges,et,multiset of edge degree-types of G,False,14.530892,6.161631,8.369262
+conn_n9,273193,deck:n_bridges,so,Sombor index SO(G),False,14.530598,6.161336,8.369262
+conn_n9,273193,deck:n_bridges,dd,multiset {Delta_e},False,17.830979,6.252543,11.578436
+conn_n9,273193,deck:n_bridges,taus,number of spanning trees,False,14.369284,5.000463,9.368822
+conn_n9,273193,deck:n_bridges,tri,number of triangles,False,4.569712,1.957073,2.612639
+conn_n9,273193,deck:n_bridges,wiener,Wiener index,False,4.645134,2.566122,2.079012
+conn_n9,273193,deck:n_bridges,n,order n,False,0.282739,0.135564,0.147175
+conn_n9,273193,deck:n_bridges,m,size m,True,3.733889,3.733889,0.0
+conn_n9,273193,deck:n_bridges,C,Sombor deletion correction C(G),False,14.530885,6.161624,8.369262
+conn_n9,273193,deck:n_cut,ds,degree sequence of G,False,9.698512,5.817923,3.880589
+conn_n9,273193,deck:n_cut,ds_sig,multiset of degree sequences of the cards,False,14.530892,6.472651,8.058241
+conn_n9,273193,deck:n_cut,et,multiset of edge degree-types of G,False,14.530892,6.472651,8.058241
+conn_n9,273193,deck:n_cut,so,Sombor index SO(G),False,14.530598,6.472356,8.058241
+conn_n9,273193,deck:n_cut,dd,multiset {Delta_e},False,17.830979,6.843444,10.987535
+conn_n9,273193,deck:n_cut,taus,number of spanning trees,False,14.369284,5.169431,9.199853
+conn_n9,273193,deck:n_cut,tri,number of triangles,False,4.569712,2.045059,2.524653
+conn_n9,273193,deck:n_cut,wiener,Wiener index,False,4.645134,2.705451,1.939684
+conn_n9,273193,deck:n_cut,n,order n,False,0.282739,0.130564,0.152175
+conn_n9,273193,deck:n_cut,m,size m,True,3.733889,3.733889,0.0
+conn_n9,273193,deck:n_cut,C,Sombor deletion correction C(G),False,14.530885,6.472644,8.058241
+conn_n9,273193,deck:diam,ds,degree sequence of G,False,9.698512,4.773622,4.924889
+conn_n9,273193,deck:diam,ds_sig,multiset of degree sequences of the cards,False,14.530892,5.956618,8.574274
+conn_n9,273193,deck:diam,et,multiset of edge degree-types of G,False,14.530892,5.956618,8.574274
+conn_n9,273193,deck:diam,so,Sombor index SO(G),False,14.530598,5.956324,8.574274
+conn_n9,273193,deck:diam,dd,multiset {Delta_e},False,17.830979,7.343935,10.487044
+conn_n9,273193,deck:diam,taus,number of spanning trees,False,14.369284,4.974999,9.394285
+conn_n9,273193,deck:diam,tri,number of triangles,False,4.569712,1.793667,2.776045
+conn_n9,273193,deck:diam,wiener,Wiener index,False,4.645134,3.393595,1.251539
+conn_n9,273193,deck:diam,n,order n,False,0.282739,0.182871,0.099868
+conn_n9,273193,deck:diam,m,size m,True,3.733889,3.733889,0.0
+conn_n9,273193,deck:diam,C,Sombor deletion correction C(G),False,14.530885,5.956611,8.574274
+conn_n9,273193,deck:dist_dist,ds,degree sequence of G,False,9.698512,7.029681,2.668831
+conn_n9,273193,deck:dist_dist,ds_sig,multiset of degree sequences of the cards,False,14.530892,10.496205,4.034687
+conn_n9,273193,deck:dist_dist,et,multiset of edge degree-types of G,False,14.530892,10.496205,4.034687
+conn_n9,273193,deck:dist_dist,so,Sombor index SO(G),False,14.530598,10.495911,4.034687
+conn_n9,273193,deck:dist_dist,dd,multiset {Delta_e},False,17.830979,13.251144,4.579835
+conn_n9,273193,deck:dist_dist,taus,number of spanning trees,False,14.369284,9.863047,4.506237
+conn_n9,273193,deck:dist_dist,tri,number of triangles,False,4.569712,2.861184,1.708528
+conn_n9,273193,deck:dist_dist,wiener,Wiener index,False,4.645134,4.644863,0.000271
+conn_n9,273193,deck:dist_dist,n,order n,False,0.282739,0.282732,7e-06
+conn_n9,273193,deck:dist_dist,m,size m,True,3.733889,3.733889,0.0
+conn_n9,273193,deck:dist_dist,C,Sombor deletion correction C(G),False,14.530885,10.496198,4.034687
+conn_n9,273193,deck:match_poly,ds,degree sequence of G,False,9.698512,9.69849,2.2e-05
+conn_n9,273193,deck:match_poly,ds_sig,multiset of degree sequences of the cards,False,14.530892,14.530871,2.2e-05
+conn_n9,273193,deck:match_poly,et,multiset of edge degree-types of G,False,14.530892,14.530871,2.2e-05
+conn_n9,273193,deck:match_poly,so,Sombor index SO(G),False,14.530598,14.530576,2.2e-05
+conn_n9,273193,deck:match_poly,dd,multiset {Delta_e},False,17.830979,17.830957,2.2e-05
+conn_n9,273193,deck:match_poly,taus,number of spanning trees,False,14.369284,14.369262,2.2e-05
+conn_n9,273193,deck:match_poly,tri,number of triangles,False,4.569712,4.56969,2.2e-05
+conn_n9,273193,deck:match_poly,wiener,Wiener index,False,4.645134,4.645112,2.2e-05
+conn_n9,273193,deck:match_poly,n,order n,False,0.282739,0.282732,7e-06
+conn_n9,273193,deck:match_poly,m,size m,True,3.733889,3.733889,0.0
+conn_n9,273193,deck:match_poly,C,Sombor deletion correction C(G),False,14.530885,14.530863,2.2e-05
+conn_n9,273193,deck:taus,ds,degree sequence of G,False,9.698512,9.055835,0.642677
+conn_n9,273193,deck:taus,ds_sig,multiset of degree sequences of the cards,False,14.530892,13.615827,0.915065
+conn_n9,273193,deck:taus,et,multiset of edge degree-types of G,False,14.530892,13.615827,0.915065
+conn_n9,273193,deck:taus,so,Sombor index SO(G),False,14.530598,13.615533,0.915065
+conn_n9,273193,deck:taus,dd,multiset {Delta_e},False,17.830979,16.866757,0.964222
+conn_n9,273193,deck:taus,taus,number of spanning trees,True,14.369284,14.369284,0.0
+conn_n9,273193,deck:taus,tri,number of triangles,False,4.569712,4.568568,0.001144
+conn_n9,273193,deck:taus,wiener,Wiener index,False,4.645134,3.97924,0.665894
+conn_n9,273193,deck:taus,n,order n,True,0.282739,0.282739,0.0
+conn_n9,273193,deck:taus,m,size m,True,3.733889,3.733889,0.0
+conn_n9,273193,deck:taus,C,Sombor deletion correction C(G),False,14.530885,13.61582,0.915065
+conn_n9,273193,deck:sombor,ds,degree sequence of G,False,9.698512,9.698504,7e-06
+conn_n9,273193,deck:sombor,ds_sig,multiset of degree sequences of the cards,False,14.530892,14.530885,7e-06
+conn_n9,273193,deck:sombor,et,multiset of edge degree-types of G,False,14.530892,14.530885,7e-06
+conn_n9,273193,deck:sombor,so,Sombor index SO(G),False,14.530598,14.530591,7e-06
+conn_n9,273193,deck:sombor,dd,multiset {Delta_e},False,17.830979,17.830972,7e-06
+conn_n9,273193,deck:sombor,taus,number of spanning trees,False,14.369284,14.141076,0.228208
+conn_n9,273193,deck:sombor,tri,number of triangles,False,4.569712,4.394913,0.174798
+conn_n9,273193,deck:sombor,wiener,Wiener index,False,4.645134,4.555747,0.089387
+conn_n9,273193,deck:sombor,n,order n,False,0.282739,0.282732,7e-06
+conn_n9,273193,deck:sombor,m,size m,True,3.733889,3.733889,0.0
+conn_n9,273193,deck:sombor,C,Sombor deletion correction C(G),False,14.530885,14.530878,7e-06
+conn_n9,273193,deck:sombor_inv,ds,degree sequence of G,False,9.698512,9.698504,7e-06
+conn_n9,273193,deck:sombor_inv,ds_sig,multiset of degree sequences of the cards,False,14.530892,14.530885,7e-06
+conn_n9,273193,deck:sombor_inv,et,multiset of edge degree-types of G,False,14.530892,14.530885,7e-06
+conn_n9,273193,deck:sombor_inv,so,Sombor index SO(G),False,14.530598,14.530591,7e-06
+conn_n9,273193,deck:sombor_inv,dd,multiset {Delta_e},False,17.830979,17.830972,7e-06
+conn_n9,273193,deck:sombor_inv,taus,number of spanning trees,False,14.369284,14.141076,0.228208
+conn_n9,273193,deck:sombor_inv,tri,number of triangles,False,4.569712,4.394913,0.174798
+conn_n9,273193,deck:sombor_inv,wiener,Wiener index,False,4.645134,4.555747,0.089387
+conn_n9,273193,deck:sombor_inv,n,order n,False,0.282739,0.282732,7e-06
+conn_n9,273193,deck:sombor_inv,m,size m,True,3.733889,3.733889,0.0
+conn_n9,273193,deck:sombor_inv,C,Sombor deletion correction C(G),False,14.530885,14.530878,7e-06
+conn_n9,273193,deck:randic,ds,degree sequence of G,False,9.698512,9.698504,7e-06
+conn_n9,273193,deck:randic,ds_sig,multiset of degree sequences of the cards,False,14.530892,14.530885,7e-06
+conn_n9,273193,deck:randic,et,multiset of edge degree-types of G,False,14.530892,14.530885,7e-06
+conn_n9,273193,deck:randic,so,Sombor index SO(G),False,14.530598,14.530591,7e-06
+conn_n9,273193,deck:randic,dd,multiset {Delta_e},False,17.830979,17.830972,7e-06
+conn_n9,273193,deck:randic,taus,number of spanning trees,False,14.369284,14.141076,0.228208
+conn_n9,273193,deck:randic,tri,number of triangles,False,4.569712,4.394913,0.174798
+conn_n9,273193,deck:randic,wiener,Wiener index,False,4.645134,4.555747,0.089387
+conn_n9,273193,deck:randic,n,order n,False,0.282739,0.282732,7e-06
+conn_n9,273193,deck:randic,m,size m,True,3.733889,3.733889,0.0
+conn_n9,273193,deck:randic,C,Sombor deletion correction C(G),False,14.530885,14.530878,7e-06
+conn_n9,273193,deck:abc,ds,degree sequence of G,False,9.698512,9.698504,7e-06
+conn_n9,273193,deck:abc,ds_sig,multiset of degree sequences of the cards,False,14.530892,14.530885,7e-06
+conn_n9,273193,deck:abc,et,multiset of edge degree-types of G,False,14.530892,14.530885,7e-06
+conn_n9,273193,deck:abc,so,Sombor index SO(G),False,14.530598,14.530591,7e-06
+conn_n9,273193,deck:abc,dd,multiset {Delta_e},False,17.830979,17.830927,5.2e-05
+conn_n9,273193,deck:abc,taus,number of spanning trees,False,14.369284,14.141031,0.228253
+conn_n9,273193,deck:abc,tri,number of triangles,False,4.569712,4.394913,0.174798
+conn_n9,273193,deck:abc,wiener,Wiener index,False,4.645134,4.555702,0.089432
+conn_n9,273193,deck:abc,n,order n,False,0.282739,0.282732,7e-06
+conn_n9,273193,deck:abc,m,size m,True,3.733889,3.733889,0.0
+conn_n9,273193,deck:abc,C,Sombor deletion correction C(G),False,14.530885,14.530878,7e-06
+conn_n9,273193,deck:m1,ds,degree sequence of G,False,9.698512,9.579698,0.118814
+conn_n9,273193,deck:m1,ds_sig,multiset of degree sequences of the cards,False,14.530892,14.080639,0.450254
+conn_n9,273193,deck:m1,et,multiset of edge degree-types of G,False,14.530892,14.080639,0.450254
+conn_n9,273193,deck:m1,so,Sombor index SO(G),False,14.530598,14.080344,0.450254
+conn_n9,273193,deck:m1,dd,multiset {Delta_e},False,17.830979,14.080639,3.75034
+conn_n9,273193,deck:m1,taus,number of spanning trees,False,14.369284,10.521865,3.847419
+conn_n9,273193,deck:m1,tri,number of triangles,False,4.569712,2.982135,1.587577
+conn_n9,273193,deck:m1,wiener,Wiener index,False,4.645134,3.452583,1.192551
+conn_n9,273193,deck:m1,n,order n,False,0.282739,0.26501,0.017729
+conn_n9,273193,deck:m1,m,size m,True,3.733889,3.733889,0.0
+conn_n9,273193,deck:m1,C,Sombor deletion correction C(G),False,14.530885,14.080631,0.450254
+conn_n9,273193,deck:m2,ds,degree sequence of G,False,9.698512,9.698504,7e-06
+conn_n9,273193,deck:m2,ds_sig,multiset of degree sequences of the cards,False,14.530892,14.530885,7e-06
+conn_n9,273193,deck:m2,et,multiset of edge degree-types of G,False,14.530892,14.530885,7e-06
+conn_n9,273193,deck:m2,so,Sombor index SO(G),False,14.530598,14.530591,7e-06
+conn_n9,273193,deck:m2,dd,multiset {Delta_e},False,17.830979,17.785816,0.045163
+conn_n9,273193,deck:m2,taus,number of spanning trees,False,14.369284,14.096008,0.273276
+conn_n9,273193,deck:m2,tri,number of triangles,False,4.569712,4.359168,0.210544
+conn_n9,273193,deck:m2,wiener,Wiener index,False,4.645134,4.533385,0.111749
+conn_n9,273193,deck:m2,n,order n,False,0.282739,0.282732,7e-06
+conn_n9,273193,deck:m2,m,size m,True,3.733889,3.733889,0.0
+conn_n9,273193,deck:m2,C,Sombor deletion correction C(G),False,14.530885,14.530878,7e-06
+conn_n9,273193,deck:wiener,ds,degree sequence of G,False,9.698512,6.956537,2.741975
+conn_n9,273193,deck:wiener,ds_sig,multiset of degree sequences of the cards,False,14.530892,10.405586,4.125307
+conn_n9,273193,deck:wiener,et,multiset of edge degree-types of G,False,14.530892,10.405586,4.125307
+conn_n9,273193,deck:wiener,so,Sombor index SO(G),False,14.530598,10.405291,4.125307
+conn_n9,273193,deck:wiener,dd,multiset {Delta_e},False,17.830979,13.158498,4.672481
+conn_n9,273193,deck:wiener,taus,number of spanning trees,False,14.369284,9.771138,4.598146
+conn_n9,273193,deck:wiener,tri,number of triangles,False,4.569712,2.813902,1.75581
+conn_n9,273193,deck:wiener,wiener,Wiener index,False,4.645134,4.644787,0.000347
+conn_n9,273193,deck:wiener,n,order n,False,0.282739,0.282732,7e-06
+conn_n9,273193,deck:wiener,m,size m,True,3.733889,3.733889,0.0
+conn_n9,273193,deck:wiener,C,Sombor deletion correction C(G),False,14.530885,10.405578,4.125307
+conn_n9,273193,deck:adj_spec,ds,degree sequence of G,True,9.698512,9.698512,0.0
+conn_n9,273193,deck:adj_spec,ds_sig,multiset of degree sequences of the cards,True,14.530892,14.530892,0.0
+conn_n9,273193,deck:adj_spec,et,multiset of edge degree-types of G,True,14.530892,14.530892,0.0
+conn_n9,273193,deck:adj_spec,so,Sombor index SO(G),True,14.530598,14.530598,0.0
+conn_n9,273193,deck:adj_spec,dd,multiset {Delta_e},True,17.830979,17.830979,0.0
+conn_n9,273193,deck:adj_spec,taus,number of spanning trees,True,14.369284,14.369284,0.0
+conn_n9,273193,deck:adj_spec,tri,number of triangles,True,4.569712,4.569712,0.0
+conn_n9,273193,deck:adj_spec,wiener,Wiener index,True,4.645134,4.645134,0.0
+conn_n9,273193,deck:adj_spec,n,order n,True,0.282739,0.282739,0.0
+conn_n9,273193,deck:adj_spec,m,size m,True,3.733889,3.733889,0.0
+conn_n9,273193,deck:adj_spec,C,Sombor deletion correction C(G),True,14.530885,14.530885,0.0
+conn_n9,273193,deck:lap_spec,ds,degree sequence of G,True,9.698512,9.698512,0.0
+conn_n9,273193,deck:lap_spec,ds_sig,multiset of degree sequences of the cards,True,14.530892,14.530892,0.0
+conn_n9,273193,deck:lap_spec,et,multiset of edge degree-types of G,True,14.530892,14.530892,0.0
+conn_n9,273193,deck:lap_spec,so,Sombor index SO(G),True,14.530598,14.530598,0.0
+conn_n9,273193,deck:lap_spec,dd,multiset {Delta_e},True,17.830979,17.830979,0.0
+conn_n9,273193,deck:lap_spec,taus,number of spanning trees,True,14.369284,14.369284,0.0
+conn_n9,273193,deck:lap_spec,tri,number of triangles,True,4.569712,4.569712,0.0
+conn_n9,273193,deck:lap_spec,wiener,Wiener index,True,4.645134,4.645134,0.0
+conn_n9,273193,deck:lap_spec,n,order n,True,0.282739,0.282739,0.0
+conn_n9,273193,deck:lap_spec,m,size m,True,3.733889,3.733889,0.0
+conn_n9,273193,deck:lap_spec,C,Sombor deletion correction C(G),True,14.530885,14.530885,0.0
+conn_n9,273193,deck:q_spec,ds,degree sequence of G,True,9.698512,9.698512,0.0
+conn_n9,273193,deck:q_spec,ds_sig,multiset of degree sequences of the cards,True,14.530892,14.530892,0.0
+conn_n9,273193,deck:q_spec,et,multiset of edge degree-types of G,True,14.530892,14.530892,0.0
+conn_n9,273193,deck:q_spec,so,Sombor index SO(G),True,14.530598,14.530598,0.0
+conn_n9,273193,deck:q_spec,dd,multiset {Delta_e},True,17.830979,17.830979,0.0
+conn_n9,273193,deck:q_spec,taus,number of spanning trees,True,14.369284,14.369284,0.0
+conn_n9,273193,deck:q_spec,tri,number of triangles,True,4.569712,4.569712,0.0
+conn_n9,273193,deck:q_spec,wiener,Wiener index,True,4.645134,4.645134,0.0
+conn_n9,273193,deck:q_spec,n,order n,True,0.282739,0.282739,0.0
+conn_n9,273193,deck:q_spec,m,size m,True,3.733889,3.733889,0.0
+conn_n9,273193,deck:q_spec,C,Sombor deletion correction C(G),True,14.530885,14.530885,0.0
+conn_n9,273193,deck:adj_charpoly,ds,degree sequence of G,True,9.698512,9.698512,0.0
+conn_n9,273193,deck:adj_charpoly,ds_sig,multiset of degree sequences of the cards,True,14.530892,14.530892,0.0
+conn_n9,273193,deck:adj_charpoly,et,multiset of edge degree-types of G,True,14.530892,14.530892,0.0
+conn_n9,273193,deck:adj_charpoly,so,Sombor index SO(G),True,14.530598,14.530598,0.0
+conn_n9,273193,deck:adj_charpoly,dd,multiset {Delta_e},True,17.830979,17.830979,0.0
+conn_n9,273193,deck:adj_charpoly,taus,number of spanning trees,True,14.369284,14.369284,0.0
+conn_n9,273193,deck:adj_charpoly,tri,number of triangles,True,4.569712,4.569712,0.0
+conn_n9,273193,deck:adj_charpoly,wiener,Wiener index,True,4.645134,4.645134,0.0
+conn_n9,273193,deck:adj_charpoly,n,order n,True,0.282739,0.282739,0.0
+conn_n9,273193,deck:adj_charpoly,m,size m,True,3.733889,3.733889,0.0
+conn_n9,273193,deck:adj_charpoly,C,Sombor deletion correction C(G),True,14.530885,14.530885,0.0
+conn_n9,273193,deck:lap_charpoly,ds,degree sequence of G,True,9.698512,9.698512,0.0
+conn_n9,273193,deck:lap_charpoly,ds_sig,multiset of degree sequences of the cards,True,14.530892,14.530892,0.0
+conn_n9,273193,deck:lap_charpoly,et,multiset of edge degree-types of G,True,14.530892,14.530892,0.0
+conn_n9,273193,deck:lap_charpoly,so,Sombor index SO(G),True,14.530598,14.530598,0.0
+conn_n9,273193,deck:lap_charpoly,dd,multiset {Delta_e},True,17.830979,17.830979,0.0
+conn_n9,273193,deck:lap_charpoly,taus,number of spanning trees,True,14.369284,14.369284,0.0
+conn_n9,273193,deck:lap_charpoly,tri,number of triangles,True,4.569712,4.569712,0.0
+conn_n9,273193,deck:lap_charpoly,wiener,Wiener index,True,4.645134,4.645134,0.0
+conn_n9,273193,deck:lap_charpoly,n,order n,True,0.282739,0.282739,0.0
+conn_n9,273193,deck:lap_charpoly,m,size m,True,3.733889,3.733889,0.0
+conn_n9,273193,deck:lap_charpoly,C,Sombor deletion correction C(G),True,14.530885,14.530885,0.0
+conn_n9,273193,deck:energy,ds,degree sequence of G,False,9.698512,9.698504,7e-06
+conn_n9,273193,deck:energy,ds_sig,multiset of degree sequences of the cards,False,14.530892,14.530885,7e-06
+conn_n9,273193,deck:energy,et,multiset of edge degree-types of G,False,14.530892,14.530885,7e-06
+conn_n9,273193,deck:energy,so,Sombor index SO(G),False,14.530598,14.530591,7e-06
+conn_n9,273193,deck:energy,dd,multiset {Delta_e},False,17.830979,17.830972,7e-06
+conn_n9,273193,deck:energy,taus,number of spanning trees,False,14.369284,14.369277,7e-06
+conn_n9,273193,deck:energy,tri,number of triangles,False,4.569712,4.569705,7e-06
+conn_n9,273193,deck:energy,wiener,Wiener index,False,4.645134,4.645127,7e-06
+conn_n9,273193,deck:energy,n,order n,False,0.282739,0.282732,7e-06
+conn_n9,273193,deck:energy,m,size m,True,3.733889,3.733889,0.0
+conn_n9,273193,deck:energy,C,Sombor deletion correction C(G),False,14.530885,14.530878,7e-06

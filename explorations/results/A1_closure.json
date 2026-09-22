@@ -1,0 +1,80 @@
+{
+ "script": "explorations/A1_closure.py",
+ "family": "{n<=9, m>=4, 2*Delta > m}",
+ "n_graphs": 1844,
+ "outcomes": {
+  "solve_fail:negative-cell": 132,
+  "star_ok": 15,
+  "solve_fail:bad-value": 19,
+  "ok": 1104,
+  "ok/unique-hub": 1104,
+  "ok-but-unresolved:1": 397,
+  "ok-but-unresolved:2": 129,
+  "ok-but-unresolved:3": 38,
+  "ok-but-unresolved:4": 9,
+  "ok-but-unresolved:5": 1
+ },
+ "n_failures": 725,
+ "failures": [
+  [
+   "CV",
+   "solve-negative-cell"
+  ],
+  [
+   "C^",
+   "solve-negative-cell"
+  ],
+  [
+   "DCs",
+   "solve-negative-cell"
+  ],
+  [
+   "DCw",
+   "solve-bad-value"
+  ],
+  [
+   "DC{",
+   "solve-negative-cell"
+  ],
+  [
+   "DEk",
+   "solve-bad-value"
+  ],
+  [
+   "DEs",
+   "solve-negative-cell"
+  ],
+  [
+   "DE{",
+   "solve-negative-cell"
+  ],
+  [
+   "DF{",
+   "solve-bad-value"
+  ],
+  [
+   "DQ{",
+   "unresolved rows [3]"
+  ],
+  [
+   "E?`o",
+   "unresolved rows [2]"
+  ],
+  [
+   "E?bG",
+   "solve-negative-cell"
+  ],
+  [
+   "E?b_",
+   "solve-bad-value"
+  ],
+  [
+   "E?bg",
+   "solve-negative-cell"
+  ],
+  [
+   "E?bo",
+   "solve-negative-cell"
+  ]
+ ]
+}

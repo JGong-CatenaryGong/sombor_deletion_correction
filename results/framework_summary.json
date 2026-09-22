@@ -1,0 +1,130 @@
+{
+ "graphs_checked_n_le": 8,
+ "vertex_index_theorem_failures": {},
+ "vertex_index_max_error": {
+  "g=d^2 (M1)": "0.000e+00",
+  "g=d^3 (F)": "0.000e+00",
+  "g=sqrt(d)": "2.274e-13",
+  "g=log(1+d)": "2.842e-13",
+  "g=1/d": "2.842e-14"
+ },
+ "wiener_local_configurations": 15802,
+ "wiener_configurations_with_multiple_deltas": 5243,
+ "wiener_nonlocality_examples": [
+  {
+   "cfg": [
+    [
+     1,
+     2
+    ],
+    [],
+    [
+     2
+    ]
+   ],
+   "deltas": [
+    6.0,
+    10.0,
+    14.0,
+    15.0,
+    18.0,
+    19.0,
+    21.0,
+    22.0,
+    23.0,
+    24.0,
+    25.0,
+    26.0,
+    27.0,
+    28.0
+   ]
+  },
+  {
+   "cfg": [
+    [
+     1,
+     2
+    ],
+    [],
+    [
+     3
+    ]
+   ],
+   "deltas": [
+    13.0,
+    17.0,
+    18.0,
+    21.0,
+    22.0,
+    24.0
+   ]
+  },
+  {
+   "cfg": [
+    [
+     1,
+     2
+    ],
+    [],
+    [
+     4
+    ]
+   ],
+   "deltas": [
+    16.0,
+    20.0,
+    21.0
+   ]
+  },
+  {
+   "cfg": [
+    [
+     2,
+     1
+    ],
+    [
+     2
+    ],
+    []
+   ],
+   "deltas": [
+    6.0,
+    15.0,
+    20.0,
+    24.0,
+    25.0,
+    26.0,
+    28.0
+   ]
+  },
+  {
+   "cfg": [
+    [
+     2,
+     1
+    ],
+    [
+     3
+    ],
+    []
+   ],
+   "deltas": [
+    9.0,
+    13.0,
+    17.0,
+    18.0,
+    21.0,
+    22.0,
+    23.0,
+    24.0
+   ]
+  }
+ ],
+ "trees_checked": 46,
+ "tree_formula_max_error": "0.000e+00",
+ "wiener_sign_vs_naive": {
+  "sum<naive": 358,
+  "sum==naive": 19,
+  "sum>naive": 13206
+ }
+}

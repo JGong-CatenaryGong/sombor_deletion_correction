@@ -1,0 +1,130 @@
+{
+ "graph:lap_spec": {
+  "n": 6,
+  "m": 7,
+  "graphs": [
+   "ECZo",
+   "ECz_"
+  ],
+  "deg_seqs": [
+   [
+    4,
+    2,
+    2,
+    2,
+    2,
+    2
+   ],
+   [
+    3,
+    3,
+    3,
+    2,
+    2,
+    1
+   ]
+  ],
+  "C": [
+   15.349292355,
+   14.939222326
+  ],
+  "differs": true,
+  "shared_invariant": "lap_spec",
+  "separates_C": true
+ },
+ "graph:taus": {
+  "n": 4,
+  "m": 4,
+  "graphs": [
+   "CV",
+   "DC{"
+  ],
+  "deg_seqs": [
+   [
+    3,
+    2,
+    2,
+    1
+   ],
+   [
+    4,
+    2,
+    2,
+    1,
+    1
+   ]
+  ],
+  "C": [
+   7.032181493,
+   12.847254823
+  ],
+  "differs": true,
+  "shared_invariant": "taus",
+  "separates_C": true
+ },
+ "graph:adj_spec": {
+  "n": 5,
+  "m": 4,
+  "graphs": [
+   "D?{",
+   "DEo"
+  ],
+  "deg_seqs": [
+   [
+    4,
+    1,
+    1,
+    1,
+    1
+   ],
+   [
+    2,
+    2,
+    2,
+    2,
+    0
+   ]
+  ],
+  "C": [
+   11.529935585,
+   4.738873178
+  ],
+  "differs": true,
+  "shared_invariant": "adj_spec",
+  "separates_C": true
+ },
+ "graph:kirchhoff": {
+  "n": 6,
+  "m": 5,
+  "kirchhoff": 12.0,
+  "graphs": [
+   "ECd_",
+   "ECpO"
+  ],
+  "C": [
+   5.197863714,
+   5.923591472
+  ],
+  "deg_seqs": [
+   [
+    2,
+    2,
+    2,
+    2,
+    1,
+    1
+   ],
+   [
+    2,
+    2,
+    2,
+    2,
+    2,
+    0
+   ]
+  ],
+  "differs": true,
+  "shared_invariant": "kirchhoff",
+  "separates_C": true
+ }
+}

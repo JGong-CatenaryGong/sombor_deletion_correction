@@ -1,0 +1,245 @@
+{
+ "build_ok": true,
+ "files_with_sorry": [],
+ "total_theorems": 97,
+ "lean_version": "leanprover/lean4:v4.34.0",
+ "mathlib_rev": "v4.34.0 (source tarball via mirror ghfast.top; olean cache, 8906 files)",
+ "items": [
+  {
+   "file": "StarMax.lean",
+   "priority": "1",
+   "claim": "star maximisation  C(G) <= m(m-1)c(m,1)",
+   "status": "verified",
+   "theorems": [
+    "eq_sym2_of_mem_of_mem",
+    "edge_degree_add_le",
+    "neighbor_sum_swap",
+    "two_mul_M1",
+    "M1_le",
+    "C_le_M1",
+    "C_le_star"
+   ],
+   "n_theorems": 7,
+   "has_sorry": false,
+   "key_theorem": "C_le_star"
+  },
+  {
+   "file": "StarEquality.lean",
+   "priority": "1b",
+   "claim": "equality characterisation of the star theorem",
+   "status": "verified",
+   "theorems": [
+    "defC_nonneg",
+    "defC_sum",
+    "c_eq_of_defect_zero",
+    "C_eq_star_iff_aux",
+    "C_eq_star_iff"
+   ],
+   "n_theorems": 5,
+   "has_sorry": false,
+   "key_theorem": "C_eq_star_iff"
+  },
+  {
+   "file": "ZeroIff.lean",
+   "priority": "2",
+   "claim": "C(G) = 0  <=>  G is a matching",
+   "status": "verified",
+   "theorems": [
+    "C_summand_nonneg",
+    "C_summand_pos",
+    "C_eq_zero_iff"
+   ],
+   "n_theorems": 3,
+   "has_sorry": false,
+   "key_theorem": "C_eq_zero_iff"
+  },
+  {
+   "file": "Regular.lean",
+   "priority": "3",
+   "claim": "regular graphs  C = N r (r-1) c(r,r)",
+   "status": "verified",
+   "theorems": [
+    "c_self",
+    "C_of_regular",
+    "C_of_regular_le_star"
+   ],
+   "n_theorems": 3,
+   "has_sorry": false,
+   "key_theorem": "C_of_regular"
+  },
+  {
+   "file": "Sandwich.lean",
+   "priority": "4",
+   "claim": "sharp sandwich  psiSum <= C <= sqrt2 psiSum",
+   "status": "verified",
+   "theorems": [
+    "sqrt_sq_add_sq_le",
+    "le_sqrt_sq_add_sq",
+    "denom_bounds",
+    "two_a_two_b_sub_one_pos",
+    "c_ge_div",
+    "c_le_sqrt2_div",
+    "psiSum_le_C",
+    "C_le_sqrt2_psiSum"
+   ],
+   "n_theorems": 8,
+   "has_sorry": false,
+   "key_theorem": "psiSum_le_C, C_le_sqrt2_psiSum"
+  },
+  {
+   "file": "Zagreb.lean",
+   "priority": "4b",
+   "claim": "Zagreb/Forgotten sandwich Z/(4\u0394-1) <= C <= (\u221a2/3)Z",
+   "status": "verified",
+   "theorems": [
+    "Z_eq_sum_ordered",
+    "three_le_denom",
+    "denom_le_four_maxDegree",
+    "Z_div_le_C",
+    "C_le_sqrt2_three_Z",
+    "zagreb_sandwich"
+   ],
+   "n_theorems": 6,
+   "has_sorry": false,
+   "key_theorem": "zagreb_sandwich"
+  },
+  {
+   "file": "DeletionIdentity.lean",
+   "priority": "5",
+   "claim": "general edge-deletion identity  sum_e T_f(G-e) = (m-1) T_f(G) - C_f(G)",
+   "status": "verified",
+   "theorems": [
+    "neighbor_sum_swap",
+    "sum_erase_sum",
+    "sum_deltaOrd",
+    "sum_ite_eq_add",
+    "sum_ite_eq_add_two",
+    "neighborFinset_deleteEdges",
+    "neighborFinset_deleteEdges_left",
+    "neighborFinset_deleteEdges_right",
+    "neighborFinset_deleteEdges_of_ne",
+    "degree_deleteEdges_left",
+    "degree_deleteEdges_right",
+    "degree_deleteEdges_of_ne",
+    "degree_deleteEdges_ite",
+    "degree_deleteEdges_ite_real",
+    "sum_univ_split_pair",
+    "sum_neighborFinset_deleteEdges_left",
+    "sum_neighborFinset_deleteEdges_right",
+    "sum_neighborFinset_split_left",
+    "sum_neighborFinset_split_right",
+    "sum_neighborFinset_deleteEdges_of_ne",
+    "deltaOrd_block_left",
+    "deltaOrd_block_right",
+    "deltaOrd_block_rest",
+    "ordered_sum_deleteEdges",
+    "Tf_delete_singleton",
+    "deletion_identity_of_local",
+    "deletion_identity"
+   ],
+   "n_theorems": 27,
+   "has_sorry": false,
+   "key_theorem": "deletion_identity"
+  },
+  {
+   "file": "A1EdgeTypes.lean",
+   "priority": "A1",
+   "claim": "edge-type deletion identity (exploration A1)",
+   "status": "verified",
+   "theorems": [
+    "edgeTypeCount_symm",
+    "fxy_symm",
+    "Tf_fxy_ne",
+    "Tf_fxy_eq",
+    "Cf_fxy_ne",
+    "Cf_fxy_eq",
+    "edgeType_deletion_identity"
+   ],
+   "n_theorems": 7,
+   "has_sorry": false,
+   "key_theorem": "edgeType_deletion_identity"
+  },
+  {
+   "file": "A3Delta.lean",
+   "priority": "A3",
+   "claim": "Delta coincidences: telescoping, diagonal union, sqrt20/sqrt52 families (exploration A3)",
+   "status": "verified",
+   "theorems": [
+    "telescoping_one",
+    "telescoping_two",
+    "telescoping_example",
+    "telescoping_example'",
+    "within_type_coincidence",
+    "Delta_diagonal_union",
+    "Delta_diagonal_of_same_union",
+    "Delta_sqrt20_left",
+    "Delta_sqrt20_right",
+    "Delta_sqrt20_coincidence",
+    "Delta_sqrt52_left",
+    "Delta_sqrt52_right",
+    "Delta_sqrt52_coincidence",
+    "sqrt20_ne_sqrt52"
+   ],
+   "n_theorems": 14,
+   "has_sorry": false,
+   "key_theorem": "Delta_sqrt20_coincidence, Delta_sqrt52_coincidence, sqrt20_ne_sqrt52"
+  },
+  {
+   "file": "Defs.lean",
+   "priority": "-",
+   "claim": "definitions",
+   "status": "verified",
+   "theorems": [],
+   "n_theorems": 0,
+   "has_sorry": false,
+   "key_theorem": "-"
+  },
+  {
+   "file": "Kernel.lean",
+   "priority": "-",
+   "claim": "analytic core: rationalisation, monotonicity (incl. strict), c_le_c_m_one",
+   "status": "verified",
+   "theorems": [
+    "c_mul_denom",
+    "denom_pos",
+    "c_eq_div",
+    "degree_pos_of_adj",
+    "one_le_degree_of_adj",
+    "mem_incidenceFinset_iff",
+    "c_pos",
+    "c_pos_nat",
+    "c_antitone_right_nat",
+    "c_succ_left_nat",
+    "c_monotone_left_nat",
+    "neighborFinset_eq_empty_of_degree_eq_zero",
+    "c_le_c_m_one",
+    "c_antitone_right_nat_lt",
+    "c_succ_left_nat_lt",
+    "c_lt_left_nat",
+    "c_eq_c_m_one_iff"
+   ],
+   "n_theorems": 17,
+   "has_sorry": false,
+   "key_theorem": "c_le_c_m_one, c_eq_c_m_one_iff"
+  },
+  {
+   "file": "StarTheorem.lean",
+   "priority": "-",
+   "claim": "root module (import list)",
+   "status": "verified",
+   "theorems": [],
+   "n_theorems": 0,
+   "has_sorry": false,
+   "key_theorem": "-"
+  }
+ ],
+ "not_formalised": [],
+ "plan_complete": true,
+ "completed_since_last_run": [
+  "the general edge-deletion identity deletion_identity (priority 5, now unconditional): degree update for SimpleGraph.deleteEdges, the local formula T_f(G - s(u,v)) = T_f(G) - deltaOrd(u,v), and the assembly"
+ ],
+ "outside_formalisation": [
+  "the empirical/computational parts of the report (deck enumeration, collision search, residual-entropy measurements, ML tasks) are data, not theorems",
+  "the distance-type (Wiener) deletion formula is not of the form (m-1)T - C at all (report section 9), so there is no statement of this shape to formalise"
+ ]
+}

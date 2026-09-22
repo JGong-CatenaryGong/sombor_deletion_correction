@@ -1,0 +1,17 @@
+{
+ "script": "explorations/n10_deck_partition.py",
+ "CHEM_n10": 89402,
+ "n_classes": {
+  "deck": 89402,
+  "et": 53984,
+  "so": 53984
+ },
+ "n_collision_graphs": {
+  "deck": 0,
+  "et": 35418,
+  "so": 35418
+ },
+ "deck_refines_edge_type_deck": true,
+ "sombor_eq_edge_type_deck_partition": true,
+ "deck_eq_edge_type_deck_partition": false
+}

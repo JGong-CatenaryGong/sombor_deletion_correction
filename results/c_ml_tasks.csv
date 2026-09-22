@@ -1,0 +1,56 @@
+task,features,n_pos,auc_or_acc,metric
+planar,C,11704,0.8629,single-feature AUC
+planar,SO,11704,0.8678,single-feature AUC
+planar,M1,11704,0.8699,single-feature AUC
+planar,M2,11704,0.8697,single-feature AUC
+planar,randic,11704,0.7318,single-feature AUC
+planar,wiener,11704,0.7624,single-feature AUC
+planar,taus,11704,0.8843,single-feature AUC
+planar,n,11704,0.5376,single-feature AUC
+planar,m,11704,0.8626,single-feature AUC
+planar,RBF-SVM[noC],11704,0.8629,5-fold CV accuracy
+planar,RBF-SVM[withC],11704,0.8616,5-fold CV accuracy
+bipartite,C,661,0.834,single-feature AUC
+bipartite,SO,661,0.8368,single-feature AUC
+bipartite,M1,661,0.8387,single-feature AUC
+bipartite,M2,661,0.8435,single-feature AUC
+bipartite,randic,661,0.7124,single-feature AUC
+bipartite,wiener,661,0.6369,single-feature AUC
+bipartite,taus,661,0.8112,single-feature AUC
+bipartite,n,661,0.5826,single-feature AUC
+bipartite,m,661,0.8295,single-feature AUC
+bipartite,RBF-SVM[noC],661,0.9593,5-fold CV accuracy
+bipartite,RBF-SVM[withC],661,0.9593,5-fold CV accuracy
+tree,C,75,0.9919,single-feature AUC
+tree,SO,75,0.9955,single-feature AUC
+tree,M1,75,0.9968,single-feature AUC
+tree,M2,75,0.9981,single-feature AUC
+tree,randic,75,0.8821,single-feature AUC
+tree,wiener,75,0.6263,single-feature AUC
+tree,taus,75,1.0,single-feature AUC
+tree,n,75,0.7033,single-feature AUC
+tree,m,75,0.9941,single-feature AUC
+tree,RBF-SVM[noC],75,0.9997,5-fold CV accuracy
+tree,RBF-SVM[withC],75,0.9997,5-fold CV accuracy
+biconnected,C,6085,0.7461,single-feature AUC
+biconnected,SO,6085,0.7641,single-feature AUC
+biconnected,M1,6085,0.765,single-feature AUC
+biconnected,M2,6085,0.7558,single-feature AUC
+biconnected,randic,6085,0.8174,single-feature AUC
+biconnected,wiener,6085,0.7942,single-feature AUC
+biconnected,taus,6085,0.8839,single-feature AUC
+biconnected,n,6085,0.501,single-feature AUC
+biconnected,m,6085,0.799,single-feature AUC
+biconnected,RBF-SVM[noC],6085,0.9694,5-fold CV accuracy
+biconnected,RBF-SVM[withC],6085,0.979,5-fold CV accuracy
+has_triangle,C,13306,0.8223,single-feature AUC
+has_triangle,SO,13306,0.8179,single-feature AUC
+has_triangle,M1,13306,0.8197,single-feature AUC
+has_triangle,M2,13306,0.8312,single-feature AUC
+has_triangle,randic,13306,0.6307,single-feature AUC
+has_triangle,wiener,13306,0.6075,single-feature AUC
+has_triangle,taus,13306,0.7564,single-feature AUC
+has_triangle,n,13306,0.5415,single-feature AUC
+has_triangle,m,13306,0.7936,single-feature AUC
+has_triangle,RBF-SVM[noC],13306,0.9279,5-fold CV accuracy
+has_triangle,RBF-SVM[withC],13306,0.9276,5-fold CV accuracy

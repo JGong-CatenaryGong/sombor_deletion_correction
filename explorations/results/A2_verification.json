@@ -1,0 +1,36 @@
+{
+ "script": "explorations/A2_verify.py",
+ "dataset_trees": {
+  "n_checked": 95,
+  "max_error": 0,
+  "worst": null
+ },
+ "large_trees": {
+  "n_checked": 12,
+  "max_error": 0
+ },
+ "paths": {
+  "n_range": [
+   5,
+   14
+  ],
+  "max_error_incl_closed_form": 0
+ },
+ "stars": {
+  "k_range": [
+   2,
+   12
+  ],
+  "max_error_incl_closed_form": 0
+ },
+ "bridge_formula": {
+  "n_checked": 96,
+  "max_error": 0
+ },
+ "identities": {
+  "tree": "sum_e W(T-e) = m*W(T) - S2(T) = (m+1)*W(T) - 2*WW(T)",
+  "path_corollary": "sum_e W(P_n-e) = 2*C(n+1,4)",
+  "star_corollary": "sum_e W(K_{1,k}-e) = k*(k-1)^2",
+  "bridge_general": "sum_{e bridge} [W(G)-W(G-e)] = sum_{z<w} b(z,w) + sum_{ordered z!=w} sum_{e sep} d(z,proj_e(z))"
+ }
+}

@@ -1,0 +1,15 @@
+set,signature,n,classes,resolved,collision_graphs,largest_class,residual_bits,determines_ds,determines_et,determines_m,determines_n,determines_SO(G)
+chem_n9,S_SO,14598,11112,False,5557,20,0.6088463708347079,False,False,True,False,False
+chem_n9,S_delta,14598,11113,False,5555,20,0.6087093657655204,True,True,True,True,True
+chemp_n9,S_SO,11704,9684,False,3455,10,0.401222371822004,False,False,True,False,False
+chemp_n9,S_delta,11704,9685,False,3453,10,0.4010514900721749,True,True,True,True,True
+chem_n8,S_SO,2391,2066,False,555,8,0.31340026363495754,False,False,True,False,False
+chem_n8,S_delta,2391,2067,False,553,8,0.31256379353876346,True,True,True,True,True
+conn_n8,S_SO,12113,11334,False,1397,8,0.1419434421104099,False,False,True,False,False
+conn_n8,S_delta,12113,11335,False,1395,8,0.14177833024712252,True,True,True,True,True
+all_n8,S_SO,13598,11553,False,3642,11,0.33476864660409733,False,False,True,False,False
+all_n8,S_delta,13598,11555,False,3642,8,0.33316042005221513,False,True,True,False,True
+conn_n9,S_SO,273193,246101,False,47132,20,0.22858916871518647,False,False,True,False,False
+conn_n9,S_delta,273193,246102,False,47130,20,0.22858184788339356,True,True,True,True,True
+all_n9,S_SO,288266,247501,False,71790,20,0.32172288070652827,False,False,True,False,False
+all_n9,S_delta,288266,247503,False,71790,20,0.3216330715935764,False,True,True,False,True

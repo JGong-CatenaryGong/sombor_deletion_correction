@@ -1,0 +1,473 @@
+{
+ "script": "src/deck_degree_check.py",
+ "method": "c_information.deck_degree_solution (c_x = n_x(m-x) + n_{x+1}(x+1), Delta = m case fixed by isolated-vertex statistics)",
+ "n_graphs": 288266,
+ "ok": 288246,
+ "fail": 20,
+ "failures_by_m": {
+  "1": 8,
+  "2": 6,
+  "3": 6
+ },
+ "failures_m_ge_4": 0,
+ "delta_eq_m_cases": 45,
+ "delta_eq_m_ok": 25,
+ "failures_in_deck_collision_classes": 12,
+ "failures_outside_deck_collision_classes": 8,
+ "failures_with_handshake_defect": 8,
+ "failures": [
+  {
+   "g6": "A_",
+   "n": 2,
+   "m": 1,
+   "true_deg_seq": [
+    1,
+    1
+   ],
+   "returned": [
+    0,
+    0
+   ],
+   "in_deck_collision_class": false,
+   "handshake_defect": true
+  },
+  {
+   "g6": "BO",
+   "n": 3,
+   "m": 1,
+   "true_deg_seq": [
+    1,
+    1,
+    0
+   ],
+   "returned": [
+    0,
+    0,
+    0
+   ],
+   "in_deck_collision_class": false,
+   "handshake_defect": true
+  },
+  {
+   "g6": "CC",
+   "n": 4,
+   "m": 1,
+   "true_deg_seq": [
+    1,
+    1,
+    0,
+    0
+   ],
+   "returned": [
+    0,
+    0,
+    0,
+    0
+   ],
+   "in_deck_collision_class": false,
+   "handshake_defect": true
+  },
+  {
+   "g6": "CE",
+   "n": 4,
+   "m": 2,
+   "true_deg_seq": [
+    2,
+    1,
+    1,
+    0
+   ],
+   "returned": [
+    1,
+    1,
+    1,
+    1
+   ],
+   "in_deck_collision_class": true
+  },
+  {
+   "g6": "CF",
+   "n": 4,
+   "m": 3,
+   "true_deg_seq": [
+    3,
+    1,
+    1,
+    1
+   ],
+   "returned": [
+    2,
+    2,
+    2,
+    0
+   ],
+   "in_deck_collision_class": true
+  },
+  {
+   "g6": "D?_",
+   "n": 5,
+   "m": 1,
+   "true_deg_seq": [
+    1,
+    1,
+    0,
+    0,
+    0
+   ],
+   "returned": [
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "in_deck_collision_class": false,
+   "handshake_defect": true
+  },
+  {
+   "g6": "D?o",
+   "n": 5,
+   "m": 2,
+   "true_deg_seq": [
+    2,
+    1,
+    1,
+    0,
+    0
+   ],
+   "returned": [
+    1,
+    1,
+    1,
+    1,
+    0
+   ],
+   "in_deck_collision_class": true
+  },
+  {
+   "g6": "D?w",
+   "n": 5,
+   "m": 3,
+   "true_deg_seq": [
+    3,
+    1,
+    1,
+    1,
+    0
+   ],
+   "returned": [
+    2,
+    2,
+    2,
+    0,
+    0
+   ],
+   "in_deck_collision_class": true
+  },
+  {
+   "g6": "E?A?",
+   "n": 6,
+   "m": 1,
+   "true_deg_seq": [
+    1,
+    1,
+    0,
+    0,
+    0,
+    0
+   ],
+   "returned": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "in_deck_collision_class": false,
+   "handshake_defect": true
+  },
+  {
+   "g6": "E?B?",
+   "n": 6,
+   "m": 2,
+   "true_deg_seq": [
+    2,
+    1,
+    1,
+    0,
+    0,
+    0
+   ],
+   "returned": [
+    1,
+    1,
+    1,
+    1,
+    0,
+    0
+   ],
+   "in_deck_collision_class": true
+  },
+  {
+   "g6": "E?B_",
+   "n": 6,
+   "m": 3,
+   "true_deg_seq": [
+    3,
+    1,
+    1,
+    1,
+    0,
+    0
+   ],
+   "returned": [
+    2,
+    2,
+    2,
+    0,
+    0,
+    0
+   ],
+   "in_deck_collision_class": true
+  },
+  {
+   "g6": "F??C?",
+   "n": 7,
+   "m": 1,
+   "true_deg_seq": [
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "returned": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "in_deck_collision_class": false,
+   "handshake_defect": true
+  },
+  {
+   "g6": "F??E?",
+   "n": 7,
+   "m": 2,
+   "true_deg_seq": [
+    2,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0
+   ],
+   "returned": [
+    1,
+    1,
+    1,
+    1,
+    0,
+    0,
+    0
+   ],
+   "in_deck_collision_class": true
+  },
+  {
+   "g6": "F??F?",
+   "n": 7,
+   "m": 3,
+   "true_deg_seq": [
+    3,
+    1,
+    1,
+    1,
+    0,
+    0,
+    0
+   ],
+   "returned": [
+    2,
+    2,
+    2,
+    0,
+    0,
+    0,
+    0
+   ],
+   "in_deck_collision_class": true
+  },
+  {
+   "g6": "G???C?",
+   "n": 8,
+   "m": 1,
+   "true_deg_seq": [
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "returned": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "in_deck_collision_class": false,
+   "handshake_defect": true
+  },
+  {
+   "g6": "G???E?",
+   "n": 8,
+   "m": 2,
+   "true_deg_seq": [
+    2,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "returned": [
+    1,
+    1,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0
+   ],
+   "in_deck_collision_class": true
+  },
+  {
+   "g6": "G???F?",
+   "n": 8,
+   "m": 3,
+   "true_deg_seq": [
+    3,
+    1,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0
+   ],
+   "returned": [
+    2,
+    2,
+    2,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "in_deck_collision_class": true
+  },
+  {
+   "g6": "H????A?",
+   "n": 9,
+   "m": 1,
+   "true_deg_seq": [
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "returned": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "in_deck_collision_class": false,
+   "handshake_defect": true
+  },
+  {
+   "g6": "H????B?",
+   "n": 9,
+   "m": 2,
+   "true_deg_seq": [
+    2,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "returned": [
+    1,
+    1,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "in_deck_collision_class": true
+  },
+  {
+   "g6": "H????B_",
+   "n": 9,
+   "m": 3,
+   "true_deg_seq": [
+    3,
+    1,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "returned": [
+    2,
+    2,
+    2,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "in_deck_collision_class": true
+  }
+ ],
+ "interpretation": "m >= 4: zero failures (the deck determines the degree sequence). m = 1 (K2 + isolates): the deck DOES determine the degree sequence (handshake: sum_v d_v = 2m = 2, so exactly two vertices have degree 1), but the routine returns a sequence with sum 1 -- an algorithmic gap (the handshake identity is not checked). m = 2, 3: genuine information-theoretic indeterminacy (these graphs lie in the edge-deck collision classes of report section 3)."
+}

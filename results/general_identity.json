@@ -1,0 +1,129 @@
+{
+ "graphs_checked": 25805,
+ "per_index": [
+  {
+   "index": "sombor",
+   "graphs_checked_m>=2": 25790,
+   "corrected_identity_failures": 0,
+   "naive_identity_failures": 25781,
+   "max_abs_error_corrected": "5.457e-12",
+   "max_rel_error_naive": "0.367544",
+   "edge_type_multisets": 6662,
+   "C_f_inconsistent_with_edge_types": 0
+  },
+  {
+   "index": "sombor_inv",
+   "graphs_checked_m>=2": 25790,
+   "corrected_identity_failures": 0,
+   "naive_identity_failures": 25781,
+   "max_abs_error_corrected": "3.553e-14",
+   "max_rel_error_naive": "0.581139",
+   "edge_type_multisets": 6662,
+   "C_f_inconsistent_with_edge_types": 0
+  },
+  {
+   "index": "sombor_sq",
+   "graphs_checked_m>=2": 25790,
+   "corrected_identity_failures": 0,
+   "naive_identity_failures": 25781,
+   "max_abs_error_corrected": "0.000e+00",
+   "max_rel_error_naive": "0.600000",
+   "edge_type_multisets": 6662,
+   "C_f_inconsistent_with_edge_types": 0
+  },
+  {
+   "index": "randic",
+   "graphs_checked_m>=2": 25790,
+   "corrected_identity_failures": 0,
+   "naive_identity_failures": 25781,
+   "max_abs_error_corrected": "5.684e-14",
+   "max_rel_error_naive": "0.414214",
+   "edge_type_multisets": 6662,
+   "C_f_inconsistent_with_edge_types": 0
+  },
+  {
+   "index": "abc",
+   "graphs_checked_m>=2": 25790,
+   "corrected_identity_failures": 0,
+   "naive_identity_failures": 25688,
+   "max_abs_error_corrected": "2.274e-13",
+   "max_rel_error_naive": "1.000000",
+   "edge_type_multisets": 6662,
+   "C_f_inconsistent_with_edge_types": 0
+  },
+  {
+   "index": "m2",
+   "graphs_checked_m>=2": 25790,
+   "corrected_identity_failures": 0,
+   "naive_identity_failures": 25781,
+   "max_abs_error_corrected": "0.000e+00",
+   "max_rel_error_naive": "0.500000",
+   "edge_type_multisets": 6662,
+   "C_f_inconsistent_with_edge_types": 0
+  },
+  {
+   "index": "harmonic",
+   "graphs_checked_m>=2": 25790,
+   "corrected_identity_failures": 0,
+   "naive_identity_failures": 25781,
+   "max_abs_error_corrected": "5.684e-14",
+   "max_rel_error_naive": "0.500000",
+   "edge_type_multisets": 6662,
+   "C_f_inconsistent_with_edge_types": 0
+  },
+  {
+   "index": "ga",
+   "graphs_checked_m>=2": 25790,
+   "corrected_identity_failures": 0,
+   "naive_identity_failures": 25770,
+   "max_abs_error_corrected": "4.547e-13",
+   "max_rel_error_naive": "0.088662",
+   "edge_type_multisets": 6662,
+   "C_f_inconsistent_with_edge_types": 0
+  },
+  {
+   "index": "sum_conn",
+   "graphs_checked_m>=2": 25790,
+   "corrected_identity_failures": 0,
+   "naive_identity_failures": 25781,
+   "max_abs_error_corrected": "1.421e-13",
+   "max_rel_error_naive": "0.224745",
+   "edge_type_multisets": 6662,
+   "C_f_inconsistent_with_edge_types": 0
+  },
+  {
+   "index": "isi",
+   "graphs_checked_m>=2": 25790,
+   "corrected_identity_failures": 0,
+   "naive_identity_failures": 25781,
+   "max_abs_error_corrected": "1.364e-12",
+   "max_rel_error_naive": "0.333333",
+   "edge_type_multisets": 6662,
+   "C_f_inconsistent_with_edge_types": 0
+  },
+  {
+   "index": "az",
+   "graphs_checked_m>=2": 25790,
+   "corrected_identity_failures": 0,
+   "naive_identity_failures": 25688,
+   "max_abs_error_corrected": "1.455e-11",
+   "max_rel_error_naive": "1.370370",
+   "edge_type_multisets": 6662,
+   "C_f_inconsistent_with_edge_types": 0
+  },
+  {
+   "index": "trivial(m)",
+   "graphs_checked_m>=2": 25790,
+   "corrected_identity_failures": 0,
+   "naive_identity_failures": 0,
+   "max_abs_error_corrected": "0.000e+00",
+   "max_rel_error_naive": "0.000000",
+   "edge_type_multisets": 6662,
+   "C_f_inconsistent_with_edge_types": 0
+  }
+ ],
+ "M1_formula_failures": 0,
+ "M1_max_err": 0.0,
+ "F_formula_failures": 0,
+ "F_max_err": 0.0
+}

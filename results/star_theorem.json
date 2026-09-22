@@ -1,0 +1,83 @@
+{
+ "graphs_checked": 288257,
+ "violations_U_star": 0,
+ "violations_U_M1": 0,
+ "violations_U_Z": 0,
+ "violations_U_psi": 0,
+ "violations_U_degseq": 0,
+ "violations_LB_Delta": 0,
+ "violations_LB_m": 0,
+ "violations_L_Z": 0,
+ "violations_L_psi": 0,
+ "theorem_equality_cases": 28,
+ "theorem_equality_all_stars": true,
+ "theorem_equality_examples": [
+  "BW",
+  "CE",
+  "CF",
+  "D?o",
+  "D?w",
+  "D?{",
+  "E?B?",
+  "E?B_",
+  "E?Bo",
+  "E?Bw"
+ ],
+ "U_M1_equality_cases": 40,
+ "U_M1_equality_all_stars": false,
+ "tightness_U_star": {
+  "min_ratio": 0.0,
+  "mean_ratio": 0.28295999101374636,
+  "max_ratio": 1.0000000000000002
+ },
+ "tightness_U_M1": {
+  "min_ratio": 0.5964583731222121,
+  "mean_ratio": 0.6971479136898562,
+  "max_ratio": 1.0000000000000002
+ },
+ "tightness_U_Z": {
+  "min_ratio": 0.09667036216270916,
+  "mean_ratio": 0.17577507774279139,
+  "max_ratio": 0.5811388300841897
+ },
+ "tightness_U_psi": {
+  "min_ratio": 0.7943274088951143,
+  "mean_ratio": 0.9752222831588411,
+  "max_ratio": 0.9989270756813274
+ },
+ "tightness_U_degseq": {
+  "min_ratio": 0.9999999999999998,
+  "mean_ratio": 1.3873694815643096,
+  "max_ratio": 1.4627719409470403
+ },
+ "tightness_L_Z": {
+  "min_ratio": 0.44256467112788433,
+  "mean_ratio": 0.5501578148741259,
+  "max_ratio": 0.7234993003208545
+ },
+ "tightness_L_psi": {
+  "min_ratio": 0.7078662681199814,
+  "mean_ratio": 0.7252067440768325,
+  "max_ratio": 0.89019562118612
+ },
+ "tightness_LB_Delta": {
+  "min_ratio": 0.6461998835623055,
+  "mean_ratio": 0.8301888052269257,
+  "max_ratio": 1.0000000000000007
+ },
+ "tightness_LB_m": {
+  "min_ratio": 0.2771280226169705,
+  "mean_ratio": 0.3397802812171515,
+  "max_ratio": 0.748319017873161
+ },
+ "best_upper_bound_counts": {
+  "U_M1": 40,
+  "U_Z": 0,
+  "U_psi": 288027,
+  "U_degseq": 182
+ },
+ "m_range": [
+  1,
+  36
+ ]
+}

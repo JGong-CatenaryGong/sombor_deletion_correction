@@ -1,0 +1,55 @@
+n,class,count
+1,all,1
+1,connected,1
+1,"chemical(conn,deg<=4)",1
+1,chemical+planar,1
+1,connected m>=4,0
+1,chemical m>=4,0
+2,all,2
+2,connected,1
+2,"chemical(conn,deg<=4)",1
+2,chemical+planar,1
+2,connected m>=4,0
+2,chemical m>=4,0
+3,all,4
+3,connected,2
+3,"chemical(conn,deg<=4)",2
+3,chemical+planar,2
+3,connected m>=4,0
+3,chemical m>=4,0
+4,all,11
+4,connected,6
+4,"chemical(conn,deg<=4)",6
+4,chemical+planar,6
+4,connected m>=4,4
+4,chemical m>=4,4
+5,all,34
+5,connected,21
+5,"chemical(conn,deg<=4)",21
+5,chemical+planar,20
+5,connected m>=4,21
+5,chemical m>=4,21
+6,all,156
+6,connected,112
+6,"chemical(conn,deg<=4)",78
+6,chemical+planar,74
+6,connected m>=4,112
+6,chemical m>=4,78
+7,all,1044
+7,connected,853
+7,"chemical(conn,deg<=4)",353
+7,chemical+planar,321
+7,connected m>=4,853
+7,chemical m>=4,353
+8,all,12346
+8,connected,11117
+8,"chemical(conn,deg<=4)",1929
+8,chemical+planar,1663
+8,connected m>=4,11117
+8,chemical m>=4,1929
+9,all,274668
+9,connected,261080
+9,"chemical(conn,deg<=4)",12207
+9,chemical+planar,9616
+9,connected m>=4,261080
+9,chemical m>=4,12207

@@ -1,0 +1,486 @@
+{
+ "checks": [
+  {
+   "name": "all graphs n=1 == A000088",
+   "ok": true,
+   "detail": "1 vs 1"
+  },
+  {
+   "name": "all graphs n=2 == A000088",
+   "ok": true,
+   "detail": "2 vs 2"
+  },
+  {
+   "name": "all graphs n=3 == A000088",
+   "ok": true,
+   "detail": "4 vs 4"
+  },
+  {
+   "name": "all graphs n=4 == A000088",
+   "ok": true,
+   "detail": "11 vs 11"
+  },
+  {
+   "name": "all graphs n=5 == A000088",
+   "ok": true,
+   "detail": "34 vs 34"
+  },
+  {
+   "name": "all graphs n=6 == A000088",
+   "ok": true,
+   "detail": "156 vs 156"
+  },
+  {
+   "name": "all graphs n=7 == A000088",
+   "ok": true,
+   "detail": "1044 vs 1044"
+  },
+  {
+   "name": "all graphs n=8 == A000088",
+   "ok": true,
+   "detail": "12346 vs 12346"
+  },
+  {
+   "name": "all graphs n=9 == A000088",
+   "ok": true,
+   "detail": "274668 vs 274668"
+  },
+  {
+   "name": "connected graphs n=1 == A001349",
+   "ok": true,
+   "detail": "1 vs 1"
+  },
+  {
+   "name": "connected graphs n=2 == A001349",
+   "ok": true,
+   "detail": "1 vs 1"
+  },
+  {
+   "name": "connected graphs n=3 == A001349",
+   "ok": true,
+   "detail": "2 vs 2"
+  },
+  {
+   "name": "connected graphs n=4 == A001349",
+   "ok": true,
+   "detail": "6 vs 6"
+  },
+  {
+   "name": "connected graphs n=5 == A001349",
+   "ok": true,
+   "detail": "21 vs 21"
+  },
+  {
+   "name": "connected graphs n=6 == A001349",
+   "ok": true,
+   "detail": "112 vs 112"
+  },
+  {
+   "name": "connected graphs n=7 == A001349",
+   "ok": true,
+   "detail": "853 vs 853"
+  },
+  {
+   "name": "connected graphs n=8 == A001349",
+   "ok": true,
+   "detail": "11117 vs 11117"
+  },
+  {
+   "name": "connected graphs n=9 == A001349",
+   "ok": true,
+   "detail": "261080 vs 261080"
+  },
+  {
+   "name": "chemical (conn, maxdeg<=4) n=1 == A121941",
+   "ok": true,
+   "detail": "1 vs 1"
+  },
+  {
+   "name": "chemical (conn, maxdeg<=4) n=2 == A121941",
+   "ok": true,
+   "detail": "1 vs 1"
+  },
+  {
+   "name": "chemical (conn, maxdeg<=4) n=3 == A121941",
+   "ok": true,
+   "detail": "2 vs 2"
+  },
+  {
+   "name": "chemical (conn, maxdeg<=4) n=4 == A121941",
+   "ok": true,
+   "detail": "6 vs 6"
+  },
+  {
+   "name": "chemical (conn, maxdeg<=4) n=5 == A121941",
+   "ok": true,
+   "detail": "21 vs 21"
+  },
+  {
+   "name": "chemical (conn, maxdeg<=4) n=6 == A121941",
+   "ok": true,
+   "detail": "78 vs 78"
+  },
+  {
+   "name": "chemical (conn, maxdeg<=4) n=7 == A121941",
+   "ok": true,
+   "detail": "353 vs 353"
+  },
+  {
+   "name": "chemical (conn, maxdeg<=4) n=8 == A121941",
+   "ok": true,
+   "detail": "1929 vs 1929"
+  },
+  {
+   "name": "chemical (conn, maxdeg<=4) n=9 == A121941",
+   "ok": true,
+   "detail": "12207 vs 12207"
+  },
+  {
+   "name": "maxdeg<=4 enumerator agrees n=1",
+   "ok": true,
+   "detail": "1 vs 1"
+  },
+  {
+   "name": "maxdeg<=4 enumerator agrees n=2",
+   "ok": true,
+   "detail": "1 vs 1"
+  },
+  {
+   "name": "maxdeg<=4 enumerator agrees n=3",
+   "ok": true,
+   "detail": "2 vs 2"
+  },
+  {
+   "name": "maxdeg<=4 enumerator agrees n=4",
+   "ok": true,
+   "detail": "6 vs 6"
+  },
+  {
+   "name": "maxdeg<=4 enumerator agrees n=5",
+   "ok": true,
+   "detail": "21 vs 21"
+  },
+  {
+   "name": "maxdeg<=4 enumerator agrees n=6",
+   "ok": true,
+   "detail": "78 vs 78"
+  },
+  {
+   "name": "maxdeg<=4 enumerator agrees n=7",
+   "ok": true,
+   "detail": "353 vs 353"
+  },
+  {
+   "name": "maxdeg<=4 enumerator agrees n=8",
+   "ok": true,
+   "detail": "1929 vs 1929"
+  },
+  {
+   "name": "maxdeg<=4 enumerator agrees n=9",
+   "ok": true,
+   "detail": "12207 vs 12207"
+  },
+  {
+   "name": "atlas cross-check (connected) n=1",
+   "ok": true,
+   "detail": "1 vs 1"
+  },
+  {
+   "name": "atlas cross-check (connected) n=2",
+   "ok": true,
+   "detail": "1 vs 1"
+  },
+  {
+   "name": "atlas cross-check (connected) n=3",
+   "ok": true,
+   "detail": "2 vs 2"
+  },
+  {
+   "name": "atlas cross-check (connected) n=4",
+   "ok": true,
+   "detail": "6 vs 6"
+  },
+  {
+   "name": "atlas cross-check (connected) n=5",
+   "ok": true,
+   "detail": "21 vs 21"
+  },
+  {
+   "name": "atlas cross-check (connected) n=6",
+   "ok": true,
+   "detail": "112 vs 112"
+  },
+  {
+   "name": "atlas cross-check (connected) n=7",
+   "ok": true,
+   "detail": "853 vs 853"
+  },
+  {
+   "name": "certificate invariant under relabelling",
+   "ok": true,
+   "detail": "0 failures"
+  },
+  {
+   "name": "distinct certificates => non-isomorphic",
+   "ok": true,
+   "detail": "0 clashes"
+  },
+  {
+   "name": "graph6 round-trip",
+   "ok": true,
+   "detail": "0 failures"
+  },
+  {
+   "name": "invariant 'so' matches reference",
+   "ok": true,
+   "detail": "0 mismatches"
+  },
+  {
+   "name": "invariant 'so_inv' matches reference",
+   "ok": true,
+   "detail": "0 mismatches"
+  },
+  {
+   "name": "invariant 'so_sq' matches reference",
+   "ok": true,
+   "detail": "0 mismatches"
+  },
+  {
+   "name": "invariant 'so_red' matches reference",
+   "ok": true,
+   "detail": "0 mismatches"
+  },
+  {
+   "name": "invariant 'randic' matches reference",
+   "ok": true,
+   "detail": "0 mismatches"
+  },
+  {
+   "name": "invariant 'abc' matches reference",
+   "ok": true,
+   "detail": "0 mismatches"
+  },
+  {
+   "name": "invariant 'm1' matches reference",
+   "ok": true,
+   "detail": "0 mismatches"
+  },
+  {
+   "name": "invariant 'm2' matches reference",
+   "ok": true,
+   "detail": "0 mismatches"
+  },
+  {
+   "name": "invariant 'forgotten' matches reference",
+   "ok": true,
+   "detail": "0 mismatches"
+  },
+  {
+   "name": "invariant 'harmonic' matches reference",
+   "ok": true,
+   "detail": "0 mismatches"
+  },
+  {
+   "name": "invariant 'ga' matches reference",
+   "ok": true,
+   "detail": "0 mismatches"
+  },
+  {
+   "name": "invariant 'sum_conn' matches reference",
+   "ok": true,
+   "detail": "0 mismatches"
+  },
+  {
+   "name": "invariant 'isi' matches reference",
+   "ok": true,
+   "detail": "0 mismatches"
+  },
+  {
+   "name": "invariant 'az' matches reference",
+   "ok": true,
+   "detail": "0 mismatches"
+  },
+  {
+   "name": "invariant 'wiener' matches reference",
+   "ok": true,
+   "detail": "0 mismatches"
+  },
+  {
+   "name": "invariant 'taus' matches reference",
+   "ok": true,
+   "detail": "0 mismatches"
+  },
+  {
+   "name": "invariant 'tri' matches reference",
+   "ok": true,
+   "detail": "0 mismatches"
+  },
+  {
+   "name": "invariant 'clique' matches reference",
+   "ok": true,
+   "detail": "0 mismatches"
+  },
+  {
+   "name": "invariant 'indep' matches reference",
+   "ok": true,
+   "detail": "0 mismatches"
+  },
+  {
+   "name": "invariant 'chrom' matches reference",
+   "ok": true,
+   "detail": "0 mismatches"
+  },
+  {
+   "name": "invariant 'match' matches reference",
+   "ok": true,
+   "detail": "0 mismatches"
+  },
+  {
+   "name": "invariant 'n_perfect_match' matches reference",
+   "ok": true,
+   "detail": "0 mismatches"
+  },
+  {
+   "name": "invariant 'max_match' matches reference",
+   "ok": true,
+   "detail": "0 mismatches"
+  },
+  {
+   "name": "invariant 'adj_spec' matches reference",
+   "ok": true,
+   "detail": "0 mismatches"
+  },
+  {
+   "name": "invariant 'lap_spec' matches reference",
+   "ok": true,
+   "detail": "0 mismatches"
+  },
+  {
+   "name": "invariant 'q_spec' matches reference",
+   "ok": true,
+   "detail": "0 mismatches"
+  },
+  {
+   "name": "invariant 'charpoly' matches reference",
+   "ok": true,
+   "detail": "0 mismatches"
+  },
+  {
+   "name": "invariant 'lap_charpoly' matches reference",
+   "ok": true,
+   "detail": "0 mismatches"
+  },
+  {
+   "name": "invariant 'energy' matches reference",
+   "ok": true,
+   "detail": "0 mismatches"
+  },
+  {
+   "name": "invariant 'spectral_radius' matches reference",
+   "ok": true,
+   "detail": "0 mismatches"
+  },
+  {
+   "name": "invariant 'girth' matches reference",
+   "ok": true,
+   "detail": "0 mismatches"
+  },
+  {
+   "name": "invariant 'diam' matches reference",
+   "ok": true,
+   "detail": "0 mismatches"
+  },
+  {
+   "name": "invariant 'ecc_seq' matches reference",
+   "ok": true,
+   "detail": "0 mismatches"
+  },
+  {
+   "name": "invariant 'dist_dist' matches reference",
+   "ok": true,
+   "detail": "0 mismatches"
+  },
+  {
+   "name": "invariant 'bridges' matches reference",
+   "ok": true,
+   "detail": "0 mismatches"
+  },
+  {
+   "name": "invariant 'bip' matches reference",
+   "ok": true,
+   "detail": "0 mismatches"
+  },
+  {
+   "name": "invariant 'deg' matches reference",
+   "ok": true,
+   "detail": "0 mismatches"
+  },
+  {
+   "name": "invariant 'n' matches reference",
+   "ok": true,
+   "detail": "0 mismatches"
+  },
+  {
+   "name": "invariant 'm' matches reference",
+   "ok": true,
+   "detail": "0 mismatches"
+  },
+  {
+   "name": "invariant 'n_comp' matches reference",
+   "ok": true,
+   "detail": "0 mismatches"
+  },
+  {
+   "name": "invariant 'comp_sizes' matches reference",
+   "ok": true,
+   "detail": "0 mismatches"
+  },
+  {
+   "name": "invariant 'max_deg' matches reference",
+   "ok": true,
+   "detail": "0 mismatches"
+  },
+  {
+   "name": "invariant 'min_deg' matches reference",
+   "ok": true,
+   "detail": "0 mismatches"
+  },
+  {
+   "name": "invariant 'n_leaves' matches reference",
+   "ok": true,
+   "detail": "0 mismatches"
+  },
+  {
+   "name": "invariant 'n_cut' matches reference",
+   "ok": true,
+   "detail": "0 mismatches"
+  },
+  {
+   "name": "invariant 'forest' matches reference",
+   "ok": true,
+   "detail": "0 mismatches"
+  },
+  {
+   "name": "invariant 'biconnected' matches reference",
+   "ok": true,
+   "detail": "0 mismatches"
+  },
+  {
+   "name": "invariant 'edge_types' matches reference",
+   "ok": true,
+   "detail": "0 mismatches"
+  },
+  {
+   "name": "Delta_e closed formula == brute force",
+   "ok": true,
+   "detail": "max err 2.487e-14 at (8, 'GQzuv{', (2, 5))"
+  },
+  {
+   "name": "sum_e SO(G-e) == (m-1)SO(G) - correction",
+   "ok": true,
+   "detail": "max err 1.364e-12"
+  }
+ ],
+ "n_failed": 0,
+ "seconds": 30.037036180496216
+}

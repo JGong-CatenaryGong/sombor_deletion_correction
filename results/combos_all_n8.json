@@ -1,0 +1,218 @@
+{
+ "set": "all_n8",
+ "n": 13598,
+ "pools": {
+  "DECK": {
+   "n_signatures": 48,
+   "resolving_singles": [],
+   "resolving_pairs_count": 0,
+   "resolving_pairs_examples": [],
+   "resolving_triples_count": 0,
+   "resolving_triples_examples": [],
+   "resolving_triples_pairs_skipped": 768,
+   "greedy": [
+    "deck:lap_spec",
+    "deck:girth",
+    "deck:energy",
+    "deck:bipartite",
+    "deck:sombor_inv",
+    "deck:tri",
+    "deck:diam",
+    "deck:n_perfect_match",
+    "deck:n_leaves",
+    "deck:randic",
+    "deck:biconnected",
+    "deck:max_match",
+    "deck:spectral_radius",
+    "deck:deg_seq",
+    "deck:q_spec",
+    "deck:edge_types",
+    "deck:sombor_red",
+    "deck:n_comp",
+    "deck:abc",
+    "deck:ga",
+    "deck:n",
+    "deck:taus",
+    "deck:clique",
+    "deck:adj_charpoly",
+    "deck:chrom",
+    "deck:n_bridges",
+    "deck:dist_dist",
+    "deck:sombor",
+    "deck:comp_sizes",
+    "deck:m1",
+    "deck:n_cut",
+    "deck:az",
+    "deck:m",
+    "deck:sombor_sq",
+    "deck:adj_spec",
+    "deck:min_deg",
+    "deck:harmonic",
+    "deck:lap_charpoly",
+    "deck:indep",
+    "deck:wiener",
+    "deck:forgotten",
+    "deck:forest",
+    "deck:ecc_seq",
+    "deck:max_deg",
+    "deck:isi",
+    "deck:m2",
+    "deck:match_poly",
+    "deck:sum_conn"
+   ],
+   "greedy_ambiguous_left": 28,
+   "backward_minimal": null,
+   "backward_minimal_size": null
+  },
+  "GRAPH": {
+   "n_signatures": 48,
+   "resolving_singles": [],
+   "resolving_pairs_count": 7,
+   "resolving_pairs_examples": [
+    [
+     "graph:adj_charpoly",
+     "graph:lap_charpoly"
+    ],
+    [
+     "graph:adj_charpoly",
+     "graph:lap_spec"
+    ],
+    [
+     "graph:adj_charpoly",
+     "graph:q_spec"
+    ],
+    [
+     "graph:adj_spec",
+     "graph:lap_charpoly"
+    ],
+    [
+     "graph:adj_spec",
+     "graph:lap_spec"
+    ],
+    [
+     "graph:adj_spec",
+     "graph:q_spec"
+    ],
+    [
+     "graph:energy",
+     "graph:q_spec"
+    ]
+   ],
+   "resolving_triples_count": 0,
+   "resolving_triples_examples": [],
+   "resolving_triples_pairs_skipped": 0,
+   "greedy": [
+    "graph:q_spec",
+    "graph:energy"
+   ],
+   "greedy_ambiguous_left": 0,
+   "backward_minimal": [
+    "graph:lap_charpoly",
+    "graph:spectral_radius",
+    "graph:wiener"
+   ],
+   "backward_minimal_size": 3
+  },
+  "MIXED": {
+   "n_signatures": 96,
+   "resolving_singles": [],
+   "resolving_pairs_count": 82,
+   "resolving_pairs_examples": [
+    [
+     "deck:abc",
+     "graph:lap_charpoly"
+    ],
+    [
+     "deck:abc",
+     "graph:lap_spec"
+    ],
+    [
+     "deck:adj_charpoly",
+     "graph:adj_charpoly"
+    ],
+    [
+     "deck:adj_charpoly",
+     "graph:adj_spec"
+    ],
+    [
+     "deck:adj_charpoly",
+     "graph:comp_sizes"
+    ],
+    [
+     "deck:adj_charpoly",
+     "graph:deg_seq"
+    ],
+    [
+     "deck:adj_charpoly",
+     "graph:ecc_seq"
+    ],
+    [
+     "deck:adj_charpoly",
+     "graph:indep"
+    ],
+    [
+     "deck:adj_charpoly",
+     "graph:lap_charpoly"
+    ],
+    [
+     "deck:adj_charpoly",
+     "graph:lap_spec"
+    ],
+    [
+     "deck:adj_spec",
+     "graph:adj_charpoly"
+    ],
+    [
+     "deck:adj_spec",
+     "graph:adj_spec"
+    ],
+    [
+     "deck:adj_spec",
+     "graph:comp_sizes"
+    ],
+    [
+     "deck:adj_spec",
+     "graph:deg_seq"
+    ],
+    [
+     "deck:adj_spec",
+     "graph:ecc_seq"
+    ],
+    [
+     "deck:adj_spec",
+     "graph:indep"
+    ],
+    [
+     "deck:adj_spec",
+     "graph:lap_charpoly"
+    ],
+    [
+     "deck:adj_spec",
+     "graph:lap_spec"
+    ],
+    [
+     "deck:az",
+     "graph:lap_charpoly"
+    ],
+    [
+     "deck:az",
+     "graph:lap_spec"
+    ]
+   ],
+   "resolving_triples_count": 0,
+   "resolving_triples_examples": [],
+   "resolving_triples_pairs_skipped": 0,
+   "greedy": [
+    "deck:adj_charpoly",
+    "graph:indep"
+   ],
+   "greedy_ambiguous_left": 0,
+   "backward_minimal": [
+    "graph:lap_charpoly",
+    "graph:spectral_radius",
+    "graph:wiener"
+   ],
+   "backward_minimal_size": 3
+  }
+ }
+}

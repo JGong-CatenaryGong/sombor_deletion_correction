@@ -1,0 +1,88 @@
+{
+ "n_graphs": 14598,
+ "deck_degree_recovery": {
+  "ok": 14596,
+  "fail": 2
+ },
+ "information": {
+  "H_edge_type_multiset": 9.618471374119617,
+  "n_graphs": 14598,
+  "n_distinct_edge_type_multisets": 1830,
+  "C": {
+   "distinct_values": 1829,
+   "H_X": 9.618334369050428,
+   "I_X_et": 9.618334369050428,
+   "H_et_given_X": 0.00013700506918823407,
+   "mean_level_set": 34.93259350595972
+  },
+  "SO": {
+   "distinct_values": 1823,
+   "H_X": 9.613666394180303,
+   "I_X_et": 9.613666394180305,
+   "H_et_given_X": 0.004804979939313725,
+   "mean_level_set": 34.991231675571996
+  },
+  "M1": {
+   "distinct_values": 64,
+   "H_X": 5.185887564009616,
+   "I_X_et": 5.185887564009617,
+   "H_et_given_X": 4.432583810110001,
+   "mean_level_set": 473.6709138238115
+  },
+  "M2": {
+   "distinct_values": 213,
+   "H_X": 7.25802976068235,
+   "I_X_et": 7.25802976068235,
+   "H_et_given_X": 2.360441613437267,
+   "mean_level_set": 109.32209891765996
+  },
+  "randic": {
+   "distinct_values": 1076,
+   "H_X": 8.559782795024878,
+   "I_X_et": 8.559782795024878,
+   "H_et_given_X": 1.0586885790947385,
+   "mean_level_set": 75.80298671050829
+  },
+  "abc": {
+   "distinct_values": 1615,
+   "H_X": 9.529553088266526,
+   "I_X_et": 9.529553088266526,
+   "H_et_given_X": 0.08891828585309014,
+   "mean_level_set": 35.40375393889574
+  },
+  "wiener": {
+   "distinct_values": 111,
+   "H_X": 5.436298942796498,
+   "I_X_et": 3.1191632868496164,
+   "H_et_given_X": 6.49930808727,
+   "mean_level_set": 448.9113577202356
+  },
+  "taus": {
+   "distinct_values": 2144,
+   "H_X": 9.675644089134853,
+   "I_X_et": 5.842303496057376,
+   "H_et_given_X": 3.7761678780622425,
+   "mean_level_set": 37.60583641594739
+  },
+  "deg_seq": {
+   "distinct_values": 300,
+   "H_X": 6.378235487339206,
+   "I_X_et": 6.3782354873392055,
+   "H_et_given_X": 3.24023588678041,
+   "mean_level_set": 295.12837374982877
+  },
+  "m": {
+   "distinct_values": 19,
+   "H_X": 2.9702782380364474,
+   "I_X_et": 2.970278238036448,
+   "H_et_given_X": 6.648193136083169,
+   "mean_level_set": 2181.382929168379
+  }
+ },
+ "chemistry_mean_spearman": {
+  "spearman_C_vs_taus": -0.567,
+  "spearman_C_vs_wiener": 0.026,
+  "spearman_C_vs_n_branch": -0.282,
+  "spearman_C_vs_n_leaves": 0.742
+ }
+}

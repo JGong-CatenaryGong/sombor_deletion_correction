@@ -1,0 +1,45 @@
+{
+ "script": "explorations/n10_pipeline.py",
+ "CHEM_n10": 89402,
+ "CHEMP_n10": 61840,
+ "A1_criterion": {
+  "recovered/crit": 89402
+ },
+ "deck": {
+  "n_classes": 89402,
+  "n_collision_classes": 0,
+  "collisions_with_m_ge_4": [],
+  "sombor_deck": {
+   "n_classes": 53984,
+   "n_collision_classes": 15898
+  },
+  "edge_type_deck": {
+   "n_classes": 53984,
+   "n_collision_classes": 15898
+  },
+  "edge_type_multiset": {
+   "n_classes": 2223,
+   "n_collision_classes": 1967
+  },
+  "sombor_eq_edge_type_deck_partition": true,
+  "deck_eq_sombor_deck_partition": false,
+  "sombor_deck_refines_deck": false
+ },
+ "deck_to_degree_seq_failures": [],
+ "n_deck_to_degree_seq_failures": 0,
+ "C": {
+  "n_distinct_exact_values": 2223,
+  "n_collisions_mod_matching": 0,
+  "min_true_gap": 6.378455050537468e-05,
+  "min_gap_pair": [
+   37.24956174837742,
+   37.24962553292792
+  ]
+ },
+ "Delta": {
+  "n_config_values": 419,
+  "n_cross_type_groups": 0,
+  "cross_type_groups": []
+ },
+ "runtime_s": 71.8830394810002
+}

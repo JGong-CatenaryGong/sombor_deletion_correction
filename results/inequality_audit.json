@@ -1,0 +1,324 @@
+{
+ "exhaustive_n_le_9": {
+  "R0_falsified_L_le_C": {
+   "graphs": 288249,
+   "violations": 288170,
+   "min_margin": 0.0,
+   "at": "BW(n=3,m=2)"
+  },
+  "R10_sombor_identity": {
+   "graphs": 288249,
+   "violations": 0,
+   "min_margin": -8.36187570641073e-16,
+   "at": "G^~~~{(n=8,m=27)"
+  },
+  "R11_abc_identity": {
+   "graphs": 288249,
+   "violations": 0,
+   "min_margin": -8.455405329401233e-16,
+   "at": "HFz~v~~(n=9,m=31)"
+  },
+  "R11_m2_identity": {
+   "graphs": 288249,
+   "violations": 0,
+   "min_margin": -0.0,
+   "at": "BW(n=3,m=2)"
+  },
+  "R11_randic_identity": {
+   "graphs": 288249,
+   "violations": 0,
+   "min_margin": -8.985067992400765e-16,
+   "at": "H?aNvrw(n=9,m=18)"
+  },
+  "R12_C_le_explicit_nm": {
+   "graphs": 288249,
+   "violations": 0,
+   "min_margin": 4.013145419238992,
+   "at": "BW(n=3,m=2)"
+  },
+  "R1_C_le_star": {
+   "graphs": 288249,
+   "violations": 0,
+   "min_margin": 0.0,
+   "at": "BW(n=3,m=2)"
+  },
+  "R2_C_le_M1": {
+   "graphs": 288249,
+   "violations": 0,
+   "min_margin": 0.0,
+   "at": "BW(n=3,m=2)"
+  },
+  "R3_C_le_degseq": {
+   "graphs": 288249,
+   "violations": 0,
+   "min_margin": 0.0,
+   "at": "BW(n=3,m=2)"
+  },
+  "R4_psi_le_C": {
+   "graphs": 288249,
+   "violations": 0,
+   "min_margin": 0.0,
+   "at": "CQ(n=4,m=2)"
+  },
+  "R5_C_le_sqrt2psi": {
+   "graphs": 288249,
+   "violations": 0,
+   "min_margin": 0.0,
+   "at": "CQ(n=4,m=2)"
+  },
+  "R6a_Z_over_4D_le_C": {
+   "graphs": 288249,
+   "violations": 0,
+   "min_margin": 0.0,
+   "at": "CQ(n=4,m=2)"
+  },
+  "R6b_C_le_sqrt2_3_Z": {
+   "graphs": 288249,
+   "violations": 0,
+   "min_margin": 0.0,
+   "at": "CQ(n=4,m=2)"
+  },
+  "R7_C_ge_degseq_Delta": {
+   "graphs": 288249,
+   "violations": 0,
+   "min_margin": 0.0,
+   "at": "Bw(n=3,m=3)"
+  },
+  "R8_C_ge_M1_bound": {
+   "graphs": 288249,
+   "violations": 0,
+   "min_margin": 0.0,
+   "at": "CQ(n=4,m=2)"
+  },
+  "R9_C0_iff_matching": {
+   "graphs": 288249,
+   "violations": 0,
+   "min_margin": 1,
+   "at": "BW(n=3,m=2)"
+  }
+ },
+ "large_graphs": {
+  "R0_falsified_L_le_C": {
+   "violations": 10,
+   "min_margin": 0.0,
+   "at": "star(n=60)"
+  },
+  "R10_sombor_identity": {
+   "violations": 0,
+   "min_margin": -4.894349012723073e-15,
+   "at": "star(n=200)"
+  },
+  "R11_abc_identity": {
+   "violations": 0,
+   "min_margin": -5.223039904840851e-15,
+   "at": "path(n=200)"
+  },
+  "R11_m2_identity": {
+   "violations": 0,
+   "min_margin": -0.0,
+   "at": "G(50,0.1)"
+  },
+  "R11_randic_identity": {
+   "violations": 0,
+   "min_margin": -2.9851525870562266e-15,
+   "at": "reg(80,4)"
+  },
+  "R12_C_le_explicit_nm": {
+   "violations": 0,
+   "min_margin": 161242.80713346985,
+   "at": "reg(40,3)"
+  },
+  "R1_C_le_star": {
+   "violations": 0,
+   "min_margin": 0.0,
+   "at": "star(n=60)"
+  },
+  "R2_C_le_M1": {
+   "violations": 0,
+   "min_margin": 0.0,
+   "at": "star(n=60)"
+  },
+  "R3_C_le_degseq": {
+   "violations": 0,
+   "min_margin": 0.0,
+   "at": "star(n=60)"
+  },
+  "R4_psi_le_C": {
+   "violations": 0,
+   "min_margin": 19.11550875920019,
+   "at": "path(n=60)"
+  },
+  "R5_C_le_sqrt2psi": {
+   "violations": 0,
+   "min_margin": 1.3763843707030787,
+   "at": "reg(40,3)"
+  },
+  "R6a_Z_over_4D_le_C": {
+   "violations": 0,
+   "min_margin": 19.45836590205733,
+   "at": "path(n=60)"
+  },
+  "R6b_C_le_sqrt2_3_Z": {
+   "violations": 0,
+   "min_margin": 94.876121618936,
+   "at": "path(n=60)"
+  },
+  "R7_C_ge_degseq_Delta": {
+   "violations": 0,
+   "min_margin": 0.0,
+   "at": "reg(40,3)"
+  },
+  "R8_C_ge_M1_bound": {
+   "violations": 0,
+   "min_margin": 20.02010924346169,
+   "at": "path(n=60)"
+  },
+  "R9_C0_iff_matching": {
+   "violations": 0,
+   "min_margin": 1,
+   "at": "G(50,0.1)"
+  }
+ },
+ "first_failures": [
+  {
+   "claim": "R0_falsified_L_le_C",
+   "graph": "Bw",
+   "n": 3,
+   "m": 3,
+   "residual": 1.3769716072817646
+  },
+  {
+   "claim": "R0_falsified_L_le_C",
+   "graph": "CT",
+   "n": 4,
+   "m": 3,
+   "residual": 1.3769716072817646
+  },
+  {
+   "claim": "R0_falsified_L_le_C",
+   "graph": "CU",
+   "n": 4,
+   "m": 3,
+   "residual": 0.45899053576058835
+  },
+  {
+   "claim": "R0_falsified_L_le_C",
+   "graph": "CV",
+   "n": 4,
+   "m": 4,
+   "residual": 1.812494263225922
+  },
+  {
+   "claim": "R0_falsified_L_le_C",
+   "graph": "C]",
+   "n": 4,
+   "m": 4,
+   "residual": 1.8359621430423534
+  },
+  {
+   "claim": "R0_falsified_L_le_C",
+   "graph": "C^",
+   "n": 4,
+   "m": 5,
+   "residual": 3.8634885389838427
+  },
+  {
+   "claim": "R0_falsified_L_le_C",
+   "graph": "C~",
+   "n": 4,
+   "m": 6,
+   "residual": 6.938886504319058
+  },
+  {
+   "claim": "R0_falsified_L_le_C",
+   "graph": "DCc",
+   "n": 5,
+   "m": 3,
+   "residual": 1.3769716072817646
+  },
+  {
+   "claim": "R0_falsified_L_le_C",
+   "graph": "DCo",
+   "n": 5,
+   "m": 3,
+   "residual": 0.45899053576058835
+  },
+  {
+   "claim": "R0_falsified_L_le_C",
+   "graph": "DCs",
+   "n": 5,
+   "m": 4,
+   "residual": 1.812494263225922
+  },
+  {
+   "claim": "R0_falsified_L_le_C",
+   "graph": "DCw",
+   "n": 5,
+   "m": 4,
+   "residual": 0.6767518637326662
+  },
+  {
+   "claim": "R0_falsified_L_le_C",
+   "graph": "DC{",
+   "n": 5,
+   "m": 5,
+   "residual": 1.9700984227322813
+  },
+  {
+   "claim": "R0_falsified_L_le_C",
+   "graph": "DEg",
+   "n": 5,
+   "m": 4,
+   "residual": 0.9179810715211758
+  },
+  {
+   "claim": "R0_falsified_L_le_C",
+   "graph": "DEk",
+   "n": 5,
+   "m": 5,
+   "residual": 2.5099848115185104
+  },
+  {
+   "claim": "R0_falsified_L_le_C",
+   "graph": "DEo",
+   "n": 5,
+   "m": 4,
+   "residual": 1.8359621430423534
+  },
+  {
+   "claim": "R0_falsified_L_le_C",
+   "graph": "DEs",
+   "n": 5,
+   "m": 5,
+   "residual": 3.8634885389838427
+  },
+  {
+   "claim": "R0_falsified_L_le_C",
+   "graph": "DEw",
+   "n": 5,
+   "m": 5,
+   "residual": 2.2714847989865117
+  },
+  {
+   "claim": "R0_falsified_L_le_C",
+   "graph": "DE{",
+   "n": 5,
+   "m": 6,
+   "residual": 4.271708847479065
+  },
+  {
+   "claim": "R0_falsified_L_le_C",
+   "graph": "DFw",
+   "n": 5,
+   "m": 6,
+   "residual": 4.060511182396002
+  },
+  {
+   "claim": "R0_falsified_L_le_C",
+   "graph": "DF{",
+   "n": 5,
+   "m": 7,
+   "residual": 6.3571659566564875
+  }
+ ]
+}
